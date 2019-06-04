@@ -153,20 +153,3 @@ annotation$Var1<-rownames(annotation)
 fix(annotation)
 colnames(annotation)<-c('Depth',"Station")
 pheatmap(d[idx,], cluster_cols=T, fontsize_row=8, cluster_rows=T, annotation = annotation, cellheight=9,cellwidth=9, show_rownames = T, color = myColor, scale='row', cutree_rows=2, cutree_cols=2)
-
-
-## pplacer heatmap
-a<-read.csv('tubulin.csv')
-rownames(a)<-a$PF03953
-a<-a[,-1]
-d<-log2(a+1)
-rv<- rowVars(a)
-idx<- order(-rv)
-annotation <- data.frame(Var1 = factor(1:42, labels = c('1')))
-rownames(annotation)<-colnames(d)
-annotation$Var1<-rownames(annotation)
-fix(annotation)
-colnames(annotation)<-c('Depth',"Station")
-paletteLength <- 50
-myColor <- colorRampPalette(brewer.pal(9, "YlGnBu"))(100)
-pheatmap(d[idx,], cluster_cols=T, fontsize_row=8, cluster_rows=F, annotation = annotation, cellheight=5,cellwidth=5, show_rownames = T, color = myColor, scale='row')
