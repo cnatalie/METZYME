@@ -7,4 +7,6 @@ by Natalie R. Cohen, Matthew R. McIlvin, Dawn M. Moran, Noelle A. Held, Jaclyn S
 
 Input files are included.
 
+(Note: The "blue" WGCNA color module was later changed to the black, and "turquoise" to white for clarity during visualizations.)
+
 Comments/questions/feedback welcome! ncohen@whoi.edu
