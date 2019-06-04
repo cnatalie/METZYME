@@ -1,5 +1,5 @@
 # METZYME
-R code used to create heatmaps, PCA plots, the 18S phyloseq and WCGNA analyses used in the study:
+R code used to create heatmaps, PCA plots, normalizations, the 18S phyloseq and WCGNA analyses used in the study:
 
 # A dual role for dinoflagellates across biogeochemical gradients in the central Pacific Ocean
 
