@@ -13,6 +13,11 @@ a<-read.csv('annotation_all.filtered.grps.go_TRANSCRIPTS_0.8pli_Dino_only.csv')
 c<-merge(a, b, by='orf_id')
 write.csv(c, 'TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations.csv')
 
+library(pheatmap)
+library(genefilter)
+library(viridis)
+library(RColorBrewer)
+
 ### TPM-normalized KEGG heatmap (three different taxa)
 a<-read.csv('TPM_TRANSCRIPTS_Dino_diatom_pelagophyte.lpi0.8_annotations_KOpresum.csv')
 dia<-c('Diatoms')
@@ -79,54 +84,47 @@ annotation$Var1<-rownames(annotation)
 fix(annotation)
 colnames(annotation)<-c('Depth',"Station")
 
-library(dendsort)
-callback = function(hc, ...){dendsort(hc)} #To flip a dendrogram branch
-
-'''or 
-
-         callback = function(hc, mat){
-           +     sv = svd(t(mat))$v[,1]
-           +     dend = reorder(as.dendrogram(hc), wts = sv)
-           +     as.hclust(dend)
-           + }
-
-'''
+#To flip a dendrogram branch
+callback = function(hc, mat){
+         sv = svd(t(mat))$v[,1]
+         dend = reorder(as.dendrogram(hc), wts = sv)
+         as.hclust(dend)
+}
 
 pheatmap(c[idx,], scale="row", color=myColor, 
          cluster_cols=T, fontsize_row=8, 
          cluster_rows=T, cellwidth=9, 
          cellheight=9, show_colnames=T, 
-         show_rownames = T, annotation = annotation, clustering_callback = callback, cutree_cols = 4)
+         show_rownames = T, annotation = annotation, clustering_callback = callback)
 }
 
 ### transcripts KEGG heatmap
-
+library(caroline)
 a<-read.csv('TPM_TRANSCRIPTS_Dino.lpi0.8_KO_postsum.csv')
-x<-read.tab('kodef.tab')
+x<-read.tab('kodef.tab') #Read in a table of KEGG IDs and definitions
 x$KO_def<-paste(x$KO, x$def, sep='_')
 a$KO<-rownames(a)
 rownames(a)<-a$X
 a$KO<-rownames(a)
 head(a)
-a<-a[,-1]
 z<-merge(a, x, by='KO')
 rownames(z)<-z$KO_def
 head(z)
-z<-z[,-1]
+z<-z[,-1] #Clean up by deleting text columns, leave only data matrix
 z<-z[,-45]
 z<-z[,-44]
 head(z)
 z<-z[,-43]
 d<-log2(z+1)
 head(z)
-z<-z[,-42]
-rv<- rowVars(z)
-idx<- order(-rv)[1:50]
+z<-z[,-42] #Delete 1900m sample
+rv<- rowVars(z) #Sort by variance
+idx<- order(-rv)[1:50] #Show top 50 genes with highest variances
 d<-log2(z+1)
 annotation <- data.frame(Var1 = factor(1:41, labels = c('1')))
 rownames(annotation)<-colnames(d)
 annotation$Var1<-rownames(annotation)
-fix(annotation)
+fix(annotation) #Fill in annotation table
 colnames(annotation)<-c('Depth',"Station")
 pheatmap(d[idx,], scale="row", color=myColor,
          cluster_cols=T, fontsize_row=8,
@@ -134,7 +132,7 @@ pheatmap(d[idx,], scale="row", color=myColor,
          cellheight=9, show_colnames=T,
          show_rownames = T, annotation = annotation, clustering_callback = callback, cutree_rows=2)
 
-## Gradients heatmap, surface only < 100 m. KEGG transcripts with KOG urea transporter and KEGG definition ISIPs
+## Heatmap to explore differences in gene expression across the biogeochemical gradient - surface samples only (<100 m)
 a<-read.csv('merged.csv')
 rownames(a)<-a$X
 a<-a[,-1]
@@ -144,6 +142,6 @@ idx<- order(-rv)
 annotation <- data.frame(Var1 = factor(1:15, labels = c('1')))
 rownames(annotation)<-colnames(d)
 annotation$Var1<-rownames(annotation)
-fix(annotation)
+fix(annotation) #Fill in annotation table
 colnames(annotation)<-c('Depth',"Station")
 pheatmap(d[idx,], cluster_cols=T, fontsize_row=8, cluster_rows=T, annotation = annotation, cellheight=9,cellwidth=9, show_rownames = T, color = myColor, scale='row', cutree_rows=2, cutree_cols=2)
