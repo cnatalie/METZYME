@@ -6,21 +6,20 @@ library("ape")
 #Followed Joey's phyloseq guidelines: https://joey711.github.io/phyloseq/import-data.html
 #http://joey711.github.io/phyloseq-demo/phyloseq-demo.html
 
-
+#Read in OTU counts table
 a<-read.csv('OTU.csv')
 rownames(a)<-a$id
 a<-a[,-1]
 a<-a[,-42]
-a<-a[,-9] #taking out s. 3 60m since no meta data
 otu<-as.matrix(sapply(a, as.numeric))
 
-##Hellinger-normalized OTU counts for PCA
+#Hellinger-normalized OTU counts for PCA
 rownames(otu)<-rownames(a)
 otumat<-otu
 otumat<-decostand(otumat, method = "hellinger")
 OTU = otu_table(otumat, taxa_are_rows = TRUE)
 
-
+#Read in OTU taxonomy 
 b<-read.csv('TAXA_newPR2.csv')
 rownames(b)<-b$id
 b<-b[,-1]
@@ -30,9 +29,7 @@ taxmat<-taxa
 
 
 TAX = tax_table(taxmat)
-
 physeq = phyloseq(OTU, TAX)
-
 tree = read.tree("18S.tre") #Alignment with MUSCLE on OTU fasta file, Maximum-likelihood tree with partial deletions and 100 bootstraps
 
 #PCA
