@@ -5,7 +5,7 @@ R code used to create heatmaps, PCA plots, normalizations, the 18S phyloseq and 
 
 by Natalie R. Cohen, Matthew R. McIlvin, Dawn M. Moran, Noelle A. Held, Jaclyn Saunders, Nicholas Hawco, Michael Brosnahan, Giacomo DiTullio, Carl Lamborg, John P. McCrow, Chris Dupont, Andrew E. Allen, Mak Saito
 
-In this study we explored the metabolism of unicellular eukaryotic organisms (protists) across a 4,600 km meridional transect of the central Pacific Ocean. The region contains a natural biogeochemical gradient spanning from low nitrogen, oligotrophic waters to a productive equatorial upwelling system. We used a combined geochemical and 'omic approach to characterize the metabolic strategies these organisms rely upon to adapt to changes in their chemical environment.
+In this study we explored the metabolism of unicellular eukaryotic organisms (protists) across a 4,600 km meridional transect in the central Pacific Ocean. The region contains a natural biogeochemical gradient spanning from low nitrogen, oligotrophic waters to a productive equatorial upwelling system. We used a combined geochemical and 'omic approach to characterize the metabolic strategies these organisms rely upon to adapt to changes in their chemical environment.
 
 Input files are included.
 
