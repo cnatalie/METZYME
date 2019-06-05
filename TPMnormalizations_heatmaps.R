@@ -13,7 +13,7 @@ a<-read.csv('annotation_all.filtered.grps.go_TRANSCRIPTS_0.8pli_Dino_only.csv')
 c<-merge(a, b, by='orf_id')
 write.csv(c, 'TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations.csv')
 
-### TPM normalized functional group heatmap (three different taxa)
+### TPM-normalized KEGG heatmap (three different taxa)
 a<-read.csv('TPM_TRANSCRIPTS_Dino_diatom_pelagophyte.lpi0.8_annotations_KOpresum.csv')
 dia<-c('Diatoms')
 b<-a[a$group %in% dia,]
@@ -27,6 +27,7 @@ dino<-c('Dinophyta')
 b<-a[a$group %in% dino,]
 dino<-groupBy(b, by='KO',clmns=(3:43),aggregation='sum')
 colnames(dino)<-colnames(b[3:43])
+colnames(dino) <- paste("Dinoflagellates", colnames(dino), sep = "_")
 dino$KO<-rownames(dino)
 dia<-c('Other Stramenopiles')
 b<-a[a$group %in% dia,]
@@ -35,7 +36,7 @@ pelago<-groupBy(b, by='KO',clmns=(3:43),aggregation='sum')
 colnames(pelago)<-colnames(b[3:43])
 colnames(pelago) <- paste("Pelagophytes", colnames(pelago), sep = "_")
 pelago$KO<-rownames(pelago)
-c<-merge(diatoms, dinoflagellates, by='KO')
+c<-merge(diatoms, dino, by='KO')
 d<-merge(c, pelago, by='KO')
 library(viridis)
 library(pheatmap)
@@ -44,21 +45,14 @@ myColor <- rev(viridis_pal(option = "B")(paletteLength))
 annotation <- data.frame(Var1 = factor(1:124, labels = c('1')))
 rownames(annotation)<-colnames(d)
 annotation$Var1<-rownames(annotation)
-fix(annotation)
+fix(annotation) #Fill in dataframe with Group, Station and Depth
 rownames(annotation) <- colnames(d)
 colnames(annotation)<-c('Group','Station','Depth')
-fix(annotation)
 annotation<-annotation[-1,]
-colnames(annotation)<-c('Group','Station','Depth')
 tail(annotation)
 rownames(d)<-d$KO
 d<-d[,-1]
-x<-annotation
-x$Station<-paste("St.", x$Station, sep=" ")
-annotation<-x
-pheatmap(d, scale='row',color=myColor, cluster_cols=T, fontsize_row=8, cluster_rows=T, show_colnames=F, show_rownames = F, annotation = annotation)
-pheatmap(d, color=myColor, cluster_cols=T, fontsize_row=8, cluster_rows=T, show_colnames=F, show_rownames = F, annotation = annotation)
-z<-log2(x+1)
+z<-log2(d+1)
 pheatmap(z, color=myColor, cluster_cols=T, fontsize_row=8, cluster_rows=T, show_colnames=F, show_rownames = F, annotation = annotation)
 
 #PFams heatmaps with proteins
