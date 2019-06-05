@@ -1,4 +1,4 @@
-#WGCNA pipeline template from Sarah Davies (http://sites.bu.edu/davieslab/)
+#WGCNA pipeline adapted from Sarah Davies (http://sites.bu.edu/davieslab/)
 
 
 #Data input and cleaning
@@ -182,7 +182,10 @@ geneInfo0 = data.frame(def = probes,
                        GSPvalue)
 write.csv(geneInfo0, 'TPM_WGCNA_021319_allsamples.csv')
 
+#Note: The blue color module was changed to the color black, and turquoise to white for clarity during visualizations
+
 #KEGG enrichment
+library(clusterProfiler)
 a<-read.csv('blue.csv',header=F) #Read in KOs in module of interest
 b <- a[,1] #Convert to vector
 x <- enrichKEGG(b, organism='ko', keyType='kegg', universe = bg)
@@ -193,7 +196,10 @@ aa<-read.csv('turquoise.csv',header=F) #Read in KOs in module of interest
 bb <- aa[,1]
 xx <- enrichKEGG(bb, organism='ko', keyType='kegg', universe = bg)
 #write.csv(xx, 'turquoise_enriched.csv')
-barplot(x, colorBy = "p.adjust", showCategory = 50)
+barplot(xx, colorBy = "p.adjust", showCategory = 50)
 
-#Note: The blue color module was changed to the color black, and turquoise to white for clarity during visualizations
-
+a<-read.csv('turquoise_enriched.csv')
+library(ggplot2)
+ggplot(data=a, aes(x= reorder (Description, GeneRatio), y=GeneRatio)) + xlab("KEGG Pathway Description") + ylab("Ratio in Module") + theme_minimal() +
+  geom_bar(colour="black", fill="#0437e0", width=.8, stat="identity") + coord_flip()
+  guides(fill=FALSE)
