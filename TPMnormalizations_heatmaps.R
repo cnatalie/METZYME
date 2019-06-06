@@ -133,15 +133,19 @@ pheatmap(d[idx,], scale="row", color=myColor,
          show_rownames = T, annotation = annotation, clustering_callback = callback, cutree_rows=2)
 
 ## Heatmap to explore differences in gene expression across the biogeochemical gradient - surface samples only (<100 m)
-a<-read.csv('merged.csv')
+library(pheatmap)
+library(genefilter)
+library(RColorBrewer)
+a<-read.csv('merged.csv', stringsAsFactors=F)
 rownames(a)<-a$X
 a<-a[,-1]
 d<-log2(a+1)
 rv<- rowVars(a)
-idx<- order(-rv)
+idx<- order(-rv)[1:50]
 annotation <- data.frame(Var1 = factor(1:15, labels = c('1')))
 rownames(annotation)<-colnames(d)
 annotation$Var1<-rownames(annotation)
-fix(annotation) #Fill in annotation table
+fix(annotation)
 colnames(annotation)<-c('Depth',"Station")
-pheatmap(d[idx,], cluster_cols=T, fontsize_row=8, cluster_rows=T, annotation = annotation, cellheight=9,cellwidth=9, show_rownames = T, color = myColor, scale='row', cutree_rows=2, cutree_cols=2)
+myColor <- colorRampPalette(brewer.pal(9, "YlGnBu"))(100)
+pheatmap(d[idx,], cluster_cols=T, fontsize_row=8, cluster_rows=T, annotation = annotation, cellheight=9,cellwidth=9, show_rownames = T, color = myColor, cutree_rows=2, cutree_cols=2, scale="row")
