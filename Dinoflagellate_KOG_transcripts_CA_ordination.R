@@ -33,13 +33,13 @@ vscores <- cbind(vscores, Species = rownames(vscores))
 vscores$env<-rownames(vscores)
 
 #Graph ordination with ggplot2
-ggplot(uscores) + theme_bw() + scale_shape_manual(values = c(21:25,8,9)) + theme(strip.text.y = element_text(angle = 0)) + geom_segment(data = vscores, aes(x = 0, y = 0, xend = vscores$CA1*2, yend = vscores$CA2*2), arrow=arrow(length=unit(0.2,"cm")),
+ggplot(uscores) + theme_bw() + scale_shape_manual(values = c(21:25,8,9)) + theme(strip.text.y = element_text(angle = 0)) + geom_segment(data = vscores, aes(x = 0, y = 0, xend = vscores$CA1, yend = vscores$CA2), arrow=arrow(length=unit(0.2,"cm")),
                                                                                                                                         alpha = 1, color = 'black')+ geom_label(data=vscores, aes(x=CA1, y=CA2, label = env)) +
   geom_point(aes(x = CA1, y = CA2, col = meta$Depth,
                  shape = meta$Site, size=4)) +
   scale_colour_gradient(low="#A2FEFF",high="black") +
   scale_fill_manual(values=c("#A2FEFF",'black') +
-                      geom_segment(data = vscores, aes(x = 0, y = 0, xend = vscores$CA1*2, yend = vscores$CA2*2), arrow=arrow(length=unit(0.2,"cm")),
+                      geom_segment(data = vscores, aes(x = 0, y = 0, xend = vscores$CA1, yend = vscores$CA2), arrow=arrow(length=unit(0.2,"cm")),
                                    alpha = 1, color = 'black')+ geom_label(data=vscores, aes(x=CA1, y=CA2, label = env)))
 
 
