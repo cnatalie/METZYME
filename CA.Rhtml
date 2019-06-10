@@ -1,0 +1,84 @@
+<html>
+
+<head>
+<title>Correspondence Analysis (CA) ordinations with METZYME data</title>
+</head>
+
+<body>
+
+<p>CA ordinations were created using normalizated dinoflagellate transcripts annoated at the KOG-level. The same approach was used to create dinoflagellate protein CA plots. Read in count and meta data:</p>
+
+<!--begin.rcode
+library(vegan)
+library(ggplot2)
+library(RColorBrewer)
+library(dplyr)
+library(tibble)
+
+a<-read.csv('C:/Users/Natalie/Documents/METZYME/transcripts 3um/TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_KOGpost.csv')
+rownames(a)<-a$X
+a<-a[,-1]
+data<-a
+meta<-read.csv('C:/Users/Natalie/Documents/METZYME/transcripts 3um/CCA_meta.csv')
+rownames(meta)<-meta$ID
+meta<-meta[,-1]
+end.rcode-->
+
+<p>Hellinger-transform to decrease the weight given by low abundance genes, then run the CA. Summary includes proportion of variation explained by each component.</p>
+
+<!--begin.rcode
+stand<-decostand(data, method = "hellinger") #hellinger transformed
+ca<-cca(stand)
+#summary(ca)
+end.rcode-->
+
+<!--begin.rcode fig.width=7, fig.height=6
+plot(ca)
+end.rcode-->
+
+<p>Clean metadata file and remove highly co-linear parameters (e.g., nitrate/phosphate, oxygen/temperature), and perform environmental data vector fitting.</p>
+
+<!--begin.rcode
+meta1<-meta
+meta<-meta[,-1]
+meta<-meta[,-1]
+meta<-meta[,-1]
+meta<-meta[,-2]
+ef <- envfit(ca, meta, permu = 999)
+meta<-meta1 #Revert back to original table with site and depth information
+ef #Results of linear regression vector fitting
+end.rcode-->
+
+<!--begin.rcode fig.width=7, fig.height=6
+plot(ca)
+plot(ef)
+end.rcode-->
+
+<p>In preparation for plotting, extract scores from CA output.</p>
+
+<!--begin.rcode
+scores<-scores(ca)
+scores <- data.frame(ca$CA$u)
+uscores <- inner_join(rownames_to_column(data), rownames_to_column(data.frame(scores)), type = "right", by = "rowname")
+end.rcode-->
+
+<!--begin.rcode
+vscores <- as.data.frame(scores(ef, display = "vectors"))
+vscores <- cbind(vscores, Species = rownames(vscores))
+vscores$env<-rownames(vscores)
+end.rcode-->
+
+<p>Graph ordination with ggplot2.</p>
+<!--begin.rcode fig.width=7, fig.height=6
+ggplot(uscores) + theme_bw() + scale_shape_manual(values = c(21:25,8,9)) + theme(strip.text.y = element_text(angle = 0)) + geom_segment(data = vscores, aes(x = 0, y = 0, xend = vscores$CA1*2, yend = vscores$CA2*2), arrow=arrow(length=unit(0.2,"cm")),
+                                                                                                                                        alpha = 1, color = 'black')+ geom_label(data=vscores, aes(x=CA1, y=CA2, label = env)) +
+  geom_point(aes(x = CA1, y = CA2, col = meta$Depth,
+                 shape = meta$Site, size=4)) +
+  scale_colour_gradient(low="#A2FEFF",high="black") +
+  scale_fill_manual(values=c("#A2FEFF",'black') +
+                      geom_segment(data = vscores, aes(x = 0, y = 0, xend = vscores$CA1*2, yend = vscores$CA2*2), arrow=arrow(length=unit(0.2,"cm")),
+                                   alpha = 1, color = 'black')+ geom_label(data=vscores, aes(x=CA1, y=CA2, label = env)))
+end.rcode-->
+
+</body>
+</html>
