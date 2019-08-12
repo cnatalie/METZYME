@@ -32,7 +32,7 @@ library(genefilter)
 library(viridis)
 library(RColorBrewer)
 
-### TPM-normalized KEGG heatmap (three different taxa)
+### TPM-normalized KEGG heatmap (three different taxa). Sum together same KO annotations within each taxonomic group, and then merge into one dataframe
 a<-read.csv('annotation_all.filtered.grps.go.lpi_0.8_dino_diatom_hapto_TPM_KOpre.csv')
 dia<-c('Diatom')
 b<-a[a$GROUP %in% dia,]
@@ -76,7 +76,7 @@ pheatmap(z, color=myColor, cluster_cols=T, fontsize_row=8, cluster_rows=T, show_
 
 #PFams heatmaps with proteins
 setwd("~/METZYME/metaproteome 3um")
-a<-read.csv('exclusive_counts_annotations_dino_lpi0.8_post_NSAF_orf_PFAMS_postSum.csv')
+a<-read.csv('exclusive_counts_annotations_dino_lpi0.8_post_NSAF_orf_PFAMS_postSum.csv') #Summed together TPM counts from same PFam ID
 rownames(a)<-a$X
 b<-a[,-1]
 b<-b[,-40]
@@ -113,7 +113,7 @@ pheatmap(c[idx,], color=myColor,
 }
 
 ### transcripts KEGG heatmap
-a<-read.csv('TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_orf_KOpost.csv')
+a<-read.csv('TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_orf_KOpost.csv') #TPM counts from the same KO IDs were summed together.
 x<-read.tab('kodef.tab')
 x$KO_def<-paste(x$KO, x$def, sep='_')
 a$KO<-rownames(a)
@@ -153,20 +153,19 @@ pheatmap(d[idx,], scale="row", color=myColor,
          cellheight=9, show_colnames=T,
          show_rownames = T, annotation = annotation, clustering_callback = callback, cutree_rows=2)
 
-## Heatmap to explore differences in gene expression across the biogeochemical gradient - surface samples only (<100 m)
+## Heatmap to explore differences in gene expression across the biogeochemical gradient - surface samples only (<100 m). 
 library(pheatmap)
 library(genefilter)
 library(RColorBrewer)
-a<-read.csv('merged.csv', stringsAsFactors=F)
+a<-read.csv('TPM_transcripts_Dino.lpi0.8_KOdef_top100m.csv', stringsAsFactors=F) #TPM counts from the same KO IDs were summed together.
 rownames(a)<-a$X
 a<-a[,-1]
 d<-log2(a+1)
 rv<- rowVars(a)
-idx<- order(-rv)[1:50]
+idx<- order(-rv)[1:40]
 annotation <- data.frame(Var1 = factor(1:15, labels = c('1')))
 rownames(annotation)<-colnames(d)
 annotation$Var1<-rownames(annotation)
 fix(annotation)
 colnames(annotation)<-c('Depth',"Station")
-myColor <- colorRampPalette(brewer.pal(9, "YlGnBu"))(100)
 pheatmap(d[idx,], cluster_cols=T, fontsize_row=8, cluster_rows=T, annotation = annotation, cellheight=9,cellwidth=9, show_rownames = T, color = myColor, cutree_rows=2, cutree_cols=2, scale="row")
