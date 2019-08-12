@@ -1,0 +1,1664 @@
+def,desc,class,moduleColor
+K00001,alcohol dehydrogenase [EC:1.1.1.1],"E1.1.1.1, adh",turquoise
+K00002,alcohol dehydrogenase (NADP+) [EC:1.1.1.2],"AKR1A1, adh",blue
+K00006,glycerol-3-phosphate dehydrogenase (NAD+) [EC:1.1.1.8],GPD1,turquoise
+K00008,L-iditol 2-dehydrogenase [EC:1.1.1.14],"SORD, gutB",turquoise
+K00012,UDPglucose 6-dehydrogenase [EC:1.1.1.22],"UGDH, ugd",blue
+K00013,histidinol dehydrogenase [EC:1.1.1.23],hisD,turquoise
+K00020,3-hydroxyisobutyrate dehydrogenase [EC:1.1.1.31],"E1.1.1.31, mmsB",turquoise
+K00025,malate dehydrogenase [EC:1.1.1.37],MDH1,blue
+K00026,malate dehydrogenase [EC:1.1.1.37],MDH2,blue
+K00027,malate dehydrogenase (oxaloacetate-decarboxylating) [EC:1.1.1.38],"ME2, sfcA, maeA",turquoise
+K00028,malate dehydrogenase (decarboxylating) [EC:1.1.1.39],E1.1.1.39,turquoise
+K00029,malate dehydrogenase (oxaloacetate-decarboxylating)(NADP+) [EC:1.1.1.40],"E1.1.1.40, maeB",turquoise
+K00031,isocitrate dehydrogenase [EC:1.1.1.42],"IDH1, IDH2, icd",turquoise
+K00033,6-phosphogluconate dehydrogenase [EC:1.1.1.44 1.1.1.343],"PGD, gnd, gntZ",blue
+K00034,glucose 1-dehydrogenase [EC:1.1.1.47],gdh,turquoise
+K00036,glucose-6-phosphate 1-dehydrogenase [EC:1.1.1.49],"G6PD, zwf",blue
+K00045,mannitol 2-dehydrogenase [EC:1.1.1.67],"E1.1.1.67, mtlK",turquoise
+K00052,3-isopropylmalate dehydrogenase [EC:1.1.1.85],leuB,turquoise
+K00053,ketol-acid reductoisomerase [EC:1.1.1.86],ilvC,yellow
+K00057,glycerol-3-phosphate dehydrogenase (NAD(P)+) [EC:1.1.1.94],gpsA,brown
+K00058,D-3-phosphoglycerate dehydrogenase [EC:1.1.1.95],"serA, PHGDH",turquoise
+K00060,threonine 3-dehydrogenase [EC:1.1.1.103],tdh,blue
+K00064,D-threo-aldose 1-dehydrogenase [EC:1.1.1.122],E1.1.1.122,yellow
+K00065,2-deoxy-D-gluconate 3-dehydrogenase [EC:1.1.1.125],kduD,brown
+K00074,3-hydroxybutyryl-CoA dehydrogenase [EC:1.1.1.157],"paaH, hbd, fadB, mmgB",turquoise
+K00077,2-dehydropantoate 2-reductase [EC:1.1.1.169],"panE, apbA",blue
+K00078,dihydrodiol dehydrogenase / D-xylose 1-dehydrogenase (NADP) [EC:1.3.1.20 1.1.1.179],DHDH,blue
+K00088,IMP dehydrogenase [EC:1.1.1.205],guaB,turquoise
+K00100,NA,NA,blue
+K00101,L-lactate dehydrogenase (cytochrome) [EC:1.1.2.3],"E1.1.2.3, lldD",turquoise
+K00106,xanthine dehydrogenase/oxidase [EC:1.17.1.4 1.17.3.2],XDH,blue
+K00107,"D-arabinono-1,4-lactone oxidase [EC:1.1.3.37]",ALO,blue
+K00108,choline dehydrogenase [EC:1.1.99.1],"betA, CHDH",blue
+K00111,glycerol-3-phosphate dehydrogenase [EC:1.1.5.3],"glpA, glpD",turquoise
+K00116,malate dehydrogenase (quinone) [EC:1.1.5.4],mqo,turquoise
+K00121,S-(hydroxymethyl)glutathione dehydrogenase / alcohol dehydrogenase [EC:1.1.1.284 1.1.1.1],"frmA, ADH5, adhC",turquoise
+K00122,formate dehydrogenase [EC:1.2.1.2],FDH,blue
+K00128,aldehyde dehydrogenase (NAD+) [EC:1.2.1.3],E1.2.1.3,blue
+K00130,betaine-aldehyde dehydrogenase [EC:1.2.1.8],"betB, gbsA",blue
+K00131,glyceraldehyde-3-phosphate dehydrogenase (NADP+) [EC:1.2.1.9],gapN,turquoise
+K00133,aspartate-semialdehyde dehydrogenase [EC:1.2.1.11],asd,turquoise
+K00134,glyceraldehyde 3-phosphate dehydrogenase [EC:1.2.1.12],"GAPDH, gapA",turquoise
+K00135,succinate-semialdehyde dehydrogenase / glutarate-semialdehyde dehydrogenase [EC:1.2.1.16 1.2.1.79 1.2.1.20],gabD,turquoise
+K00147,glutamate-5-semialdehyde dehydrogenase [EC:1.2.1.41],proA,brown
+K00148,glutathione-independent formaldehyde dehydrogenase [EC:1.2.1.46],fdhA,blue
+K00150,glyceraldehyde-3-phosphate dehydrogenase (NAD(P)) [EC:1.2.1.59],gap2,turquoise
+K00154,coniferyl-aldehyde dehydrogenase [EC:1.2.1.68],E1.2.1.68,blue
+K00158,pyruvate oxidase [EC:1.2.3.3],"E1.2.3.3, poxL",blue
+K00163,pyruvate dehydrogenase E1 component [EC:1.2.4.1],aceE,brown
+K00164,2-oxoglutarate dehydrogenase E1 component [EC:1.2.4.2],"OGDH, sucA",yellow
+K00167,2-oxoisovalerate dehydrogenase E1 component beta subunit [EC:1.2.4.4],"BCKDHB, bkdA2",brown
+K00208,enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10],fabI,turquoise
+K00215,4-hydroxy-tetrahydrodipicolinate reductase [EC:1.17.1.8],dapB,brown
+K00218,protochlorophyllide reductase [EC:1.3.1.33],"E1.3.1.33, por",brown
+K00222,delta14-sterol reductase [EC:1.3.1.70],"TM7SF2, ERG24",grey
+K00228,coproporphyrinogen III oxidase [EC:1.3.3.3],"CPOX, hemF",turquoise
+K00232,acyl-CoA oxidase [EC:1.3.3.6],"E1.3.3.6, ACOX1, ACOX3",blue
+K00234,succinate dehydrogenase (ubiquinone) flavoprotein subunit [EC:1.3.5.1],"SDHA, SDH1",turquoise
+K00239,"succinate dehydrogenase / fumarate reductase, flavoprotein subunit [EC:1.3.5.1 1.3.5.4]","sdhA, frdA",turquoise
+K00241,"succinate dehydrogenase / fumarate reductase, cytochrome b subunit","sdhC, frdC",turquoise
+K00249,acyl-CoA dehydrogenase [EC:1.3.8.7],"ACADM, acd",blue
+K00252,glutaryl-CoA dehydrogenase [EC:1.3.8.6],"GCDH, gcdH",turquoise
+K00264,glutamate synthase (NADPH/NADH) [EC:1.4.1.13 1.4.1.14],GLT1,turquoise
+K00265,glutamate synthase (NADPH/NADH) large chain [EC:1.4.1.13 1.4.1.14],gltB,turquoise
+K00266,glutamate synthase (NADPH/NADH) small chain [EC:1.4.1.13 1.4.1.14],gltD,turquoise
+K00275,pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5],"pdxH, PNPO",turquoise
+K00276,primary-amine oxidase [EC:1.4.3.21],"AOC3, AOC2, tynA",turquoise
+K00281,glycine dehydrogenase [EC:1.4.4.2],"GLDC, gcvP",brown
+K00284,glutamate synthase (ferredoxin) [EC:1.4.7.1],E1.4.7.1,blue
+K00286,pyrroline-5-carboxylate reductase [EC:1.5.1.2],proC,turquoise
+K00294,1-pyrroline-5-carboxylate dehydrogenase [EC:1.2.1.88],E1.2.1.88,turquoise
+K00295,methylenetetrahydrofolate dehydrogenase (NAD+) [EC:1.5.1.15],MTD1,turquoise
+K00297,methylenetetrahydrofolate reductase (NADPH) [EC:1.5.1.20],"metF, MTHFR",brown
+K00301,sarcosine oxidase [EC:1.5.3.1],E1.5.3.1,turquoise
+K00311,electron-transferring-flavoprotein dehydrogenase [EC:1.5.5.1],ETFDH,brown
+K00314,sarcosine dehydrogenase [EC:1.5.8.3],SARDH,yellow
+K00315,dimethylglycine dehydrogenase [EC:1.5.8.4],DMGDH,blue
+K00318,proline dehydrogenase [EC:1.5.-.-],PRODH,blue
+K00322,NAD(P) transhydrogenase [EC:1.6.1.1],"sthA, udhA",brown
+K00323,NAD(P) transhydrogenase [EC:1.6.1.2],NNT,turquoise
+K00324,NAD(P) transhydrogenase subunit alpha [EC:1.6.1.2],pntA,brown
+K00325,NAD(P) transhydrogenase subunit beta [EC:1.6.1.2],pntB,turquoise
+K00326,cytochrome-b5 reductase [EC:1.6.2.2],E1.6.2.2,brown
+K00327,NADPH-ferrihemoprotein reductase [EC:1.6.2.4],POR,turquoise
+K00344,NADPH2:quinone reductase [EC:1.6.5.5],"qor, CRYZ",turquoise
+K00360,assimilatory nitrate reductase electron transfer subunit [EC:1.7.99.4],nasB,blue
+K00362,nitrite reductase (NADH) large subunit [EC:1.7.1.15],nirB,turquoise
+K00363,nitrite reductase (NADH) small subunit [EC:1.7.1.15],nirD,blue
+K00364,GMP reductase [EC:1.7.1.7],"E1.7.1.7, guaC",turquoise
+K00365,urate oxidase [EC:1.7.3.3],uaZ,blue
+K00380,sulfite reductase (NADPH) flavoprotein alpha-component [EC:1.8.1.2],cysJ,brown
+K00381,sulfite reductase (NADPH) hemoprotein beta-component [EC:1.8.1.2],cysI,turquoise
+K00382,dihydrolipoamide dehydrogenase [EC:1.8.1.4],"DLD, lpd, pdhD",turquoise
+K00383,glutathione reductase (NADPH) [EC:1.8.1.7],"GSR, gor",brown
+K00384,thioredoxin reductase (NADPH) [EC:1.8.1.9],trxB,turquoise
+K00387,sulfite oxidase [EC:1.8.3.1],SUOX,brown
+K00389,putative membrane protein,yidH,brown
+K00390,phosphoadenosine phosphosulfate reductase [EC:1.8.4.8],cysH,turquoise
+K00392,sulfite reductase (ferredoxin) [EC:1.8.7.1],sir,turquoise
+K00411,ubiquinol-cytochrome c reductase iron-sulfur subunit [EC:1.10.2.2],"UQCRFS1, RIP1, petA",turquoise
+K00413,ubiquinol-cytochrome c reductase cytochrome c1 subunit,"CYC1, CYT1, petC",yellow
+K00417,ubiquinol-cytochrome c reductase subunit 7,"QCR7, UQCRB",blue
+K00428,cytochrome c peroxidase [EC:1.11.1.5],E1.11.1.5,blue
+K00430,peroxidase [EC:1.11.1.7],E1.11.1.7,turquoise
+K00432,glutathione peroxidase [EC:1.11.1.9],E1.11.1.9,turquoise
+K00434,L-ascorbate peroxidase [EC:1.11.1.11],E1.11.1.11,blue
+K00435,peroxiredoxin [EC:1.11.1.-],E1.11.1.-,blue
+K00451,"homogentisate 1,2-dioxygenase [EC:1.13.11.5]","HGD, hmgA",blue
+K00459,nitronate monooxygenase [EC:1.13.12.16],"ncd2, npd",blue
+K00464,"all-trans-8'-apo-beta-carotenal 15,15'-oxygenase [EC:1.13.11.75]",diox1,blue
+K00469,inositol oxygenase [EC:1.13.99.1],MIOX,turquoise
+K00471,gamma-butyrobetaine dioxygenase [EC:1.14.11.1],E1.14.11.1,turquoise
+K00472,prolyl 4-hydroxylase [EC:1.14.11.2],E1.14.11.2,brown
+K00476,aspartate beta-hydroxylase [EC:1.14.11.16],ASPH,turquoise
+K00479,Rieske 2Fe-2S family protein,K00479,blue
+K00480,salicylate hydroxylase [EC:1.14.13.1],E1.14.13.1,turquoise
+K00485,dimethylaniline monooxygenase (N-oxide forming) [EC:1.14.13.8],FMO,yellow
+K00486,kynurenine 3-monooxygenase [EC:1.14.13.9],KMO,blue
+K00496,alkane 1-monooxygenase [EC:1.14.15.3],alkB1_2,turquoise
+K00500,phenylalanine-4-hydroxylase [EC:1.14.16.1],"phhA, PAH",brown
+K00502,tryptophan 5-monooxygenase [EC:1.14.16.4],TPH1_2,yellow
+K00505,tyrosinase [EC:1.14.18.1],TYR,blue
+K00507,stearoyl-CoA desaturase (delta-9 desaturase) [EC:1.14.19.1],"SCD, desC",blue
+K00508,linoleoyl-CoA desaturase [EC:1.14.19.3],E1.14.19.3,blue
+K00517,NA,NA,brown
+K00522,ferritin heavy chain [EC:1.16.3.2],FTH1,turquoise
+K00525,ribonucleoside-diphosphate reductase alpha chain [EC:1.17.4.1],"E1.17.4.1A, nrdA, nrdE",turquoise
+K00528,ferredoxin--NADP+ reductase [EC:1.18.1.2],fpr,blue
+K00540,NA,NA,turquoise
+K00542,guanidinoacetate N-methyltransferase [EC:2.1.1.2],GAMT,blue
+K00544,betaine-homocysteine S-methyltransferase [EC:2.1.1.5],BHMT,turquoise
+K00548,5-methyltetrahydrofolate--homocysteine methyltransferase [EC:2.1.1.13],"metH, MTR",turquoise
+K00549,5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase [EC:2.1.1.14],metE,turquoise
+K00555,tRNA (guanine26-N2/guanine27-N2)-dimethyltransferase [EC:2.1.1.215 2.1.1.216],"TRMT1, trm1",yellow
+K00558,DNA (cytosine-5)-methyltransferase 1 [EC:2.1.1.37],"DNMT1, dcm",yellow
+K00559,sterol 24-C-methyltransferase [EC:2.1.1.41],"E2.1.1.41, SMT1, ERG6",turquoise
+K00565,mRNA (guanine-N7-)-methyltransferase [EC:2.1.1.56],RNMT,blue
+K00569,thiopurine S-methyltransferase [EC:2.1.1.67],"TPMT, tpmT",brown
+K00573,protein-L-isoaspartate(D-aspartate) O-methyltransferase [EC:2.1.1.77],"E2.1.1.77, pcm",yellow
+K00574,cyclopropane-fatty-acyl-phospholipid synthase [EC:2.1.1.79],cfa,blue
+K00586,diphthine synthase [EC:2.1.1.98],DPH5,blue
+K00588,caffeoyl-CoA O-methyltransferase [EC:2.1.1.104],E2.1.1.104,turquoise
+K00599,methyltransferase-like protein 6 [EC:2.1.1.-],METTL6,brown
+K00600,glycine hydroxymethyltransferase [EC:2.1.2.1],"glyA, SHMT",turquoise
+K00602,phosphoribosylaminoimidazolecarboxamide formyltransferase / IMP cyclohydrolase [EC:2.1.2.3 3.5.4.10],purH,turquoise
+K00605,aminomethyltransferase [EC:2.1.2.10],"gcvT, AMT",brown
+K00606,3-methyl-2-oxobutanoate hydroxymethyltransferase [EC:2.1.2.11],panB,blue
+K00612,carbamoyltransferase [EC:2.1.3.-],E2.1.3.-,yellow
+K00613,glycine amidinotransferase [EC:2.1.4.1],GATM,blue
+K00615,transketolase [EC:2.2.1.1],"E2.2.1.1, tktA, tktB",turquoise
+K00625,phosphate acetyltransferase [EC:2.3.1.8],"E2.3.1.8, pta",blue
+K00626,acetyl-CoA C-acetyltransferase [EC:2.3.1.9],"E2.3.1.9, atoB",blue
+K00627,pyruvate dehydrogenase E2 component (dihydrolipoamide acetyltransferase) [EC:2.3.1.12],"DLAT, aceF, pdhC",turquoise
+K00630,glycerol-3-phosphate O-acyltransferase [EC:2.3.1.15],ATS1,turquoise
+K00632,acetyl-CoA acyltransferase [EC:2.3.1.16],"fadA, fadI",turquoise
+K00641,homoserine O-acetyltransferase [EC:2.3.1.31],metX,turquoise
+K00643,5-aminolevulinate synthase [EC:2.3.1.37],"E2.3.1.37, ALAS",turquoise
+K00645,[acyl-carrier-protein] S-malonyltransferase [EC:2.3.1.39],fabD,turquoise
+K00651,homoserine O-succinyltransferase [EC:2.3.1.46],metA,blue
+K00653,chromodomain protein Y [EC:2.3.1.48],CDY,turquoise
+K00654,serine palmitoyltransferase [EC:2.3.1.50],SPT,brown
+K00660,chalcone synthase [EC:2.3.1.74],CHS,yellow
+K00666,fatty-acyl-CoA synthase [EC:6.2.1.-],K00666,blue
+K00667,"fatty acid synthase subunit alpha, fungi type [EC:2.3.1.86]",FAS2,brown
+K00668,"fatty acid synthase subunit beta, fungi type [EC:2.3.1.86]",FAS1,brown
+K00670,peptide alpha-N-acetyltransferase [EC:2.3.1.88],E2.3.1.88,yellow
+K00671,glycylpeptide N-tetradecanoyltransferase [EC:2.3.1.97],"E2.3.1.97, NMT",blue
+K00677,UDP-N-acetylglucosamine acyltransferase [EC:2.3.1.129],lpxA,brown
+K00688,starch phosphorylase [EC:2.4.1.1],"E2.4.1.1, glgP, PYG",turquoise
+K00697,trehalose 6-phosphate synthase [EC:2.4.1.15],otsA,blue
+K00698,chitin synthase [EC:2.4.1.16],CHS1,brown
+K00700,"1,4-alpha-glucan branching enzyme [EC:2.4.1.18]",glgB,turquoise
+K00703,starch synthase [EC:2.4.1.21],"E2.4.1.21, glgA",turquoise
+K00706,"1,3-beta-glucan synthase [EC:2.4.1.34]",E2.4.1.34,blue
+K00710,polypeptide N-acetylgalactosaminyltransferase [EC:2.4.1.41],GALNT,yellow
+K00721,dolichol-phosphate mannosyltransferase [EC:2.4.1.83],DPM1,brown
+K00726,"alpha-1,3-mannosyl-glycoprotein beta-1,2-N-acetylglucosaminyltransferase [EC:2.4.1.101]",MGAT1,yellow
+K00749,"alpha-1,3-glucan synthase [EC:2.4.1.183]",E2.4.1.183,blue
+K00750,glycogenin glucosyltransferase [EC:2.4.1.186],"GYG1, GYG2",yellow
+K00760,hypoxanthine phosphoribosyltransferase [EC:2.4.2.8],"hprT, hpt, HPRT1",turquoise
+K00761,uracil phosphoribosyltransferase [EC:2.4.2.9],"upp, UPRT",blue
+K00762,orotate phosphoribosyltransferase [EC:2.4.2.10],pyrE,blue
+K00764,amidophosphoribosyltransferase [EC:2.4.2.14],"purF, PPAT",turquoise
+K00765,ATP phosphoribosyltransferase [EC:2.4.2.17],hisG,brown
+K00772,5'-methylthioadenosine phosphorylase [EC:2.4.2.28],"E2.4.2.28, mtaP",blue
+K00789,S-adenosylmethionine synthetase [EC:2.5.1.6],metK,turquoise
+K00793,riboflavin synthase [EC:2.5.1.9],"ribE, RIB5",turquoise
+K00794,"6,7-dimethyl-8-ribityllumazine synthase [EC:2.5.1.78]","ribH, RIB4",yellow
+K00797,spermidine synthase [EC:2.5.1.16],"speE, SRM",yellow
+K00799,glutathione S-transferase [EC:2.5.1.18],"GST, gst",brown
+K00801,farnesyl-diphosphate farnesyltransferase [EC:2.5.1.21],FDFT1,turquoise
+K00803,alkyldihydroxyacetonephosphate synthase [EC:2.5.1.26],"AGPS, agpS",brown
+K00810,NA,NA,blue
+K00812,aspartate aminotransferase [EC:2.6.1.1],aspB,turquoise
+K00813,aspartate aminotransferase [EC:2.6.1.1],aspC,grey
+K00814,alanine transaminase [EC:2.6.1.2],"GPT, ALT",yellow
+K00817,histidinol-phosphate aminotransferase [EC:2.6.1.9],hisC,blue
+K00819,ornithine--oxo-acid transaminase [EC:2.6.1.13],"rocD, OAT",yellow
+K00826,branched-chain amino acid aminotransferase [EC:2.6.1.42],"E2.6.1.42, ilvE",turquoise
+K00830,alanine-glyoxylate transaminase / serine-glyoxylate transaminase / serine-pyruvate transaminase [EC:2.6.1.44 2.6.1.45 2.6.1.51],AGXT,blue
+K00831,phosphoserine aminotransferase [EC:2.6.1.52],"serC, PSAT1",turquoise
+K00836,diaminobutyrate-2-oxoglutarate transaminase [EC:2.6.1.76],"E2.6.1.76, ectB",blue
+K00837,NA,NA,yellow
+K00847,fructokinase [EC:2.7.1.4],"E2.7.1.4, scrK",brown
+K00850,6-phosphofructokinase 1 [EC:2.7.1.11],"pfkA, PFK",blue
+K00852,ribokinase [EC:2.7.1.15],"rbsK, RBKS",yellow
+K00855,phosphoribulokinase [EC:2.7.1.19],"PRK, prkB",turquoise
+K00856,adenosine kinase [EC:2.7.1.20],"E2.7.1.20, ADK",yellow
+K00857,thymidine kinase [EC:2.7.1.21],"tdk, TK",brown
+K00860,adenylylsulfate kinase [EC:2.7.1.25],cysC,turquoise
+K00861,riboflavin kinase [EC:2.7.1.26],"RFK, FMN1",grey
+K00863,dihydroxyacetone kinase [EC:2.7.1.29],"E2.7.1.29, DAK1, DAK2",yellow
+K00866,choline kinase [EC:2.7.1.32],CKI1,yellow
+K00871,phosphorylase kinase gamma subunit [EC:2.7.11.19],PHKG,blue
+K00872,homoserine kinase [EC:2.7.1.39],thrB1,turquoise
+K00873,pyruvate kinase [EC:2.7.1.40],"PK, pyk",blue
+K00874,2-dehydro-3-deoxygluconokinase [EC:2.7.1.45],kdgK,grey
+K00876,uridine kinase [EC:2.7.1.48],"udk, UCK",blue
+K00889,1-phosphatidylinositol-4-phosphate 5-kinase [EC:2.7.1.68],PIP5K,brown
+K00894,ethanolamine kinase [EC:2.7.1.82],"ETNK, EKI",yellow
+K00895,pyrophosphate--fructose-6-phosphate 1-phosphotransferase [EC:2.7.1.90],"E2.7.1.90, pfk",blue
+K00898,pyruvate dehydrogenase kinase 2/3/4 [EC:2.7.11.2],PDK2_3_4,turquoise
+K00901,diacylglycerol kinase (ATP) [EC:2.7.1.107],"dgkA, DGK",turquoise
+K00902,dolichol kinase [EC:2.7.1.108],E2.7.1.108,turquoise
+K00908,NA,NA,yellow
+K00914,phosphatidylinositol 3-kinase [EC:2.7.1.137],"PIK3C3, VPS34",turquoise
+K00921,1-phosphatidylinositol-3-phosphate 5-kinase [EC:2.7.1.150],"PIKFYVE, FAB1",blue
+K00924,NA,NA,blue
+K00927,phosphoglycerate kinase [EC:2.7.2.3],"PGK, pgk",turquoise
+K00928,aspartate kinase [EC:2.7.2.4],lysC,turquoise
+K00931,glutamate 5-kinase [EC:2.7.2.11],proB,turquoise
+K00933,creatine kinase [EC:2.7.3.2],E2.7.3.2,blue
+K00934,arginine kinase [EC:2.7.3.3],E2.7.3.3,turquoise
+K00939,adenylate kinase [EC:2.7.4.3],"adk, AK",brown
+K00940,nucleoside-diphosphate kinase [EC:2.7.4.6],"ndk, NME",blue
+K00943,dTMP kinase [EC:2.7.4.9],"tmk, DTYMK",yellow
+K00948,ribose-phosphate pyrophosphokinase [EC:2.7.6.1],"PRPS, prsA",yellow
+K00958,sulfate adenylyltransferase [EC:2.7.7.4],"sat, met3",turquoise
+K00963,UTP--glucose-1-phosphate uridylyltransferase [EC:2.7.7.9],"UGP2, galU, galF",blue
+K00967,ethanolamine-phosphate cytidylyltransferase [EC:2.7.7.14],PCYT2,blue
+K00969,nicotinate-nucleotide adenylyltransferase [EC:2.7.7.18],nadD,brown
+K00972,UDP-N-acetylglucosamine/UDP-N-acetylgalactosamine diphosphorylase [EC:2.7.7.23 2.7.7.83],UAP1,yellow
+K00981,phosphatidate cytidylyltransferase [EC:2.7.7.41],"E2.7.7.41, CDS1, CDS2, cdsA",blue
+K00983,N-acylneuraminate cytidylyltransferase [EC:2.7.7.43],"E2.7.7.43, neuA, CMAS",brown
+K00998,CDP-diacylglycerol---serine O-phosphatidyltransferase [EC:2.7.8.8],pssA,turquoise
+K00999,CDP-diacylglycerol--inositol 3-phosphatidyltransferase [EC:2.7.8.11],CDIPT,yellow
+K01006,"pyruvate, orthophosphate dikinase [EC:2.7.9.1]",ppdK,turquoise
+K01007,"pyruvate, water dikinase [EC:2.7.9.2]","pps, ppsA",turquoise
+K01022,keratan sulfate 6-sulfotransferase 1 [EC:2.8.2.21],CHST1,turquoise
+K01029,3-oxoacid CoA-transferase subunit B [EC:2.8.3.5],"E2.8.3.5B, scoB",turquoise
+K01046,triacylglycerol lipase [EC:3.1.1.3],E3.1.1.3,yellow
+K01048,lysophospholipase [EC:3.1.1.5],pldB,turquoise
+K01049,acetylcholinesterase [EC:3.1.1.7],ACHE,blue
+K01052,lysosomal acid lipase/cholesteryl ester hydrolase [EC:3.1.1.13],LIPA,blue
+K01053,gluconolactonase [EC:3.1.1.17],"E3.1.1.17, gnl, RGN",turquoise
+K01056,"peptidyl-tRNA hydrolase, PTH1 family [EC:3.1.1.29]","PTH1, pth, spoVC",brown
+K01057,6-phosphogluconolactonase [EC:3.1.1.31],"PGLS, pgl, devB",brown
+K01061,carboxymethylenebutenolidase [EC:3.1.1.45],E3.1.1.45,yellow
+K01069,hydroxyacylglutathione hydrolase [EC:3.1.2.6],"E3.1.2.6, gloB",turquoise
+K01070,S-formylglutathione hydrolase [EC:3.1.2.12],"frmB, ESD, fghA",yellow
+K01071,medium-chain acyl-[acyl-carrier-protein] hydrolase [EC:3.1.2.21],MCH,turquoise
+K01074,palmitoyl-protein thioesterase [EC:3.1.2.22],PPT,blue
+K01077,alkaline phosphatase [EC:3.1.3.1],"E3.1.3.1, phoA, phoB",turquoise
+K01078,acid phosphatase [EC:3.1.3.2],E3.1.3.2,blue
+K01079,phosphoserine phosphatase [EC:3.1.3.3],"serB, PSPH",brown
+K01081,5'-nucleotidase [EC:3.1.3.5],E3.1.3.5,blue
+K01082,"3'(2'), 5'-bisphosphate nucleotidase [EC:3.1.3.7]","E3.1.3.7, cysQ, MET22, BPNT1",brown
+K01087||K00697,NA,NA,blue
+K01090,protein phosphatase [EC:3.1.3.16],E3.1.3.16,brown
+K01091,phosphoglycolate phosphatase [EC:3.1.3.18],gph,turquoise
+K01092,myo-inositol-1(or 4)-monophosphatase [EC:3.1.3.25],"E3.1.3.25, IMPA, suhB",brown
+K01093,4-phytase / acid phosphatase [EC:3.1.3.26 3.1.3.2],appA,brown
+K01099,phosphatidylinositol-bisphosphatase [EC:3.1.3.36],E3.1.3.36,yellow
+K01100,sedoheptulose-bisphosphatase [EC:3.1.3.37],E3.1.3.37,turquoise
+K01101,4-nitrophenyl phosphatase [EC:3.1.3.41],E3.1.3.41,brown
+K01103,"6-phosphofructo-2-kinase / fructose-2,6-biphosphatase 3&#160; [EC:2.7.1.105 3.1.3.46]",PFKFB3,brown
+K01104,protein-tyrosine phosphatase [EC:3.1.3.48],E3.1.3.48,turquoise
+K01113,alkaline phosphatase D [EC:3.1.3.1],phoD,brown
+K01114,phospholipase C [EC:3.1.4.3],plcC,blue
+K01118,FMN-dependent NADH-azoreductase [EC:1.7.-.-],"acpD, azoR",brown
+K01120,"3',5'-cyclic-nucleotide phosphodiesterase [EC:3.1.4.17]",cpdP,brown
+K01126,glycerophosphoryl diester phosphodiesterase [EC:3.1.4.46],"E3.1.4.46, glpQ, ugpQ",yellow
+K01128,sphingomyelin phosphodiesterase acid-like 3 [EC:3.1.4.-],SMPDL3,yellow
+K01133,choline-sulfatase [EC:3.1.6.6],betC,blue
+K01134,arylsulfatase A [EC:3.1.6.8],ARSA,turquoise
+K01135,arylsulfatase B [EC:3.1.6.12],ARSB,blue
+K01137,N-acetylglucosamine-6-sulfatase [EC:3.1.6.14],GNS,brown
+K01138,uncharacterized sulfatase [EC:3.1.6.-],K01138,blue
+K01142,exodeoxyribonuclease III [EC:3.1.11.2],"E3.1.11.2, xthA",brown
+K01163,uncharacterized protein,K01163,blue
+K01173,"endonuclease G, mitochondrial",ENDOG,turquoise
+K01176,alpha-amylase [EC:3.2.1.1],"E3.2.1.1, amyA, malS",blue
+K01178,glucoamylase [EC:3.2.1.3],E3.2.1.3,turquoise
+K01179,endoglucanase [EC:3.2.1.4],E3.2.1.4,blue
+K01179||K01183,NA,NA,blue
+K01181,"endo-1,4-beta-xylanase [EC:3.2.1.8]","E3.2.1.8, xynA",blue
+K01183,chitinase [EC:3.2.1.14],E3.2.1.14,blue
+K01186,sialidase-1 [EC:3.2.1.18],NEU1,turquoise
+K01188,beta-glucosidase [EC:3.2.1.21],E3.2.1.21,blue
+K01189,alpha-galactosidase [EC:3.2.1.22],GLA,yellow
+K01190,beta-galactosidase [EC:3.2.1.23],lacZ,brown
+K01191,alpha-mannosidase [EC:3.2.1.24],E3.2.1.24,blue
+K01193,beta-fructofuranosidase [EC:3.2.1.26],"E3.2.1.26, sacA",blue
+K01196,glycogen debranching enzyme [EC:2.4.1.25 3.2.1.33],AGL,turquoise
+K01199,"glucan endo-1,3-beta-D-glucosidase [EC:3.2.1.39]",E3.2.1.39,turquoise
+K01201,glucosylceramidase [EC:3.2.1.45],"GBA, srfJ",turquoise
+K01202,galactosylceramidase [EC:3.2.1.46],GALC,turquoise
+K01204,alpha-N-acetylgalactosaminidase [EC:3.2.1.49],NAGA,blue
+K01206,alpha-L-fucosidase [EC:3.2.1.51],FUCA,blue
+K01210,"glucan 1,3-beta-glucosidase [EC:3.2.1.58]",E3.2.1.58,brown
+K01220,6-phospho-beta-galactosidase [EC:3.2.1.85],"E3.2.1.85, lacG",blue
+K01227,mannosyl-glycoprotein endo-beta-N-acetylglucosaminidase [EC:3.2.1.96],E3.2.1.96,brown
+K01230,"mannosyl-oligosaccharide alpha-1,2-mannosidase [EC:3.2.1.113]",MAN1,turquoise
+K01235,alpha-glucuronidase [EC:3.2.1.139],aguA,turquoise
+K01238,NA,NA,turquoise
+K01251,adenosylhomocysteinase [EC:3.3.1.1],"E3.3.1.1, ahcY",turquoise
+K01256,aminopeptidase N [EC:3.4.11.2],pepN,brown
+K01259,proline iminopeptidase [EC:3.4.11.5],pip,turquoise
+K01265,methionyl aminopeptidase [EC:3.4.11.18],map,blue
+K01267,aspartyl aminopeptidase [EC:3.4.11.21],DNPEP,turquoise
+K01271,Xaa-Pro dipeptidase [EC:3.4.13.9],pepQ,blue
+K01275,cathepsin C [EC:3.4.14.1],CTSC,turquoise
+K01276,dipeptidyl-peptidase II [EC:3.4.14.2],DPP7,turquoise
+K01277,dipeptidyl-peptidase III [EC:3.4.14.4],DPP3,blue
+K01279,tripeptidyl-peptidase I [EC:3.4.14.9],"TPP1, CLN2",blue
+K01280,tripeptidyl-peptidase II [EC:3.4.14.10],TPP2,brown
+K01285,lysosomal Pro-X carboxypeptidase [EC:3.4.16.2],PRCP,blue
+K01286,D-alanyl-D-alanine carboxypeptidase [EC:3.4.16.4],E3.4.16.4,grey
+K01307,gamma-glutamyl hydrolase [EC:3.4.19.9],GGH,turquoise
+K01322,prolyl oligopeptidase [EC:3.4.21.26],PREP,yellow
+K01338,ATP-dependent Lon protease [EC:3.4.21.53],lon,turquoise
+K01354,oligopeptidase B [EC:3.4.21.83],ptrB,yellow
+K01362,NA,NA,blue
+K01363,cathepsin B [EC:3.4.22.1],CTSB,blue
+K01365,cathepsin L [EC:3.4.22.15],CTSL,blue
+K01366,cathepsin H [EC:3.4.22.16],CTSH,turquoise
+K01369,legumain [EC:3.4.22.34],LGMN,blue
+K01373,cathepsin F [EC:3.4.22.41],CTSF,blue
+K01374,cathepsin O [EC:3.4.22.42],CTSO,blue
+K01376,NA,NA,blue
+K01379,cathepsin D [EC:3.4.23.5],CTSD,blue
+K01381,saccharopepsin [EC:3.4.23.25],E3.4.23.25,turquoise
+K01386,NA,NA,turquoise
+K01387,microbial collagenase [EC:3.4.24.3],colA,blue
+K01404,leishmanolysin [EC:3.4.24.36],GP63,brown
+K01406,serralysin [EC:3.4.24.40],E3.4.24.40,yellow
+K01407,protease III [EC:3.4.24.55],ptr,turquoise
+K01408,insulysin [EC:3.4.24.56],"IDE, ide",turquoise
+K01412,mitochondrial-processing peptidase subunit alpha [EC:3.4.24.64],"PMPCA, MAS2",blue
+K01414,oligopeptidase A [EC:3.4.24.70],prlC,turquoise
+K01422,protease AXL1 [EC:3.4.24.-],AXL1,turquoise
+K01424,L-asparaginase [EC:3.5.1.1],"E3.5.1.1, ansA, ansB",yellow
+K01425,glutaminase [EC:3.5.1.2],"glsA, GLS",turquoise
+K01426,amidase [EC:3.5.1.4],"E3.5.1.4, amiE",turquoise
+K01427,urease [EC:3.5.1.5],URE,turquoise
+K01437,aspartoacylase [EC:3.5.1.15],"ASPA, aspA",brown
+K01442,choloylglycine hydrolase [EC:3.5.1.24],E3.5.1.24,blue
+K01453,6-aminohexanoate-oligomer exohydrolase [EC:3.5.1.46],nylB,blue
+K01455,formamidase [EC:3.5.1.49],E3.5.1.49,turquoise
+K01456,peptide-N4-(N-acetyl-beta-glucosaminyl)asparagine amidase [EC:3.5.1.52],"E3.5.1.52, NGLY1, PNG1",yellow
+K01474,N-methylhydantoinase B [EC:3.5.2.14],hyuB,yellow
+K01477,allantoicase [EC:3.5.3.4],"alc, ALLC",brown
+K01480,agmatinase [EC:3.5.3.11],speB,yellow
+K01487,guanine deaminase [EC:3.5.4.3],"E3.5.4.3, guaD",turquoise
+K01490,AMP deaminase [EC:3.5.4.6],AMPD,blue
+K01491,methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5 3.5.4.9],folD,yellow
+K01493,dCMP deaminase [EC:3.5.4.12],comEB,blue
+K01495,GTP cyclohydrolase I [EC:3.5.4.16],"GCH1, folE",yellow
+K01497,GTP cyclohydrolase II [EC:3.5.4.25],"ribA, RIB1",brown
+K01507,inorganic pyrophosphatase [EC:3.6.1.1],ppa,blue
+K01510,apyrase [EC:3.6.1.5],ENTPD1_3_8,blue
+K01517,manganese-dependent ADP-ribose/CDP-alcohol diphosphatase [EC:3.6.1.13 3.6.1.16 3.6.1.53],ADPRM,yellow
+K01520,dUTP pyrophosphatase [EC:3.6.1.23],"dut, DUT",turquoise
+K01522,bis(5'-adenosyl)-triphosphatase [EC:3.6.1.29],FHIT,yellow
+K01527,nascent polypeptide-associated complex subunit beta,"EGD1, BTF3",blue
+K01528,dynamin GTPase [EC:3.6.5.5],DNM,blue
+K01529,NA,NA,turquoise
+K01530,phospholipid-translocating ATPase [EC:3.6.3.1],E3.6.3.1,turquoise
+K01533,Cu2+-exporting ATPase [EC:3.6.3.4],copB,turquoise
+K01534,Cd2+/Zn2+-exporting ATPase [EC:3.6.3.3 3.6.3.5],zntA,blue
+K01535,H+-transporting ATPase [EC:3.6.3.6],E3.6.3.6,turquoise
+K01537,Ca2+-transporting ATPase [EC:3.6.3.8],E3.6.3.8,turquoise
+K01539,sodium/potassium-transporting ATPase subunit alpha [EC:3.6.3.9],ATP1A,blue
+K01552,NA,NA,blue
+K01556,kynureninase [EC:3.7.1.3],"KYNU, kynU",brown
+K01567,peptidoglycan-N-acetylmuramic acid deacetylase [EC:3.5.1.-],pdaA,blue
+K01580,glutamate decarboxylase [EC:4.1.1.15],"E4.1.1.15, gadB, gadA, GAD",turquoise
+K01581,ornithine decarboxylase [EC:4.1.1.17],"E4.1.1.17, ODC1, speC, speF",blue
+K01586,diaminopimelate decarboxylase [EC:4.1.1.20],lysA,brown
+K01588,5-(carboxyamino)imidazole ribonucleotide mutase [EC:5.4.99.18],purE,turquoise
+K01590,histidine decarboxylase [EC:4.1.1.22],"hdc, HDC",blue
+K01599,uroporphyrinogen decarboxylase [EC:4.1.1.37],"hemE, UROD",brown
+K01601,ribulose-bisphosphate carboxylase large chain [EC:4.1.1.39],rbcL,turquoise
+K01610,phosphoenolpyruvate carboxykinase (ATP) [EC:4.1.1.49],"E4.1.1.49, pckA",turquoise
+K01611,S-adenosylmethionine decarboxylase [EC:4.1.1.50],"speD, AMD1",blue
+K01613,phosphatidylserine decarboxylase [EC:4.1.1.65],"psd, PISD",blue
+K01618,NA,NA,blue
+K01619,deoxyribose-phosphate aldolase [EC:4.1.2.4],"deoC, DERA",blue
+K01621,xylulose-5-phosphate/fructose-6-phosphate phosphoketolase [EC:4.1.2.9 4.1.2.22],"xfp, xpk",blue
+K01623,"fructose-bisphosphate aldolase, class I [EC:4.1.2.13]",ALDO,turquoise
+K01624,"fructose-bisphosphate aldolase, class II [EC:4.1.2.13]","FBA, fbaA",blue
+K01626,3-deoxy-7-phosphoheptulonate synthase [EC:2.5.1.54],"E2.5.1.54, aroF, aroG, aroH",yellow
+K01631,2-dehydro-3-deoxyphosphogalactonate aldolase [EC:4.1.2.21],dgoA,turquoise
+K01632,NA,NA,blue
+K01636,NA,NA,blue
+K01637,isocitrate lyase [EC:4.1.3.1],"E4.1.3.1, aceA",grey
+K01638,malate synthase [EC:2.3.3.9],"E2.3.3.9, aceB, glcB",turquoise
+K01641,hydroxymethylglutaryl-CoA synthase [EC:2.3.3.10],E2.3.3.10,blue
+K01647,citrate synthase [EC:2.3.3.1],"CS, gltA",turquoise
+K01648,ATP citrate (pro-S)-lyase [EC:2.3.3.8],ACLY,turquoise
+K01649,2-isopropylmalate synthase [EC:2.3.3.13],leuA,blue
+K01654,N-acetylneuraminate synthase [EC:2.5.1.56],"E2.5.1.56, neuB",blue
+K01659,2-methylcitrate synthase [EC:2.3.3.5],prpC,yellow
+K01662,1-deoxy-D-xylulose-5-phosphate synthase [EC:2.2.1.7],dxs,brown
+K01669,deoxyribodipyrimidine photo-lyase [EC:4.1.99.3],phrB,turquoise
+K01672,carbonic anhydrase [EC:4.2.1.1],E4.2.1.1,turquoise
+K01673,carbonic anhydrase [EC:4.2.1.1],"cynT, can",blue
+K01674,carbonic anhydrase [EC:4.2.1.1],cah,turquoise
+K01676,"fumarate hydratase, class I [EC:4.2.1.2]","E4.2.1.2A, fumA, fumB",blue
+K01679,"fumarate hydratase, class II [EC:4.2.1.2]","E4.2.1.2B, fumC",brown
+K01681,aconitate hydratase [EC:4.2.1.3],"ACO, acnA",turquoise
+K01682,aconitate hydratase 2 / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99],acnB,blue
+K01689,enolase [EC:4.2.1.11],"ENO, eno",blue
+K01692,enoyl-CoA hydratase [EC:4.2.1.17],"paaF, echA",blue
+K01694,tryptophan synthase [EC:4.2.1.20],TRP,brown
+K01696,tryptophan synthase beta chain [EC:4.2.1.20],trpB,turquoise
+K01697,cystathionine beta-synthase [EC:4.2.1.22],"E4.2.1.22, CBS",yellow
+K01710,"dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]","E4.2.1.46, rfbB, rffG",blue
+K01711,"GDPmannose 4,6-dehydratase [EC:4.2.1.47]","gmd, GMDS",turquoise
+K01714,4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7],dapA,turquoise
+K01719,uroporphyrinogen-III synthase [EC:4.2.1.75],"hemD, UROS",brown
+K01733,threonine synthase [EC:4.2.3.1],thrC,turquoise
+K01735,3-dehydroquinate synthase [EC:4.2.3.4],aroB,turquoise
+K01736,chorismate synthase [EC:4.2.3.5],aroC,turquoise
+K01738,cysteine synthase A [EC:2.5.1.47],cysK,brown
+K01738||K01740,NA,NA,blue
+K01740,O-acetylhomoserine (thiol)-lyase [EC:2.5.1.49],"E2.5.1.49, metY",turquoise
+K01744,aspartate ammonia-lyase [EC:4.3.1.1],aspA,yellow
+K01749,hydroxymethylbilane synthase [EC:2.5.1.61],"hemC, HMBS",brown
+K01754,threonine dehydratase [EC:4.3.1.19],"E4.3.1.19, ilvA, tdcB",turquoise
+K01755,argininosuccinate lyase [EC:4.3.2.1],"argH, ASL",turquoise
+K01756,adenylosuccinate lyase [EC:4.3.2.2],"purB, ADSL",turquoise
+K01760,cystathionine beta-lyase [EC:4.4.1.8],metC,turquoise
+K01768,adenylate cyclase [EC:4.6.1.1],E4.6.1.1,blue
+K01771,1-phosphatidylinositol phosphodiesterase [EC:4.6.1.13],"E4.6.1.13, plc",blue
+K01772,ferrochelatase [EC:4.99.1.1],"hemH, FECH",turquoise
+K01780,NA,NA,blue
+K01783,ribulose-phosphate 3-epimerase [EC:5.1.3.1],"rpe, RPE",turquoise
+K01784,UDP-glucose 4-epimerase [EC:5.1.3.2],"galE, GALE",brown
+K01792,glucose-6-phosphate 1-epimerase [EC:5.1.3.15],E5.1.3.15,turquoise
+K01795,poly(beta-D-mannuronate) C5 epimerase [EC:5.1.3.-],algG,turquoise
+K01796,alpha-methylacyl-CoA racemase [EC:5.1.99.4],"E5.1.99.4, AMACR, mcr",blue
+K01800,maleylacetoacetate isomerase [EC:5.2.1.2],"maiA, GSTZ1",blue
+K01802,peptidylprolyl isomerase [EC:5.2.1.8],E5.2.1.8,brown
+K01803,triosephosphate isomerase (TIM) [EC:5.3.1.1],"TPI, tpiA",brown
+K01805,xylose isomerase [EC:5.3.1.5],xylA,blue
+K01811,alpha-D-xyloside xylohydrolase [EC:3.2.1.177],yicI,brown
+K01823,isopentenyl-diphosphate delta-isomerase [EC:5.3.3.2],"idi, IDI",turquoise
+K01829,protein disulfide-isomerase [EC:5.3.4.1],E5.3.4.1,turquoise
+K01830,prostaglandin-H2 D-isomerase [EC:5.3.99.2],"E5.3.99.2, PTGDS",turquoise
+K01834,"2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]","PGAM, gpmA",turquoise
+K01835,phosphoglucomutase [EC:5.4.2.2],pgm,blue
+K01836,phosphoacetylglucosamine mutase [EC:5.4.2.3],E5.4.2.3,brown
+K01840,phosphomannomutase [EC:5.4.2.8],manB,turquoise
+K01841,phosphoenolpyruvate phosphomutase [EC:5.4.2.9],pepM,yellow
+K01845,"glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]",hemL,turquoise
+K01854,UDP-galactopyranose mutase [EC:5.4.99.9],glf,brown
+K01858,myo-inositol-1-phosphate synthase [EC:5.5.1.4],"INO1, ISYNA1",turquoise
+K01866,tyrosyl-tRNA synthetase [EC:6.1.1.1],"YARS, tyrS",brown
+K01867,tryptophanyl-tRNA synthetase [EC:6.1.1.2],"WARS, trpS",blue
+K01868,threonyl-tRNA synthetase [EC:6.1.1.3],"TARS, thrS",turquoise
+K01869,leucyl-tRNA synthetase [EC:6.1.1.4],"LARS, leuS",blue
+K01870,isoleucyl-tRNA synthetase [EC:6.1.1.5],"IARS, ileS",yellow
+K01872,alanyl-tRNA synthetase [EC:6.1.1.7],"AARS, alaS",blue
+K01873,valyl-tRNA synthetase [EC:6.1.1.9],"VARS, valS",blue
+K01874,methionyl-tRNA synthetase [EC:6.1.1.10],"MARS, metG",yellow
+K01875,seryl-tRNA synthetase [EC:6.1.1.11],"SARS, serS",brown
+K01876,aspartyl-tRNA synthetase [EC:6.1.1.12],"DARS, aspS",blue
+K01880,glycyl-tRNA synthetase [EC:6.1.1.14],"GARS, glyS1",yellow
+K01881,prolyl-tRNA synthetase [EC:6.1.1.15],"PARS, proS",blue
+K01883,cysteinyl-tRNA synthetase [EC:6.1.1.16],"CARS, cysS",yellow
+K01885,glutamyl-tRNA synthetase [EC:6.1.1.17],"EARS, gltX",turquoise
+K01886,glutaminyl-tRNA synthetase [EC:6.1.1.18],"QARS, glnS",turquoise
+K01887,arginyl-tRNA synthetase [EC:6.1.1.19],"RARS, argS",yellow
+K01889,phenylalanyl-tRNA synthetase alpha chain [EC:6.1.1.20],"FARSA, pheS",turquoise
+K01890,phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20],"FARSB, pheT",yellow
+K01892,histidyl-tRNA synthetase [EC:6.1.1.21],"HARS, hisS",turquoise
+K01893,asparaginyl-tRNA synthetase [EC:6.1.1.22],"NARS, asnS",turquoise
+K01895,acetyl-CoA synthetase [EC:6.2.1.1],"ACSS, acs",turquoise
+K01897,long-chain acyl-CoA synthetase [EC:6.2.1.3],"ACSL, fadD",blue
+K01899,succinyl-CoA synthetase alpha subunit [EC:6.2.1.4 6.2.1.5],LSC1,turquoise
+K01900,succinyl-CoA synthetase beta subunit [EC:6.2.1.4 6.2.1.5],LSC2,blue
+K01903,succinyl-CoA synthetase beta subunit [EC:6.2.1.5],sucC,turquoise
+K01915,glutamine synthetase [EC:6.3.1.2],"glnA, GLUL",blue
+K01918,pantoate--beta-alanine ligase [EC:6.3.2.1],panC,blue
+K01920,glutathione synthase [EC:6.3.2.3],"gshB, GSS",blue
+K01921,D-alanine-D-alanine ligase [EC:6.3.2.4],ddl,turquoise
+K01923,phosphoribosylaminoimidazole-succinocarboxamide synthase [EC:6.3.2.6],purC,turquoise
+K01929,UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase [EC:6.3.2.10],murF,brown
+K01931,protein neuralized [EC:6.3.2.19],NEUR,brown
+K01933,phosphoribosylformylglycinamidine cyclo-ligase [EC:6.3.3.1],purM,turquoise
+K01937,CTP synthase [EC:6.3.4.2],"pyrG, CTPS",yellow
+K01938,formate--tetrahydrofolate ligase [EC:6.3.4.3],fhs,turquoise
+K01939,adenylosuccinate synthase [EC:6.3.4.4],"purA, ADSS",turquoise
+K01940,argininosuccinate synthase [EC:6.3.4.5],"argG, ASS1",brown
+K01945,phosphoribosylamine--glycine ligase [EC:6.3.4.13],purD,turquoise
+K01950,NAD+ synthase (glutamine-hydrolysing) [EC:6.3.5.1],"E6.3.5.1, NADSYN1, QNS1, nadE",turquoise
+K01951,GMP synthase (glutamine-hydrolysing) [EC:6.3.5.2],"guaA, GMPS",turquoise
+K01952,phosphoribosylformylglycinamidine synthase [EC:6.3.5.3],"purL, PFAS",turquoise
+K01953,asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4],"asnB, ASNS",brown
+K01954,carbamoyl-phosphate synthase [EC:6.3.5.5],K01954,blue
+K01955,carbamoyl-phosphate synthase large subunit [EC:6.3.5.5],"carB, CPA2",blue
+K01958,pyruvate carboxylase [EC:6.4.1.1],"PC, pyc",turquoise
+K01962,acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2],accA,turquoise
+K01968,3-methylcrotonyl-CoA carboxylase alpha subunit [EC:6.4.1.4],E6.4.1.4A,turquoise
+K01969,3-methylcrotonyl-CoA carboxylase beta subunit [EC:6.4.1.4],E6.4.1.4B,brown
+K01971,bifunctional non-homologous end joining protein LigD [EC:6.5.1.1],ligD,blue
+K01974,RNA 3'-terminal phosphate cyclase (ATP) [EC:6.5.1.4],"RTCA, rtcA",blue
+K01976,NA,NA,yellow
+K01999,branched-chain amino acid transport system substrate-binding protein,livK,turquoise
+K02002,glycine betaine/proline transport system substrate-binding protein,proX,brown
+K02003,putative ABC transport system ATP-binding protein,ABC.CD.A,blue
+K02006,cobalt/nickel transport system ATP-binding protein,cbiO,brown
+K02013,iron complex transport system ATP-binding protein [EC:3.6.3.34],ABC.FEV.A,blue
+K02016,iron complex transport system substrate-binding protein,ABC.FEV.S,turquoise
+K02021,putative ABC transport system ATP-binding protein,ABC.MR,turquoise
+K02027,multiple sugar transport system substrate-binding protein,ABC.MS.S,turquoise
+K02035,peptide/nickel transport system substrate-binding protein,ABC.PE.S,turquoise
+K02049,NitT/TauT family transport system ATP-binding protein,ABC.SN.A,blue
+K02051,NitT/TauT family transport system substrate-binding protein,ABC.SN.S,brown
+K02058,simple sugar transport system substrate-binding protein,ABC.SS.S,brown
+K02077,zinc/manganese transport system substrate-binding protein,ABC.ZM.S,turquoise
+K02087,cyclin-dependent kinase 1 [EC:2.7.11.22 2.7.11.23],"CDK1, CDC2",blue
+K02090,cyclin-dependent kinase 5 [EC:2.7.11.22],CDK5,yellow
+K02115,F-type H+-transporting ATPase subunit gamma,"ATPF1G, atpG",brown
+K02144,V-type H+-transporting ATPase subunit H,ATPeV1H,turquoise
+K02145,V-type H+-transporting ATPase subunit A [EC:3.6.3.14],"ATPeV1A, ATP6A",turquoise
+K02146,V-type H+-transporting ATPase subunit d,"ATPeV0D, ATP6D",turquoise
+K02147,V-type H+-transporting ATPase subunit B,"ATPeV1B, ATP6B",turquoise
+K02149,V-type H+-transporting ATPase subunit D,"ATPeV1D, ATP6M",turquoise
+K02150,V-type H+-transporting ATPase subunit E,"ATPeV1E, ATP6E",turquoise
+K02151,V-type H+-transporting ATPase subunit F,"ATPeV1F, ATP6S14",turquoise
+K02152,V-type H+-transporting ATPase subunit G,"ATPeV1G, ATP6G",brown
+K02154,V-type H+-transporting ATPase subunit a,"ATPeV0A, ATP6N",turquoise
+K02155,V-type H+-transporting ATPase 16kDa proteolipid subunit,"ATPeV0C, ATP6L",turquoise
+K02156,aubergine,"AUB, PIWI",brown
+K02183,calmodulin,CALM,turquoise
+K02202,cyclin-dependent kinase 7 [EC:2.7.11.22 2.7.11.23],CDK7,brown
+K02203,phosphoserine / homoserine phosphotransferase [EC:3.1.3.3 2.7.1.39],thrH,brown
+K02206,cyclin-dependent kinase 2 [EC:2.7.11.22],CDK2,turquoise
+K02209,DNA replication licensing factor MCM5 [EC:3.6.4.12],"MCM5, CDC46",blue
+K02210,DNA replication licensing factor MCM7 [EC:3.6.4.12],"MCM7, CDC47",blue
+K02212,DNA replication licensing factor MCM4 [EC:3.6.4.12],"MCM4, CDC54",blue
+K02218,casein kinase 1 [EC:2.7.11.1],"CSNK1, CK1",blue
+K02219,cyclin-dependent kinase regulatory subunit CKS1,CKS1,turquoise
+K02220,G2/mitotic-specific cyclin 1/2,CLB1_2,turquoise
+K02226,alpha-ribazole phosphatase [EC:3.1.3.73],"cobC2, cobC, phpB",yellow
+K02234,cobalamin biosynthesis protein CobW,cobW,turquoise
+K02256,cytochrome c oxidase subunit 1 [EC:1.9.3.1],COX1,turquoise
+K02265,cytochrome c oxidase subunit 5b,COX5B,turquoise
+K02267,cytochrome c oxidase subunit 6b,COX6B,turquoise
+K02293,15-cis-phytoene desaturase [EC:1.3.5.5],"PDS, crtP",brown
+K02295,cryptochrome,CRY,brown
+K02320,DNA polymerase alpha subunit A [EC:2.7.7.7],POLA1,blue
+K02321,DNA polymerase alpha subunit B,POLA2,brown
+K02324,DNA polymerase epsilon subunit 1 [EC:2.7.7.7],POLE1,brown
+K02327,DNA polymerase delta subunit 1 [EC:2.7.7.7],POLD1,blue
+K02328,DNA polymerase delta subunit 2,POLD2,turquoise
+K02335,DNA polymerase I [EC:2.7.7.7],"DPO1, polA",blue
+K02342,DNA polymerase III subunit epsilon [EC:2.7.7.7],"DPO3E, dnaQ",turquoise
+K02349,DNA polymerase theta [EC:2.7.7.7],POLQ,turquoise
+K02355,elongation factor G,"fusA, GFM, EFG",turquoise
+K02359,egghead protein (zeste-white 4 protein),EGH,blue
+K02371,enoyl-[acyl-carrier protein] reductase II [EC:1.3.1.9],fabK,yellow
+K02377,GDP-L-fucose synthase [EC:1.1.1.271],"TSTA3, fcl",blue
+K02412,flagellum-specific ATP synthase [EC:3.6.3.14],fliI,turquoise
+K02429,"MFS transporter, FHS family, L-fucose permease",fucP,blue
+K02431,L-fucose mutarotase [EC:5.1.3.29],"fucU, FUOM",blue
+K02437,glycine cleavage system H protein,"gcvH, GCSH",turquoise
+K02438,glycogen operon protein [EC:3.2.1.-],"treX, glgX",turquoise
+K02440,glycerol uptake facilitator protein,GLPF,turquoise
+K02453,general secretion pathway protein D,gspD,blue
+K02469,DNA gyrase subunit A [EC:5.99.1.3],gyrA,turquoise
+K02471,putative ATP-binding cassette transporter,yddA,turquoise
+K02472,UDP-N-acetyl-D-mannosaminuronic acid dehydrogenase [EC:1.1.1.336],wecC,brown
+K02492,glutamyl-tRNA reductase [EC:1.2.1.70],hemA,blue
+K02510,4-hydroxy-2-oxoheptanedioate aldolase [EC:4.1.2.52],"hpaI, hpcH",blue
+K02516,protein arginine N-methyltransferase 5 [EC:2.1.1.125],"PRMT5, HSL7",yellow
+K02519,translation initiation factor IF-2,"infB, MTIF2",brown
+K02522,NA,NA,brown
+K02540,DNA replication licensing factor MCM2 [EC:3.6.4.12],MCM2,blue
+K02541,DNA replication licensing factor MCM3 [EC:3.6.4.12],MCM3,grey
+K02542,DNA replication licensing factor MCM6 [EC:3.6.4.12],MCM6,blue
+K02557,chemotaxis protein MotB,motB,blue
+K02564,glucosamine-6-phosphate deaminase [EC:3.5.99.6],"nagB, GNPDA",blue
+K02575,"MFS transporter, NNP family, nitrate/nitrite transporter","NRT, narK, nrtP, nasA",turquoise
+K02599,Notch,NOTCH,turquoise
+K02600,N utilization substance protein A,nusA,yellow
+K02603,origin recognition complex subunit 1,ORC1,brown
+K02606,origin recognition complex subunit 4,ORC4,turquoise
+K02636,cytochrome b6-f complex iron-sulfur subunit [EC:1.10.9.1],petC,turquoise
+K02638,plastocyanin,petE,brown
+K02641,ferredoxin--NADP+ reductase [EC:1.18.1.2],petH,turquoise
+K02674,type IV pilus assembly protein PilY1,pilY1,turquoise
+K02684,DNA primase small subunit [EC:2.7.7.-],PRI1,turquoise
+K02690,photosystem I P700 chlorophyll a apoprotein A2,psaB,turquoise
+K02716,photosystem II oxygen-evolving enhancer protein 1,psbO,turquoise
+K02719,photosystem II PsbU protein,psbU,turquoise
+K02725,20S proteasome subunit alpha 6 [EC:3.4.25.1],PSMA1,blue
+K02726,20S proteasome subunit alpha 2 [EC:3.4.25.1],PSMA2,brown
+K02727,20S proteasome subunit alpha 7 [EC:3.4.25.1],PSMA3,brown
+K02729,20S proteasome subunit alpha 5 [EC:3.4.25.1],PSMA5,turquoise
+K02730,20S proteasome subunit alpha 1 [EC:3.4.25.1],PSMA6,brown
+K02731,20S proteasome subunit alpha 4 [EC:3.4.25.1],PSMA7,turquoise
+K02732,20S proteasome subunit beta 6 [EC:3.4.25.1],PSMB1,blue
+K02734,20S proteasome subunit beta 4 [EC:3.4.25.1],PSMB2,grey
+K02735,20S proteasome subunit beta 3 [EC:3.4.25.1],PSMB3,blue
+K02736,20S proteasome subunit beta 7 [EC:3.4.25.1],PSMB4,blue
+K02737,20S proteasome subunit beta 5 [EC:3.4.25.1],PSMB5,turquoise
+K02738,20S proteasome subunit beta 1 [EC:3.4.25.1],PSMB6,yellow
+K02739,20S proteasome subunit beta 2 [EC:3.4.25.1],PSMB7,blue
+K02831,ser/thr/tyr protein kinase RAD53 [EC:2.7.11.-],RAD53,brown
+K02857,rhomboid-related protein 1/2/3 [EC:3.4.21.105],RHBDL1_2_3,turquoise
+K02999,DNA-directed RNA polymerase I subunit RPA1 [EC:2.7.7.6],"RPA1, POLR1A",blue
+K03006,DNA-directed RNA polymerase II subunit RPB1 [EC:2.7.7.6],"RPB1, POLR2A",brown
+K03007,"DNA-directed RNA polymerases I, II, and III subunit RPABC5","RPB10, POLR2L",blue
+K03010,DNA-directed RNA polymerase II subunit RPB2 [EC:2.7.7.6],"RPB2, POLR2B",brown
+K03011,DNA-directed RNA polymerase II subunit RPB3,"RPB3, POLR2C",yellow
+K03013,"DNA-directed RNA polymerases I, II, and III subunit RPABC1","RPB5, POLR2E",turquoise
+K03016,"DNA-directed RNA polymerases I, II, and III subunit RPABC3","RPB8, POLR2H",yellow
+K03018,DNA-directed RNA polymerase III subunit RPC1 [EC:2.7.7.6],"RPC1, POLR3A",yellow
+K03019,DNA-directed RNA polymerase III subunit RPC11,"RPC11, POLR3K",yellow
+K03022,DNA-directed RNA polymerase III subunit RPC8,"RPC8, POLR3H",brown
+K03028,26S proteasome regulatory subunit N1,"PSMD2, RPN1",blue
+K03030,26S proteasome regulatory subunit N11,"PSMD14, RPN11, POH1",blue
+K03031,26S proteasome regulatory subunit N12,"PSMD8, RPN12",yellow
+K03032,26S proteasome regulatory subunit N2,"PSMD1, RPN2",grey
+K03033,26S proteasome regulatory subunit N3,"PSMD3, RPN3",blue
+K03035,26S proteasome regulatory subunit N5,"PSMD12, RPN5",blue
+K03036,26S proteasome regulatory subunit N6,"PSMD11, RPN6",turquoise
+K03037,26S proteasome regulatory subunit N7,"PSMD6, RPN7",blue
+K03038,26S proteasome regulatory subunit N8,"PSMD7, RPN8",turquoise
+K03039,26S proteasome regulatory subunit N9,"PSMD13, RPN9",blue
+K03061,26S proteasome regulatory subunit T1,"PSMC2, RPT1",blue
+K03068,low density lipoprotein receptor-related protein 5/6,LRP5_6,brown
+K03083,glycogen synthase kinase 3 beta [EC:2.7.11.26],GSK3B,blue
+K03094,S-phase kinase-associated protein 1,"SKP1, CBF3D",blue
+K03098,apolipoprotein D and lipocalin family protein,APOD,turquoise
+K03102,squid,SQD,brown
+K03104,signal recognition particle subunit SRP14,SRP14,blue
+K03105,signal recognition particle subunit SRP19,SRP19,yellow
+K03106,signal recognition particle subunit SRP54,"SRP54, ffh",turquoise
+K03113,translation initiation factor 1,"EIF1, SUI1",blue
+K03119,taurine dioxygenase [EC:1.14.11.17],tauD,yellow
+K03163,DNA topoisomerase I [EC:5.99.1.2],TOP1,yellow
+K03164,DNA topoisomerase II [EC:5.99.1.3],TOP2,blue
+K03165,DNA topoisomerase III [EC:5.99.1.2],TOP3,brown
+K03168,DNA topoisomerase I [EC:5.99.1.2],topA,blue
+K03169,DNA topoisomerase III [EC:5.99.1.2],topB,turquoise
+K03178,ubiquitin-activating enzyme E1 [EC:6.3.2.19],"UBE1, UBA1",brown
+K03231,elongation factor 1-alpha,EEF1A,turquoise
+K03232,elongation factor 1-beta,EEF1B,yellow
+K03233,elongation factor 1-gamma,EEF1G,turquoise
+K03234,elongation factor 2,EEF2,blue
+K03235,elongation factor 3,"EF3, TEF3",turquoise
+K03236,translation initiation factor 1A,EIF1A,blue
+K03237,translation initiation factor 2 subunit 1,EIF2S1,blue
+K03242,translation initiation factor 2 subunit 3,EIF2S3,turquoise
+K03243,translation initiation factor 5B,EIF5B,brown
+K03248,translation initiation factor 3 subunit G,EIF3G,blue
+K03249,translation initiation factor 3 subunit F,EIF3F,blue
+K03250,translation initiation factor 3 subunit E,"EIF3E, INT6",turquoise
+K03251,translation initiation factor 3 subunit D,EIF3D,blue
+K03252,translation initiation factor 3 subunit C,EIF3C,turquoise
+K03253,translation initiation factor 3 subunit B,EIF3B,yellow
+K03254,translation initiation factor 3 subunit A,EIF3A,blue
+K03257,translation initiation factor 4A,EIF4A,blue
+K03259,translation initiation factor 4E,EIF4E,turquoise
+K03260,translation initiation factor 4G,EIF4G,yellow
+K03262,translation initiation factor 5,EIF5,turquoise
+K03263,translation initiation factor 5A,EIF5A,blue
+K03265,peptide chain release factor subunit 1,"ETF1, ERF1",blue
+K03267,peptide chain release factor subunit 3,"ERF3, GSPT",yellow
+K03281,"chloride channel protein, CIC family",TC.CIC,blue
+K03283,heat shock 70kDa protein 1/8,HSPA1_8,blue
+K03284,magnesium transporter,corA,brown
+K03292,"glycoside/pentoside/hexuronide:cation symporter, GPH family",TC.GPH,blue
+K03294,"basic amino acid/polyamine antiporter, APA family",TC.APA,turquoise
+K03295,NA,NA,turquoise
+K03301,"ATP:ADP antiporter, AAA family",TC.AAA,turquoise
+K03305,"proton-dependent oligopeptide transporter, POT family",TC.POT,yellow
+K03306,"inorganic phosphate transporter, PiT family",TC.PIT,blue
+K03307,"solute:Na+ symporter, SSS family",TC.SSS,turquoise
+K03313,"Na+:H+ antiporter, NhaA family",nhaA,blue
+K03316,"monovalent cation:H+ antiporter, CPA1 family",TC.CPA1,blue
+K03317,"concentrative nucleoside transporter, CNT family",TC.CNT,brown
+K03320,"ammonium transporter, Amt family","amt, AMT, MEP",brown
+K03321,"sulfate permease, SulP family",TC.SULP,brown
+K03322,manganese transport protein,mntH,turquoise
+K03325,"arsenite transporter, ACR3 family",TC.ACR3,blue
+K03327,"multidrug resistance protein, MATE family","TC.MATE, SLC47A, norM, mdtK, dinF",brown
+K03335,inosose dehydratase [EC:4.2.1.44],iolE,turquoise
+K03347,cullin 1,"CUL1, CDC53",blue
+K03348,anaphase-promoting complex subunit 1,APC1,brown
+K03350,anaphase-promoting complex subunit 3,"APC3, CDC27",blue
+K03355,anaphase-promoting complex subunit 8,"APC8, CDC23",blue
+K03364,"cell division cycle 20-like protein 1, cofactor of APC complex",CDH1,brown
+K03372,"MFS transporter, PAT family, solute carrier family 33 (acetyl-CoA transportor), member 1 [EC:2.3.1.-]","ACATN, SLC33A1",turquoise
+K03379,cyclohexanone monooxygenase [EC:1.14.13.22],E1.14.13.22,turquoise
+K03403,magnesium chelatase subunit H [EC:6.6.1.1],"chlH, bchH",turquoise
+K03406,methyl-accepting chemotaxis protein,mcp,turquoise
+K03428,magnesium-protoporphyrin O-methyltransferase [EC:2.1.1.11],"E2.1.1.11, chlM, bchM",brown
+K03429,"processive 1,2-diacylglycerol beta-glucosyltransferase [EC:2.4.1.157 2.4.1.315]",ugtP,yellow
+K03456,serine/threonine-protein phosphatase 2A regulatory subunit A,PPP2R1,blue
+K03458,"nucleobase:cation symporter-2, NCS2 family",TC.NCS2,turquoise
+K03462,nicotinamide phosphoribosyltransferase [EC:2.4.2.12],NAMPT,turquoise
+K03466,"DNA segregation ATPase FtsK/SpoIIIE, S-DNA-T family","ftsK, spoIIIE",turquoise
+K03515,DNA repair protein REV1 [EC:2.7.7.-],REV1,brown
+K03521,electron transfer flavoprotein beta subunit,"fixA, etfB",grey
+K03527,4-hydroxy-3-methylbut-2-enyl diphosphate reductase [EC:1.17.1.2],"ispH, lytB",turquoise
+K03529,chromosome segregation protein,smc,blue
+K03530,DNA-binding protein HU-beta,hupB,turquoise
+K03549,KUP system potassium uptake protein,kup,blue
+K03574,8-oxo-dGTP diphosphatase [EC:3.6.1.55],"mutT, NUDT15, MTH2",yellow
+K03578,ATP-dependent helicase HrpA [EC:3.6.4.13],hrpA,yellow
+K03596,GTP-binding protein LepA,lepA,yellow
+K03626,nascent polypeptide-associated complex subunit alpha,"EGD2, NACA",blue
+K03627,putative transcription factor,MBF1,turquoise
+K03644,lipoic acid synthetase [EC:2.8.1.8],lipA,turquoise
+K03646,colicin import membrane protein,tolA,turquoise
+K03671,thioredoxin 1,trxA,brown
+K03675,glutaredoxin 2,grxB,turquoise
+K03676,glutaredoxin 3,"grxC, GLRX, GLRX2",brown
+K03686,molecular chaperone DnaJ,dnaJ,brown
+K03687,molecular chaperone GrpE,GRPE,turquoise
+K03688,ubiquinone biosynthesis protein,"ubiB, aarF",yellow
+K03704,"cold shock protein (beta-ribbon, CspA family)",cspA,blue
+K03737,pyruvate-ferredoxin/flavodoxin oxidoreductase [EC:1.2.7.1 1.2.7.-],"por, nifJ",grey
+K03741,arsenate reductase [EC:1.20.4.1],"ARSC2, arsC",turquoise
+K03762,"MFS transporter, MHS family, proline/betaine transporter",proP,blue
+K03768,peptidyl-prolyl cis-trans isomerase B (cyclophilin B) [EC:5.2.1.8],"PPIB, ppiB",turquoise
+K03769,peptidyl-prolyl cis-trans isomerase C [EC:5.2.1.8],ppiC,blue
+K03773,FKBP-type peptidyl-prolyl cis-trans isomerase FklB [EC:5.2.1.8],fklB,turquoise
+K03778,D-lactate dehydrogenase [EC:1.1.1.28],ldhA,turquoise
+K03782,catalase-peroxidase [EC:1.11.1.21],katG,blue
+K03783,purine-nucleoside phosphorylase [EC:2.4.2.1],punA,blue
+K03789,ribosomal-protein-alanine N-acetyltransferase [EC:2.3.1.128],rimI,turquoise
+K03797,carboxyl-terminal processing protease [EC:3.4.21.102],"E3.4.21.102, prc, ctpA",blue
+K03798,cell division protease FtsH [EC:3.4.24.-],"ftsH, hflB",turquoise
+K03817,ribosomal-protein-serine acetyltransferase [EC:2.3.1.-],rimL,turquoise
+K03839,flavodoxin I,"fldA, nifF, isiB",turquoise
+K03841,"fructose-1,6-bisphosphatase I [EC:3.1.3.11]","FBP, fbp",turquoise
+K03852,sulfoacetaldehyde acetyltransferase [EC:2.3.3.15],xsc,turquoise
+K03868,RING-box protein 1,"RBX1, ROC1",turquoise
+K03869,cullin 3,CUL3,yellow
+K03872,"transcription elongation factor B, polypeptide 1",TCEB1,turquoise
+K03885,NADH dehydrogenase [EC:1.6.99.3],ndh,brown
+K03927,carboxylesterase 2 [EC:3.1.1.1 3.1.1.84 3.1.1.56],CES2,blue
+K03931,putative isomerase,ygjK,blue
+K03932,polyhydroxybutyrate depolymerase,lpqC,blue
+K04040,chlorophyll synthase [EC:2.5.1.62],"chlG, bchG",brown
+K04043,molecular chaperone DnaK,dnaK,blue
+K04078,chaperonin GroES,"groES, HSPE1",blue
+K04079,molecular chaperone HtpG,"htpG, HSP90A",blue
+K04080,molecular chaperone IbpA,ibpA,turquoise
+K04087,membrane protease subunit HflC [EC:3.4.-.-],hflC,turquoise
+K04126,isopenicillin-N synthase [EC:1.21.3.1],PCBC,turquoise
+K04345,protein kinase A [EC:2.7.11.11],PKA,yellow
+K04348,serine/threonine-protein phosphatase 2B catalytic subunit [EC:3.1.3.16],"PPP3C, CNA",yellow
+K04371,mitogen-activated protein kinase 1/3 [EC:2.7.11.24],MAPK1_3,blue
+K04382,serine/threonine-protein phosphatase 2A catalytic subunit [EC:3.1.3.16],PPP2C,blue
+K04420,mitogen-activated protein kinase kinase kinase 2 [EC:2.7.11.25],"MAP3K2, MEKK2",blue
+K04424,sterile alpha motif and leucine zipper containing kinase AZK [EC:2.7.11.25],"ZAK, MLTK",turquoise
+K04427,mitogen-activated protein kinase kinase kinase 7 [EC:2.7.11.25],"MAP3K7, TAK1",blue
+K04456,RAC serine/threonine-protein kinase [EC:2.7.11.1],AKT,turquoise
+K04459,dual specificity MAP kinase phosphatase [EC:3.1.3.16 3.1.3.48],"DUSP, MKP",blue
+K04460,serine/threonine-protein phosphatase 5 [EC:3.1.3.16],PPP5C,yellow
+K04461,protein phosphatase 1B [EC:3.1.3.16],"PPM1B, PP2CB",brown
+K04487,cysteine desulfurase [EC:2.8.1.7],"iscS, NFS1",yellow
+K04488,nitrogen fixation protein NifU and related proteins,"iscU, nifU",blue
+K04499,RuvB-like protein 1 (pontin 52),"RUVBL1, RVB1, INO80H",turquoise
+K04507,calcyclin binding protein,"CACYBP, SIP",blue
+K04508,transducin (beta)-like 1,TBL1,turquoise
+K04523,ubiquilin,"UBQLN, DSK2",turquoise
+K04550,low-density lipoprotein receptor-related protein 1 (alpha-2-macroglobulin receptor),"LRP1, CD91",blue
+K04561,nitric oxide reductase subunit B [EC:1.7.2.5],norB,yellow
+K04563,cyclin-dependent kinase [EC:2.7.11.22],"CDC28, CDC2",turquoise
+K04564,"superoxide dismutase, Fe-Mn family [EC:1.15.1.1]",SOD2,turquoise
+K04565,"superoxide dismutase, Cu-Zn family [EC:1.15.1.1]",SOD1,blue
+K04567,"lysyl-tRNA synthetase, class II [EC:6.1.1.6]","KARS, lysS",turquoise
+K04611,metabotropic X receptor,MXR,turquoise
+K04615,gamma-aminobutyric acid type B receptor,GABBR,blue
+K04638,estrogen-related receptor beta like 1,"ESRRBL1, HIPPI",turquoise
+K04646,clathrin heavy chain,CLTC,blue
+K04688,p70 ribosomal S6 kinase [EC:2.7.11.1],RPS6KB,blue
+K04706,E3 SUMO-protein ligase PIAS1 [EC:6.3.2.-],PIAS1,blue
+K04712,sphingolipid delta-4 desaturase [EC:1.14.-.-],DEGS,turquoise
+K04733,interleukin-1 receptor-associated kinase 4 [EC:2.7.11.1],IRAK4,turquoise
+K04739,cAMP-dependent protein kinase regulator,PRKAR,yellow
+K04799,flap endonuclease-1 [EC:3.-.-.-],"FEN1, RAD2",turquoise
+K04802,proliferating cell nuclear antigen,PCNA,turquoise
+K04911,potassium voltage-gated channel Eag-related subfamily H member 8,KCNH8,turquoise
+K04936,potassium large conductance calcium-activated channel subfamily M alpha member 1,KCNMA1,turquoise
+K04954,hyperpolarization activated cyclic nucleotide-gated potassium channel 1,HCN1,brown
+K04958,"inositol 1,4,5-triphosphate receptor type 1",ITPR1,brown
+K04986,polycystin 2,PKD2,turquoise
+K04990,polycystin 2L1,PKD2L1,turquoise
+K05011,chloride channel 2,CLCN2,turquoise
+K05015,chloride channel 6,CLCN6,blue
+K05016,chloride channel 7,CLCN7,brown
+K05122,receptor tyrosine kinase-like orphan receptor 1 [EC:2.7.10.1],"ROR1, NTRKR1",turquoise
+K05181,gamma-aminobutyric acid receptor subunit beta,GABRB,blue
+K05218,P2X purinoceptor 4,P2RX4,brown
+K05236,"coatomer protein complex, subunit alpha (xenin)",COPA,blue
+K05298,glyceraldehyde-3-phosphate dehydrogenase (NADP+) (phosphorylating) [EC:1.2.1.13],GAPA,turquoise
+K05303,O-methyltransferase [EC:2.1.1.-],K05303,blue
+K05309,microsomal prostaglandin-E synthase 2 [EC:5.3.99.3],PTGES2,yellow
+K05315,"voltage-dependent calcium channel alpha 1, invertebrate",CACNA1N,brown
+K05321,"potassium voltage-gated channel Shal-related subfamily D, invertebrate",KCNDN,turquoise
+K05322,"potassium voltage-gated channel Eag-related subfamily H, invertebrate",KCNHN,turquoise
+K05326,"cyclic nucleotide gated channel, invertebrate",CNGN,blue
+K05340,glucose uptake protein,glcU,blue
+K05349,beta-glucosidase [EC:3.2.1.21],bglX,blue
+K05350,beta-glucosidase [EC:3.2.1.21],bglB,turquoise
+K05360,protein-disulfide reductase (glutathione) [EC:1.8.4.2],TXNDC12,turquoise
+K05366,penicillin-binding protein 1A [EC:2.4.1.- 3.4.-.-],mrcA,turquoise
+K05369,"15,16-dihydrobiliverdin:ferredoxin oxidoreductase [EC:1.3.7.2]",pebA,turquoise
+K05388,"voltage-gated sodium channel alpha, invertebrate",SCNAN,turquoise
+K05389,"potassium channel subfamily K, other eukaryote",KCNKF,turquoise
+K05393,NA,NA,brown
+K05460,hepatocyte growth factor,HGF,turquoise
+K05516,curved DNA-binding protein,cbpA,turquoise
+K05521,ADP-ribosyl-[dinitrogen reductase] hydrolase [EC:3.2.2.24],draG,turquoise
+K05523,molecular chaperone Hsp31 and glyoxalase 3 [EC:4.2.1.130],hchA,yellow
+K05533,mannan polymerase II complex ANP1 subunit [EC:2.4.1.-],ANP1,turquoise
+K05539,tRNA-dihydrouridine synthase A [EC:1.-.-.-],dusA,blue
+K05542,tRNA-dihydrouridine synthase 1 [EC:1.3.1.88],DUS1,brown
+K05544,tRNA-dihydrouridine synthase 3 [EC:1.3.1.89],DUS3,blue
+K05546,"alpha 1,3-glucosidase [EC:3.2.1.84]",GANAB,brown
+K05609,ubiquitin carboxyl-terminal hydrolase L3 [EC:3.4.19.12],"UCHL3, YUH1",turquoise
+K05610,ubiquitin carboxyl-terminal hydrolase L5 [EC:3.4.19.12],"UCHL5, UCH37",blue
+K05641,"ATP-binding cassette, subfamily A (ABC1), member 1",ABCA1,brown
+K05642,"ATP-binding cassette, subfamily A (ABC1), member 2",ABCA2,brown
+K05643,"ATP-binding cassette, subfamily A (ABC1), member 3",ABCA3,turquoise
+K05655,"ATP-binding cassette, subfamily B (MDR/TAP), member 8",ABCB8,turquoise
+K05656,"ATP-binding cassette, subfamily B (MDR/TAP), member 9","ABCB9, TAPL",turquoise
+K05658,"ATP-binding cassette, subfamily B (MDR/TAP), member 1 [EC:3.6.3.44]",ABCB1,blue
+K05670,"ATP-binding cassette, subfamily C (CFTR/MRP), member 13",ABCC13,turquoise
+K05674,"ATP-binding cassette, subfamily C (CFTR/MRP), member 10",ABCC10,turquoise
+K05692,actin beta/gamma 1,ACTB_G1,blue
+K05755,"actin related protein 2/3 complex, subunit 4",ARPC4,yellow
+K05765,cofilin,CFL,grey
+K05768,gelsolin,GSN,blue
+K05791,tellurium resistance protein TerZ,terZ,blue
+K05794,tellurite resistance protein TerC,terC,turquoise
+K05795,tellurium resistance protein TerD,terD,turquoise
+K05838,putative thioredoxin,ybbN,turquoise
+K05849,solute carrier family 8 (sodium/calcium exchanger),"SLC8A, NCX",brown
+K05850,"Ca2+ transporting ATPase, plasma membrane [EC:3.6.3.8]",ATP2B,turquoise
+K05853,"Ca2+ transporting ATPase, sarcoplasmic/endoplasmic reticulum [EC:3.6.3.8]",ATP2A,blue
+K05863,"solute carrier family 25 (mitochondrial adenine nucleotide translocator), member 4/5/6/31","SLC25A4S, ANT",turquoise
+K05864,peptidyl-prolyl isomerase D [EC:5.2.1.8],"PPID, CYPD",yellow
+K05868,cyclin B,CCNB,brown
+K05869,calcium/calmodulin-dependent protein kinase IV [EC:2.7.11.17],CAMK4,brown
+K05885,NA,NA,blue
+K05914,photinus-luciferin 4-monooxygenase (ATP-hydrolysing) [EC:1.13.12.7],E1.13.12.7,turquoise
+K05916,nitric oxide dioxygenase [EC:1.14.12.17],"hmp, YHB1",blue
+K05917,sterol 14-demethylase [EC:1.14.13.70],CYP51,brown
+K05925,mRNA (2'-O-methyladenosine-N6-)-methyltransferase [EC:2.1.1.62],METTL3_14,yellow
+K05955,protein farnesyltransferase/geranylgeranyltransferase type-1 subunit alpha [EC:2.5.1.58 2.5.1.59],FNTA,turquoise
+K05970,sialate O-acetylesterase [EC:3.1.1.53],SIAE,blue
+K05989,alpha-L-rhamnosidase [EC:3.2.1.40],E3.2.1.40,blue
+K06013,STE24 endopeptidase [EC:3.4.24.84],STE24,brown
+K06025,NA,NA,turquoise
+K06027,vesicle-fusing ATPase [EC:3.6.4.6],NSF,brown
+K06047,tubulin---tyrosine ligase [EC:6.3.2.25],TTL,blue
+K06051,delta,DLL,turquoise
+K06052,jagged,JAGGED,turquoise
+K06063,SNW domain-containing protein 1,"SNW1, SKIIP, SKIP",blue
+K06129,lysophospholipase III [EC:3.1.1.5],LYPLA3,turquoise
+K06130,lysophospholipase II [EC:3.1.1.5],LYPLA2,yellow
+K06133,4'-phosphopantetheinyl transferase [EC:2.7.8.-],"LYS5, acpT",brown
+K06147,"ATP-binding cassette, subfamily B, bacterial",ABCB-BAC,brown
+K06148,"ATP-binding cassette, subfamily C, bacterial",ABCC-BAC,yellow
+K06158,"ATP-binding cassette, subfamily F, member 3",ABCF3,blue
+K06174,"ATP-binding cassette, sub-family E, member 1",ABCE1,yellow
+K06178,23S rRNA pseudouridine2605 synthase [EC:5.4.99.22],rluB,blue
+K06179,23S rRNA pseudouridine955/2504/2580 synthase [EC:5.4.99.24],rluC,turquoise
+K06180,23S rRNA pseudouridine1911/1915/1917 synthase [EC:5.4.99.23],rluD,brown
+K06184,"ATP-binding cassette, subfamily F, member 1",ABCF1,brown
+K06185,"ATP-binding cassette, subfamily F, member 2",ABCF2,blue
+K06188,aquaporin Z,aqpZ,brown
+K06207,GTP-binding protein,"typA, bipA",turquoise
+K06213,magnesium transporter,mgtE,turquoise
+K06215,pyridoxal 5'-phosphate synthase pdxS subunit [EC:4.3.3.6],"pdxS, pdx1",turquoise
+K06221,"2,5-diketo-D-gluconate reductase A [EC:1.1.1.346]",dkgA,blue
+K06224,hedgehog,HH,blue
+K06225,patched 1,PTCH1,yellow
+K06228,fused [EC:2.7.11.1],FU,blue
+K06233,low density lipoprotein-related protein 2,LRP2,turquoise
+K06240,"laminin, alpha 3/5",LAMA3_5,blue
+K06268,serine/threonine-protein phosphatase 2B regulatory subunit,"PPP3R, CNB",brown
+K06269,serine/threonine-protein phosphatase PP1 catalytic subunit [EC:3.1.3.16],PPP1C,blue
+K06515,"solute carrier family 44 (choline transporter-like protein), member 1","SLC44A1, CDW92",turquoise
+K06560,"mannose receptor, C type",MRC,yellow
+K06580,ammonium transporter Rh,"SLC42A, RHAG, RHBG, RHCG",turquoise
+K06627,cyclin A,CCNA,turquoise
+K06630,14-3-3 protein epsilon,YWHAE,blue
+K06631,polo-like kinase 1 [EC:2.7.11.21],PLK1,blue
+K06632,wee1-like protein kinase [EC:2.7.11.1],WEE1,turquoise
+K06633,membrane-associated tyrosine- and threonine-specific cdc2-inhibitory kinase [EC:2.7.11.1],PKMYT,turquoise
+K06636,structural maintenance of chromosome 1,SMC1,brown
+K06639,cell division cycle 14 [EC:3.1.3.16 3.1.3.48],CDC14,blue
+K06641,serine/threonine-protein kinase Chk2 [EC:2.7.11.1],CHK2,yellow
+K06665,glucose repression mediator protein,SSN6,turquoise
+K06669,structural maintenance of chromosome 3 (chondroitin sulfate proteoglycan 6),"SMC3, CSPG6",brown
+K06674,structural maintenance of chromosome 2,SMC2,blue
+K06675,structural maintenance of chromosome 4,SMC4,turquoise
+K06676,condensin complex subunit 2,"BRRN1, BRN1, CAPH",blue
+K06677,condensin complex subunit 1,"YCS4, CNAP1, CAPD2",brown
+K06683,cell division control protein CDC15 [EC:2.7.11.1],CDC15,yellow
+K06685,MOB kinase activator 1,"MOB1, Mats",blue
+K06688,ubiquitin-conjugating enzyme E2 C [EC:6.3.2.19],"UBE2C, UBC11",turquoise
+K06689,ubiquitin-conjugating enzyme E2 D/E [EC:6.3.2.19],"UBE2D_E, UBC4, UBC5",blue
+K06694,26S proteasome non-ATPase regulatory subunit 10,PSMD10,turquoise
+K06867,uncharacterized protein,K06867,blue
+K06883,uncharacterized protein,K06883,blue
+K06886,hemoglobin,glbN,brown
+K06889,uncharacterized protein,K06889,blue
+K06890,uncharacterized protein,K06890,turquoise
+K06892,feruloyl-CoA ortho-hydroxylase [EC:1.14.11.-],F6H1,yellow
+K06901,"putative MFS transporter, AGZA family, xanthine/uracil permease",pbuG,turquoise
+K06911,uncharacterized protein,K06911,blue
+K06916,cell division protein ZapE,zapE,turquoise
+K06917,tRNA 2-selenouridine synthase [EC:2.9.1.-],selU,turquoise
+K06941,23S rRNA (adenine2503-C2)-methyltransferase [EC:2.1.1.192],rlmN,yellow
+K06942,uncharacterized protein,K06942,turquoise
+K06950,uncharacterized protein,K06950,turquoise
+K06955,uncharacterized protein,K06955,brown
+K06959,protein Tex,tex,turquoise
+K06961,ribosomal RNA assembly protein,KRR1,blue
+K06966,uncharacterized protein,K06966,turquoise
+K06972,uncharacterized protein,K06972,blue
+K06978,uncharacterized protein,K06978,blue
+K06994,putative drug exporter of the RND superfamily,K06994,turquoise
+K06997,PLP dependent protein,"yggS, PROSC",brown
+K06999,phospholipase/carboxylesterase,K06999,brown
+K07004,uncharacterized protein,K07004,turquoise
+K07018,uncharacterized protein,K07018,brown
+K07023,putative hydrolases of HD superfamily,K07023,yellow
+K07024,uncharacterized protein,K07024,brown
+K07025,putative hydrolase of the HAD superfamily,K07025,brown
+K07045,uncharacterized protein,K07045,yellow
+K07046,L-fuconolactonase [EC:3.1.1.-],K07046,turquoise
+K07055,tRNA wybutosine-synthesizing protein 2 [EC:2.5.1.114],"TRM12, TYW2",yellow
+K07090,uncharacterized protein,K07090,brown
+K07093,uncharacterized protein,K07093,grey
+K07101,uncharacterized protein,K07101,turquoise
+K07114,Ca-activated chloride channel homolog,yfbK,blue
+K07117,uncharacterized protein,K07117,brown
+K07119,uncharacterized protein,K07119,brown
+K07124,uncharacterized protein,K07124,blue
+K07126,uncharacterized protein,K07126,brown
+K07127,5-hydroxyisourate hydrolase [EC:3.5.2.17],"uraH, pucM, hiuH",turquoise
+K07140,uncharacterized protein,K07140,brown
+K07151,dolichyl-diphosphooligosaccharide--protein glycosyltransferase [EC:2.4.99.18],STT3,blue
+K07190,phosphorylase kinase alpha/beta subunit,PHKA_B,blue
+K07192,flotillin,FLOT,turquoise
+K07226,heme iron utilization protein,"hugZ, hutZ",blue
+K07238,"zinc transporter, ZIP family","TC.ZIP, zupT, ZRT3, ZIP2",yellow
+K07241,high-affinity nickel-transport protein,nixA,brown
+K07243,high-affinity iron transporter,"FTR, efeU",blue
+K07252,dolichyldiphosphatase [EC:3.6.1.43],E3.6.1.43,yellow
+K07270,"glycosyl transferase, family 25",K07270,turquoise
+K07282,poly-gamma-glutamate synthesis protein (capsule biosynthesis protein),"pgsA, capA",turquoise
+K07299,"MFS transporter, SP family, solute carrier family 2 (facilitated glucose transporter), member 1","SLC2A1, GLUT1",blue
+K07300,Ca2+:H+ antiporter,"chaA, CAX",turquoise
+K07304,peptide-methionine (S)-S-oxide reductase [EC:1.8.4.11],msrA,turquoise
+K07305,peptide-methionine (R)-S-oxide reductase [EC:1.8.4.12],msrB,turquoise
+K07335,basic membrane protein A and related proteins,"bmpA, bmpB, tmpC",blue
+K07364,tyrosine-protein kinase Tec [EC:2.7.10.2],TEC,turquoise
+K07374,tubulin alpha,TUBA,blue
+K07375,tubulin beta,TUBB,blue
+K07376,cGMP-dependent protein kinase 1 [EC:2.7.11.12],PRKG1,blue
+K07386,putative endopeptidase [EC:3.4.24.-],pepO,brown
+K07401,selenoprotein W-related protein,K07401,brown
+K07404,6-phosphogluconolactonase [EC:3.1.1.31],pgl,blue
+K07407,alpha-galactosidase [EC:3.2.1.22],"E3.2.1.22B, galA, rafA",blue
+K07441,"beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.141]",ALG14,brown
+K07466,replication factor A1,"RFA1, RPA1, rpa",turquoise
+K07516,3-hydroxyacyl-CoA dehydrogenase [EC:1.1.1.35],fadN,turquoise
+K07542,"phosphatidylinositol glycan, class V [EC:2.4.1.-]",PIGV,yellow
+K07745,hypothetical protein,K07745,turquoise
+K07749,formyl-CoA transferase [EC:2.8.3.16],frc,brown
+K07750,methylsterol monooxygenase [EC:1.14.13.72],"E1.14.13.72, SC4MOL, ERG25",turquoise
+K07759,poly(ADP-ribose) glycohydrolase [EC:3.2.1.143],PARG,blue
+K07760,cyclin-dependent kinase [EC:2.7.11.22],CDK,blue
+K07874,Ras-related protein Rab-1A,RAB1A,blue
+K07890,Ras-related protein Rab-21,RAB21,turquoise
+K07897,Ras-related protein Rab-7A,RAB7A,blue
+K07904,Ras-related protein Rab-11A,RAB11A,blue
+K07912,Ras-related protein Rab-24,RAB24,yellow
+K07915,Ras-related protein Rab-28,RAB28,grey
+K07934,intraflagellar transport protein 27 homolog,"IFT27, RAYL, RABL4",brown
+K07935,Rab-like protein 5,RABL5,turquoise
+K07937,ADP-ribosylation factor 1,ARF1,turquoise
+K07942,ADP-ribosylation factor-like protein 1,ARL1,yellow
+K07944,ADP-ribosylation factor-like protein 3,ARL3,blue
+K07951,ADP-ribosylation factor-like protein 6,"ARL6, BBS3",yellow
+K07952,ADP-ribosylation factor related protein 1,ARFRP1,brown
+K07953,GTP-binding protein SAR1 [EC:3.6.5.-],SAR1,blue
+K07975,"Rho family, other",K07975,turquoise
+K07976,"Rab family, other",RAB,turquoise
+K07977,"Arf/Sar family, other",ARF,blue
+K08017,advillin,AVIL,brown
+K08054,calnexin,CANX,turquoise
+K08056,"protein disulfide isomerase family A, member 3 [EC:5.3.4.1]","PDIA3, GRP58",yellow
+K08057,calreticulin,CALR,blue
+K08059,"interferon, gamma-inducible protein 30","IFI30, GILT",turquoise
+K08076,astacin [EC:3.4.24.21],E3.4.24.21,brown
+K08099,chlorophyllase [EC:3.1.1.14],E3.1.1.14,turquoise
+K08137,"MFS transporter, SP family, galactose:H+ symporter",galP,blue
+K08139,"MFS transporter, SP family, sugar:H+ symporter",HXT,turquoise
+K08150,"MFS transporter, SP family, solute carrier family 2 (myo-inositol transporter), member 13","SLC2A13, ITR",blue
+K08151,"MFS transporter, DHA1 family, tetracycline resistance protein",tetA,brown
+K08176,"MFS transporter, PHS family, inorganic phosphate transporter",PHO84,turquoise
+K08177,"MFS transporter, OFA family, oxalate/formate antiporter",oxlT,brown
+K08195,"MFS transporter, AAHS family, 4-hydroxybenzoate transporter",pcaK,brown
+K08239,UDP-N-acetylglucosamine-lysosomal-enzyme [EC:2.7.8.17],GNPTAB,yellow
+K08245,phytepsin [EC:3.4.23.40],E3.4.23.40,turquoise
+K08272,calcium binding protein 39,"CAB39, MO25",turquoise
+K08281,nicotinamidase/pyrazinamidase [EC:3.5.1.19 3.5.1.-],pncA,turquoise
+K08282,non-specific serine/threonine protein kinase [EC:2.7.11.1],E2.7.11.1,blue
+K08286,protein-serine/threonine kinase [EC:2.7.11.-],E2.7.11.-,brown
+K08288,protein kinase C substrate 80K-H,PRKCSH,brown
+K08293,mitogen-activated protein kinase [EC:2.7.11.24],E2.7.11.24,blue
+K08332,vacuolar protein 8,VAC8,turquoise
+K08334,beclin 1,"BECN1, VPS30, ATG6",brown
+K08341,GABA(A) receptor-associated protein,"GABARAP, ATG8, LC3",blue
+K08368,"MFS transporter, putative metabolite transport protein",yaaU,yellow
+K08369,"MFS transporter, putative metabolite:H+ symporter",ydjE,brown
+K08488,syntaxin 7,STX7,yellow
+K08489,syntaxin 16,STX16,yellow
+K08493,vesicle transport through interaction with t-SNAREs 1,VTI1,brown
+K08498,syntaxin 6,STX6,turquoise
+K08515,vesicle-associated membrane protein 7,VAMP7,yellow
+K08516,synaptobrevin homolog YKT6,YKT6,blue
+K08568,cathepsin X [EC:3.4.18.1],CTSZ,blue
+K08572,cysteine peptidase C [EC:3.4.22.-],CPC,turquoise
+K08582,calpain-15 [EC:3.4.22.-],CAPN15,blue
+K08585,"calpain, invertebrate [EC:3.4.22.-]",CAPNN,turquoise
+K08606,meprin B [EC:3.4.24.63],MEP1B,turquoise
+K08675,Lon-like ATP-dependent protease [EC:3.4.21.-],"PRSS15, PIM1",turquoise
+K08681,5'-phosphate synthase pdxT subunit [EC:4.3.3.6],"pdxT, pdx2",brown
+K08691,malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25],mcl,turquoise
+K08714,voltage-gated sodium channel,VGSC,brown
+K08738,cytochrome c,CYC,turquoise
+K08745,"solute carrier family 27 (fatty acid transporter), member 1/4 [EC:6.2.1.-]","SLC27A1_4, FATP1, FATP4",blue
+K08764,sterol carrier protein 2 [EC:2.3.1.176],"SCP2, SCPX",brown
+K08770,ubiquitin C,UBC,turquoise
+K08776,puromycin-sensitive aminopeptidase [EC:3.4.11.-],NPEPPS,yellow
+K08790,serine/threonine kinase 38 [EC:2.7.11.1],"STK38, NDR",turquoise
+K08794,calcium/calmodulin-dependent protein kinase I [EC:2.7.11.17],CAMK1,turquoise
+K08798,MAP/microtubule affinity-regulating kinase [EC:2.7.11.1],MARK,brown
+K08799,maternal embryonic leucine zipper kinase [EC:2.7.11.1],MELK,blue
+K08802,SNF related kinase [EC:2.7.11.1],SNRK,blue
+K08805,doublecortin-like kinase 1/2 [EC:2.7.11.1],DCLK1_2,brown
+K08818,cell division cycle 2-like [EC:2.7.11.22],CDC2L,brown
+K08823,CDC-like kinase [EC:2.7.12.1],CLK,brown
+K08824,cyclin-dependent kinase-like [EC:2.7.11.22],CDKL,turquoise
+K08827,serine/threonine-protein kinase PRP4 [EC:2.7.11.1],PRPF4B,turquoise
+K08829,male germ cell-associated kinase [EC:2.7.11.22],MAK,grey
+K08830,renal tumor antigen [EC:2.7.11.22],"RAGE, MOK",blue
+K08832,serine/threonine-protein kinase SRPK3 [EC:2.7.11.1],"SRPK3, STK23",yellow
+K08843,leucine-rich repeat kinase 1 [EC:2.7.11.1],LRRK1,brown
+K08850,"aurora kinase, other [EC:2.7.11.1]",AURKX,turquoise
+K08855,cyclin G-associated kinase [EC:2.7.11.1],GAK,turquoise
+K08857,NIMA (never in mitosis gene a)-related kinase [EC:2.7.11.1],NEK,yellow
+K08860,eukaryotic translation initiation factor 2-alpha kinase 3 [EC:2.7.11.1],EIF2AK3,yellow
+K08866,serine/threonine-protein kinase TTK/MPS1 [EC:2.7.12.1],"TTK, MPS1",brown
+K08869,aarF domain-containing kinase,"ADCK, ABC1",brown
+K08876,SCY1-like protein 1,SCYL1,brown
+K08884,"serine/threonine protein kinase, bacterial [EC:2.7.11.1]",K08884,brown
+K08900,mitochondrial chaperone BCS1,BCS1,turquoise
+K08907,light-harvesting complex I chlorophyll a/b binding protein 1,LHCA1,turquoise
+K08957,"casein kinase 1, alpha [EC:2.7.11.1]",CSNK1A,yellow
+K08994,putative membrane protein,yneE,turquoise
+K09005,uncharacterized protein,K09005,turquoise
+K09140,pre-rRNA-processing protein TSR3,TSR3,blue
+K09256,NF-kappa-B inhibitor-like protein 1,NFKBIL1,turquoise
+K09272,structure-specific recognition protein 1,SSRP1,turquoise
+K09454,"GA-binding protein transcription factor, beta",GABPB,turquoise
+K09458,3-oxoacyl-[acyl-carrier-protein] synthase II [EC:2.3.1.179],fabF,turquoise
+K09481,protein transport protein SEC61 subunit beta,"SEC61B, SBH2",turquoise
+K09485,heat shock protein 110kDa,HSP110,blue
+K09486,hypoxia up-regulated 1,HYOU1,turquoise
+K09487,heat shock protein 90kDa beta,"HSP90B, TRA1",blue
+K09488,TNF receptor-associated protein 1,"TRAP1, HSP75",blue
+K09489,heat shock 70kDa protein 4,HSPA4,yellow
+K09490,heat shock 70kDa protein 5,"HSPA5, BIP",yellow
+K09493,T-complex protein 1 subunit alpha,"CCT1, TCP1",turquoise
+K09494,T-complex protein 1 subunit beta,CCT2,blue
+K09495,T-complex protein 1 subunit gamma,"CCT3, TRIC5",blue
+K09496,T-complex protein 1 subunit delta,CCT4,blue
+K09497,T-complex protein 1 subunit epsilon,CCT5,turquoise
+K09498,T-complex protein 1 subunit zeta,CCT6,brown
+K09499,T-complex protein 1 subunit eta,CCT7,turquoise
+K09500,T-complex protein 1 subunit theta,CCT8,turquoise
+K09503,DnaJ homolog subfamily A member 2,DNAJA2,blue
+K09506,DnaJ homolog subfamily A member 5,DNAJA5,turquoise
+K09510,DnaJ homolog subfamily B member 4,DNAJB4,brown
+K09516,"all-trans-retinol 13,14-reductase [EC:1.3.99.23]",RETSAT,brown
+K09517,DnaJ homolog subfamily B member 11,DNAJB11,yellow
+K09518,DnaJ homolog subfamily B member 12,DNAJB12,yellow
+K09519,DnaJ homolog subfamily B member 13,DNAJB13,turquoise
+K09522,DnaJ homolog subfamily C member 2,DNAJC2,yellow
+K09523,DnaJ homolog subfamily C member 3,DNAJC3,yellow
+K09527,DnaJ homolog subfamily C member 7,DNAJC7,turquoise
+K09528,DnaJ homolog subfamily C member 8,DNAJC8,blue
+K09536,DnaJ homolog subfamily C member 16,DNAJC16,turquoise
+K09537,DnaJ homolog subfamily C member 17,DNAJC17,yellow
+K09540,translocation protein SEC63,"SEC63, DNAJC23",blue
+K09550,prefoldin subunit 4,PFDN4,yellow
+K09553,stress-induced-phosphoprotein 1,STIP1,brown
+K09554,cell division cycle protein 37,CDC37,blue
+K09564,peptidyl-prolyl isomerase E (cyclophilin E) [EC:5.2.1.8],PPIE,turquoise
+K09565,peptidyl-prolyl isomerase F (cyclophilin D) [EC:5.2.1.8],PPIF,turquoise
+K09567,peptidyl-prolyl isomerase H (cyclophilin H) [EC:5.2.1.8],"PPIH, CYPH",blue
+K09568,FK506-binding protein 1 [EC:5.2.1.8],FKBP1,turquoise
+K09569,FK506-binding protein 2 [EC:5.2.1.8],FKBP2,blue
+K09571,FK506-binding protein 4/5 [EC:5.2.1.8],FKBP4_5,brown
+K09577,FK506-binding protein 14 [EC:5.2.1.8],FKBP14,brown
+K09578,peptidyl-prolyl cis-trans isomerase NIMA-interacting 1 [EC:5.2.1.8],PIN1,turquoise
+K09580,protein disulfide-isomerase A1 [EC:5.3.4.1],"PDIA1, P4HB",yellow
+K09584,protein disulfide-isomerase A6 [EC:5.3.4.1],"PDIA6, TXNDC7",blue
+K09586,endoplasmic reticulum protein 29,ERP29,blue
+K09595,minor histocompatibility antigen H13 [EC:3.4.23.-],HM13,brown
+K09597,signal peptide peptidase-like 2B [EC:3.4.23.-],SPPL2B,turquoise
+K09613,COP9 signalosome complex subunit 5 [EC:3.4.-.-],"COPS5, CSN5",yellow
+K09645,vitellogenic carboxypeptidase-like protein [EC:3.4.16.-],CPVL,blue
+K09647,mitochondrial inner membrane protease subunit 1 [EC:3.4.21.-],IMP1,turquoise
+K09687,NA,NA,turquoise
+K09704,uncharacterized protein,K09704,turquoise
+K09705,uncharacterized protein,K09705,blue
+K09760,DNA recombination protein RmuC,rmuC,turquoise
+K09765,uncharacterized protein,K09765,brown
+K09822,uncharacterized protein,K09822,turquoise
+K09837,carotene epsilon-monooxygenase [EC:1.14.99.45],"LUT1, CYP97C1",blue
+K09884,"aquaporin rerated protein, invertebrate",AQPN,turquoise
+K09888,cell division protein ZapA,zapA,blue
+K09931,uncharacterized protein,K09931,blue
+K09935,uncharacterized protein,K09935,brown
+K09946,uncharacterized protein,K09946,turquoise
+K09966,uncharacterized protein,K09966,turquoise
+K10046,"GDP-D-mannose 3', 5'-epimerase [EC:5.1.3.18 5.1.3.-]",GME,turquoise
+K10144,RING finger and CHY zinc finger domain-containing protein 1 [EC:6.3.2.19],"RCHY1, PIRH2",blue
+K10206,LL-diaminopimelate aminotransferase [EC:2.6.1.83],E2.6.1.83,blue
+K10235,alpha-glucoside transport system ATP-binding protein,aglK,brown
+K10249,elongation of very long chain fatty acids protein 4 [EC:2.3.1.199],ELOVL4,yellow
+K10256,omega-6 fatty acid desaturase (delta-12 desaturase) [EC:1.14.19.-],FAD2,yellow
+K10258,very-long-chain enoyl-CoA reductase [EC:1.3.1.93],"TER, TSC13, CER10",turquoise
+K10273,F-box and leucine-rich repeat protein 7,FBXL7,turquoise
+K10352,myosin heavy chain,MYH,brown
+K10355,"actin, other eukaryote",ACTF,blue
+K10356,myosin I,MYO1,turquoise
+K10357,myosin V,MYO5,turquoise
+K10362,myosin XVIII,MYO18,blue
+K10365,"capping protein (actin filament) muscle Z-line, beta",CAPZB,blue
+K10369,supervillin,SVIL,blue
+K10370,tropomodulin,TMOD,yellow
+K10380,ankyrin,ANK,brown
+K10389,tubulin gamma,TUBG,brown
+K10392,kinesin family member 1,KIF1,yellow
+K10393,kinesin family member 2/24,"KIF2_24, MCAK",yellow
+K10394,kinesin family member 3/17,KIF3_17,turquoise
+K10395,kinesin family member 4/21/27,KIF4_21_27,brown
+K10396,kinesin family member 5,KIF5,yellow
+K10397,kinesin family member 6/9,KIF6_9,turquoise
+K10400,kinesin family member 15,KIF15,turquoise
+K10401,kinesin family member 18/19,KIF18_19,turquoise
+K10405,kinesin family member C1,KIFC1,blue
+K10406,kinesin family member C2/C3,KIFC2_3,blue
+K10408,"dynein heavy chain, axonemal",DNAH,turquoise
+K10409,"dynein intermediate chain 1, axonemal",DNAI1,brown
+K10410,"dynein light intermediate chain, axonemal",DNALI,blue
+K10411,"dynein light chain 1, axonemal",DNAL1,blue
+K10412,"dynein light chain 4, axonemal",DNAL4,turquoise
+K10413,"dynein heavy chain 1, cytosolic",DYNC1H,yellow
+K10414,"dynein heavy chain 2, cytosolic","DYNC2H, DNCH2",brown
+K10417,"dynein light intermediate chain 2, cytosolic",DYNC2LI,brown
+K10418,dynein light chain LC8-type,DYNLL,turquoise
+K10421,CAP-Gly domain-containing linker protein 1,"CLIP1, RSN",turquoise
+K10423,CAP-Gly domain-containing linker protein 3/4,CLIP3_4,turquoise
+K10436,"microtubule-associated protein, RP/EB family",MAPRE,blue
+K10446,kelch-like protein 8,KLHL8,turquoise
+K10448,kelch-like protein 10,KLHL10,yellow
+K10450,kelch-like protein 12,"KLHL12, C3IP1",brown
+K10454,kelch-like protein 17 (actinfilin),KLHL17,brown
+K10455,kelch-like protein 18,KLHL18,brown
+K10478,BTB/POZ domain-containing protein 3/6,BTBD3_6,turquoise
+K10523,speckle-type POZ protein,SPOP,brown
+K10570,DNA excision repair protein ERCC-8,"ERCC8, CKN1, CSA",brown
+K10573,ubiquitin-conjugating enzyme E2 A [EC:6.3.2.19],"UBE2A, UBC2, RAD6A",blue
+K10577,ubiquitin-conjugating enzyme E2 I [EC:6.3.2.19],"UBE2I, UBC9",blue
+K10579,ubiquitin-conjugating enzyme E2 M [EC:6.3.2.19],"UBE2M, UBC12",blue
+K10580,ubiquitin-conjugating enzyme E2 N [EC:6.3.2.19],"UBE2N, BLU, UBC13",blue
+K10581,ubiquitin-conjugating enzyme E2 O [EC:6.3.2.19],UBE2O,turquoise
+K10582,ubiquitin-conjugating enzyme E2 Q [EC:6.3.2.19],UBE2Q,blue
+K10583,ubiquitin-conjugating enzyme E2 S [EC:6.3.2.19],"UBE2S, E2EPF",blue
+K10585,ubiquitin-conjugating enzyme E2 Z [EC:6.3.2.19],UBE2Z,yellow
+K10587,ubiquitin-protein ligase E3 A [EC:6.3.2.19],"UBE3A, E6AP",blue
+K10589,ubiquitin-protein ligase E3 C [EC:6.3.2.19],UBE3C,turquoise
+K10590,E3 ubiquitin-protein ligase TRIP12 [EC:6.3.2.19],TRIP12,yellow
+K10591,E3 ubiquitin-protein ligase NEDD4 [EC:6.3.2.19],"NEDD4, RSP5",yellow
+K10592,E3 ubiquitin-protein ligase HUWE1 [EC:6.3.2.19],"HUWE1, MULE, ARF-BP1",blue
+K10595,E3 ubiquitin-protein ligase HERC2 [EC:6.3.2.19],HERC2,blue
+K10598,peptidyl-prolyl cis-trans isomerase-like 2 [EC:5.2.1.8],"PPIL2, CYC4, CHP60",yellow
+K10599,pre-mRNA-processing factor 19 [EC:6.3.2.19],"PRPF19, PRP19",turquoise
+K10609,cullin 4,CUL4,yellow
+K10615,E3 ubiquitin-protein ligase HERC4 [EC:6.3.2.19],HERC4,blue
+K10630,RanBP-type and C3HC4-type zinc finger-containing protein 1,"RBCK1, HOIL1",brown
+K10632,BRCA1-associated protein [EC:6.3.2.19],BRAP,blue
+K10636,autocrine motility factor receptor [EC:6.3.2.19],"AMFR, GP78",brown
+K10641,E3 ubiquitin-protein ligase LRSAM1 [EC:6.3.2.19],LRSAM1,yellow
+K10667,E3 ubiquitin-protein ligase RNF8 [EC:6.3.2.19],RNF8,brown
+K10669,2'-phosphotransferase [EC:2.7.1.160],"TRPT1, TPT1",blue
+K10684,ubiquitin-like 1-activating enzyme E1 A [EC:6.3.2.19],"UBLE1A, SAE1",turquoise
+K10685,ubiquitin-like 1-activating enzyme E1 B [EC:6.3.2.19],"UBLE1B, SAE2, UBA2",yellow
+K10686,ubiquitin-activating enzyme E1 C [EC:6.3.2.19],"UBE1C, UBA3",turquoise
+K10688,ubiquitin-conjugating enzyme E2 W [EC:6.3.2.19],"UBE2W, UBC16",yellow
+K10693,E3 ubiquitin-protein ligase MYCBP2 [EC:6.3.2.19],"MYCBP2, PAM",turquoise
+K10704,ubiquitin-conjugating enzyme E2 variant,UBE2V,turquoise
+K10726,replicative DNA helicase Mcm [EC:3.6.4.-],"mcm, cdc21",turquoise
+K10735,GINS complex subunit 4,"GINS4, SLD5",yellow
+K10746,exonuclease 1 [EC:3.1.-.-],EXO1,brown
+K10747,DNA ligase 1 [EC:6.5.1.1 6.5.1.6 6.5.1.7],LIG1,turquoise
+K10755,replication factor C subunit 2/4,RFC2_4,blue
+K10756,replication factor C subunit 3/5,RFC3_5,brown
+K10773,endonuclease III [EC:4.2.99.18],NTH,turquoise
+K10798,poly [ADP-ribose] polymerase [EC:2.4.2.30],PARP,blue
+K10807,ribonucleoside-diphosphate reductase subunit M1 [EC:1.17.4.1],RRM1,turquoise
+K10808,ribonucleoside-diphosphate reductase subunit M2 [EC:1.17.4.1],RRM2,turquoise
+K10839,UV excision repair protein RAD23,"RAD23, HR23",turquoise
+K10841,DNA excision repair protein ERCC-6,"ERCC6, CSB, RAD26",yellow
+K10843,DNA excision repair protein ERCC-3 [EC:3.6.4.12],"ERCC3, XPB",blue
+K10848,DNA excision repair protein ERCC-4 [EC:3.1.-.-],"ERCC4, XPF",brown
+K10865,double-strand break repair protein MRE11,MRE11,brown
+K10866,DNA repair protein RAD50 [EC:3.6.-.-],RAD50,brown
+K10884,ATP-dependent DNA helicase 2 subunit 1,"XRCC6, KU70, G22P1",turquoise
+K10896,fanconi anemia group M protein,FANCM,blue
+K10914,"CRP/FNR family transcriptional regulator, cyclic AMP receptor protein",crp,turquoise
+K10943,"two-component system, response regulator FlrC","flrC, fleR",blue
+K10949,ER lumen protein retaining receptor,KDELR,blue
+K10951,"solute carrier family 12 (sodium/potassium/chloride transporter), member 2","SLC12A2, NKCC1",blue
+K10956,protein transport protein SEC61 subunit alpha,SEC61A,blue
+K10960,geranylgeranyl reductase [EC:1.3.1.83],"chlP, bchP",turquoise
+K10967,"alpha 1,2-mannosyltransferase [EC:2.4.1.-]",KTR1_3,blue
+K11000,callose synthase [EC:2.4.1.-],CALS,turquoise
+K11068,hemolysin III,hlyIII,yellow
+K11086,small nuclear ribonucleoprotein B and B',"SNRPB, SMB",brown
+K11088,small nuclear ribonucleoprotein D3,"SNRPD3, SMD3",yellow
+K11090,lupus La protein,"LA, SSB",yellow
+K11092,U2 small nuclear ribonucleoprotein A',SNRPA1,yellow
+K11096,small nuclear ribonucleoprotein D2,"SNRPD2, SMD2",blue
+K11097,small nuclear ribonucleoprotein E,"SNRPE, SME",blue
+K11098,small nuclear ribonucleoprotein F,"SNRPF, SMF",blue
+K11099,small nuclear ribonucleoprotein G,"SNRPG, SMG",blue
+K11127,telomerase protein component 1,TEP1,turquoise
+K11159,carotenoid cleavage dioxygenase,K11159,turquoise
+K11175,phosphoribosylglycinamide formyltransferase 1 [EC:2.1.2.2],purN,brown
+K11188,"peroxiredoxin 6, 1-Cys peroxiredoxin [EC:1.11.1.7 1.11.1.15 3.1.1.-]",PRDX6,turquoise
+K11204,glutamate--cysteine ligase catalytic subunit [EC:6.3.2.2],GCLC,turquoise
+K11228,mitogen-activated protein kinase kinase kinase [EC:2.7.11.1],STE11,blue
+K11244,cell wall integrity and stress response component,WSC,yellow
+K11251,histone H2A,H2A,turquoise
+K11252,histone H2B,H2B,turquoise
+K11254,histone H4,H4,blue
+K11262,acetyl-CoA carboxylase / biotin carboxylase 1 [EC:6.4.1.2 6.3.4.14],ACACA,turquoise
+K11274,chromosome transmission fidelity protein 4,"WDHD1, CTF4",brown
+K11275,histone H1/5,H1_5,turquoise
+K11279,nucleosome assembly protein 1-like 1,"NAP1L1, NRP",brown
+K11290,template-activating factor I,"SET, TAF1, I2PP2A",yellow
+K11292,transcription elongation factor SPT6,"SUPT6H, SPT6",brown
+K11294,nucleolin,"NCL, NSR1",yellow
+K11295,high mobility group protein B2,HMGB2,blue
+K11296,high mobility group protein B3,HMGB3,blue
+K11338,RuvB-like protein 2 [EC:3.6.4.12],"RUVBL2, RVB2, INO80J",blue
+K11407,histone deacetylase 6 [EC:3.5.1.98],HDAC6,blue
+K11412,NAD-dependent deacetylase sirtuin 2 [EC:3.5.1.-],"SIRT2, SIR2L2",brown
+K11416,mono-ADP-ribosyltransferase sirtuin 6 [EC:2.4.2.31],"SIRT6, SIR2L6",blue
+K11417,NAD-dependent deacetylase sirtuin 7 [EC:3.5.1.-],"SIRT7, SIR2L7",blue
+K11427,"histone-lysine N-methyltransferase, H3 lysine-79 specific [EC:2.1.1.43]","DOT1L, DOT1",turquoise
+K11450,lysine-specific histone demethylase 1A [EC:1.-.-.-],"KDM1A, AOF2, LSD1",brown
+K11481,aurora kinase A [EC:2.7.11.1],AURKA,turquoise
+K11491,condensin-2 complex subunit D3,NCAPD3,turquoise
+K11492,condensin-2 complex subunit G2,"NCAPG2, LUZP5",turquoise
+K11498,centromeric protein E,CENPE,turquoise
+K11518,mitochondrial import receptor subunit TOM40,TOM40,yellow
+K11533,"fatty acid synthase, bacteria type [EC:2.3.1.-]",fas,turquoise
+K11540,carbamoyl-phosphate synthase / aspartate carbamoyltransferase / dihydroorotase [EC:6.3.5.5 2.1.3.2 3.5.2.3],CAD,turquoise
+K11541,carbamoyl-phosphate synthase / aspartate carbamoyltransferase [EC:6.3.5.5 2.1.3.2],URA2,yellow
+K11548,kinetochore protein Nuf2,"NUF2, CDCA1",brown
+K11583,serine/threonine-protein phosphatase 2A regulatory subunit B'',PPP2R3,blue
+K11584,serine/threonine-protein phosphatase 2A regulatory subunit B',PPP2R5,blue
+K11592,endoribonuclease Dicer [EC:3.1.26.-],"DICER1, DCR1",blue
+K11594,ATP-dependent RNA helicase DDX3X [EC:3.6.4.13],"DDX3X, bel",turquoise
+K11628,mycocerosic acid synthase [EC:2.3.1.111],mas,brown
+K11654,SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 5 [EC:3.6.4.-],"SMARCA5, SNF2H, ISWI",brown
+K11688,C4-dicarboxylate-binding protein DctP,dctP,turquoise
+K11787,phosphoribosylamine--glycine ligase / phosphoribosylglycinamide formyltransferase / phosphoribosylformylglycinamidine cyclo-ligase [EC:6.3.4.13 2.1.2.2 6.3.3.1],GART,turquoise
+K11788,phosphoribosylamine--glycine ligase / phosphoribosylformylglycinamidine cyclo-ligase [EC:6.3.4.13 6.3.3.1],ADE5,turquoise
+K11806,WD repeat and SOF domain-containing protein 1,WDSOF1,yellow
+K11807,WD and tetratricopeptide repeats protein 1,WDTC1,yellow
+K11808,phosphoribosylaminoimidazole carboxylase [EC:4.1.1.21],ADE2,turquoise
+K11811,arsenical resistance protein ArsH,arsH,blue
+K11824,AP-2 complex subunit alpha,AP2A,blue
+K11827,AP-2 complex subunit sigma-1,AP2S1,blue
+K11835,ubiquitin carboxyl-terminal hydrolase 4/11/15 [EC:3.4.19.12],"USP4_11_15, UBP12",turquoise
+K11837,ubiquitin carboxyl-terminal hydrolase 6/32 [EC:3.4.19.12],USP6_32,blue
+K11838,ubiquitin carboxyl-terminal hydrolase 7 [EC:3.4.19.12],"USP7, UBP15",yellow
+K11839,ubiquitin carboxyl-terminal hydrolase 8 [EC:3.4.19.12],"USP8, UBP5",brown
+K11841,ubiquitin carboxyl-terminal hydrolase 10 [EC:3.4.19.12],"USP10, UBP3",brown
+K11842,ubiquitin carboxyl-terminal hydrolase 12/46 [EC:3.4.19.12],USP12_46,turquoise
+K11855,ubiquitin carboxyl-terminal hydrolase 36/42 [EC:3.4.19.12],USP36_42,yellow
+K11877,proteasome assembly chaperone 3,"PSMG3, PAC3",blue
+K11884,RNA-binding protein PNO1,"PNO1, DIM2",yellow
+K11885,DNA damage-inducible protein 1,DDI1,brown
+K11927,ATP-dependent RNA helicase RhlE [EC:3.6.4.13],rhlE,brown
+K11959,urea transport system substrate-binding protein,urtA,turquoise
+K11968,ariadne-1,ARIH1,blue
+K11971,E3 ubiquitin-protein ligase RNF14 [EC:6.3.2.19],"RNF14, ARA54",blue
+K11984,U4/U6.U5 tri-snRNP-associated protein 1,"SART1, HAF, SNU66",brown
+K12041,"solute carrier family 9 (sodium/hydrogen exchanger), member 6/7","SLC9A6_7, NHE6_7",turquoise
+K12160,small ubiquitin-related modifier,"SUMO, SMT3",blue
+K12165,ufm1-conjugating enzyme 1,UFC1,turquoise
+K12175,COP9 signalosome complex subunit 1,"GPS1, COPS1, CSN1",blue
+K12176,COP9 signalosome complex subunit 2,"COPS2, CSN2, TRIP15",blue
+K12177,COP9 signalosome complex subunit 3,"COPS3, CSN3",brown
+K12178,COP9 signalosome complex subunit 4,"COPS4, CSN4",blue
+K12179,COP9 signalosome complex subunit 6,"COPS6, CSN6",turquoise
+K12184,ESCRT-I complex subunit VPS28,VPS28,yellow
+K12193,charged multivesicular body protein 3,"VPS24, CHMP3",blue
+K12198,charged multivesicular body protein 5,"CHMP5, VPS60",blue
+K12209,intracellular multiplication protein IcmE,"icmE, dotG",yellow
+K12231,E3 ubiquitin-protein ligase HECTD1 [EC:6.3.2.19],HECTD1,yellow
+K12232,E3 ubiquitin-protein ligase HECTD2 [EC:6.3.2.19],HECTD2,turquoise
+K12267,peptide methionine sulfoxide reductase msrA/msrB [EC:1.8.4.11 1.8.4.12],msrAB,turquoise
+K12287,MSHA biogenesis protein MshQ,mshQ,turquoise
+K12308,beta-galactosidase [EC:3.2.1.23],"bgaB, lacA",blue
+K12309,beta-galactosidase [EC:3.2.1.23],"GLB1, ELNR1",turquoise
+K12311,lysosomal alpha-mannosidase [EC:3.2.1.24],"MAN2B1, LAMAN",blue
+K12319,guanylate cyclase soluble subunit beta [EC:4.6.1.2],GUCY1B,brown
+K12323,atrial natriuretic peptide receptor A [EC:4.6.1.2],"ANPRA, NPR1",blue
+K12347,natural resistance-associated macrophage protein,"SLC11A, NRAMP",turquoise
+K12348,acid ceramidase [EC:3.5.1.23],ASAH1,blue
+K12349,neutral ceramidase [EC:3.5.1.23],ASAH2,blue
+K12373,hexosaminidase [EC:3.2.1.52],HEXA_B,blue
+K12385,Niemann-Pick C1 protein,NPC1,blue
+K12391,AP-1 complex subunit gamma-1,AP1G1,blue
+K12392,AP-1 complex subunit beta-1,AP1B1,turquoise
+K12393,AP-1 complex subunit mu,AP1M,blue
+K12396,AP-3 complex subunit delta-1,AP3D1,turquoise
+K12400,AP-4 complex subunit epsilon-1,AP4E1,blue
+K12401,AP-4 complex subunit beta-1,AP4B1,yellow
+K12402,AP-4 complex subunit mu-1,AP4M1,blue
+K12410,NAD-dependent deacetylase [EC:3.5.1.-],npdA,yellow
+K12418,fatty acid desaturase (delta-4 desaturase) [EC:1.14.19.-],K12418,turquoise
+K12436,polyketide synthase 12,pks12,blue
+K12450,"UDP-glucose 4,6-dehydratase [EC:4.2.1.76]",RHM,brown
+K12452,CDP-6-deoxy-D-xylo-4-hexulose-3-dehydrase,rfbH,brown
+K12460,ankyrin repeat-rich membrane spanning protein,"KIDINS220, ARMS",turquoise
+K12492,ADP-ribosylation factor GTPase-activating protein 1,ARFGAP1,yellow
+K12493,ADP-ribosylation factor GTPase-activating protein 2/3,ARFGAP2_3,yellow
+K12524,bifunctional aspartokinase / homoserine dehydrogenase 1 [EC:2.7.2.4 1.1.1.3],thrA,turquoise
+K12526,bifunctional diaminopimelate decarboxylase / aspartate kinase [EC:4.1.1.20 2.7.2.4],lysAC,turquoise
+K12544,S-layer protein,rsaA,turquoise
+K12575,kinetochore protein SLK19,SLK19,yellow
+K12580,CCR4-NOT transcription complex subunit 3,"CNOT3, NOT3",turquoise
+K12581,CCR4-NOT transcription complex subunit 7/8,"CNOT7_8, CAF1, POP2",blue
+K12584,m7GpppX diphosphatase [EC:3.6.1.59],"DCPS, DCS",brown
+K12585,exosome complex exonuclease DIS3/RRP44 [EC:3.1.13.-],"DIS3, RRP44",yellow
+K12592,exosome complex protein LRP1,"C1D, LRP1",brown
+K12596,poly(A) RNA polymerase,TRF5,yellow
+K12598,ATP-dependent RNA helicase DOB1 [EC:3.6.4.13],"MTR4, SKIV2L2",brown
+K12600,superkiller protein 3,"SKI3, TTC37",turquoise
+K12603,CCR4-NOT transcription complex subunit 6 [EC:3.1.13.4],"CNOT6, CCR4",turquoise
+K12604,CCR4-NOT transcription complex subunit 1,"CNOT1, NOT1",blue
+K12607,CCR4-NOT transcription complex subunit 10,CNOT10,brown
+K12608,CCR4-NOT complex subunit CAF16,CAF16,turquoise
+K12611,mRNA-decapping enzyme 1B [EC:3.-.-.-],DCP1B,brown
+K12614,ATP-dependent RNA helicase DDX6/DHH1 [EC:3.6.4.13],"DDX6, RCK, DHH1",blue
+K12621,U6 snRNA-associated Sm-like protein LSm2,LSM2,turquoise
+K12622,U6 snRNA-associated Sm-like protein LSm3,LSM3,brown
+K12623,U6 snRNA-associated Sm-like protein LSm4,LSM4,blue
+K12627,U6 snRNA-associated Sm-like protein LSm8,LSM8,blue
+K12662,U4/U6 small nuclear ribonucleoprotein PRP4,"PRPF4, PRP4",yellow
+K12734,peptidyl-prolyl cis-trans isomerase-like 3 [EC:5.2.1.8],PPIL3,blue
+K12736,peptidylprolyl isomerase domain and WD repeat-containing protein 1 [EC:5.2.1.8],PPWD1,blue
+K12739,peptidyl-prolyl cis-trans isomerase-like 6 [EC:5.2.1.8],PPIL6,brown
+K12765,meiosis induction protein kinase IME2/SME1 [EC:2.7.11.1],IME2,turquoise
+K12795,suppressor of G2 allele of SKP1,"SUGT1, SGT1",brown
+K12811,ATP-dependent RNA helicase DDX46/PRP5 [EC:3.6.4.13],"DDX46, PRP5",yellow
+K12812,ATP-dependent RNA helicase UAP56/SUB2 [EC:3.6.4.13],"UAP56, BAT1, SUB2",blue
+K12815,pre-mRNA-splicing factor ATP-dependent RNA helicase DHX38/PRP16 [EC:3.6.4.13],"DHX38, PRP16",turquoise
+K12816,pre-mRNA-processing factor 17,"CDC40, PRP17",blue
+K12817,pre-mRNA-splicing factor 18,"PRPF18, PRP18",blue
+K12818,ATP-dependent RNA helicase DHX8/PRP22 [EC:3.6.4.13],"DHX8, PRP22",yellow
+K12819,pre-mRNA-processing factor SLU7,SLU7,yellow
+K12820,pre-mRNA-splicing factor ATP-dependent RNA helicase DHX15/PRP43 [EC:3.6.4.13],"DHX15, PRP43",yellow
+K12821,pre-mRNA-processing factor 40,"PRPF40, PRP40",turquoise
+K12822,RNA-binding protein 25,"RBM25, S164",blue
+K12823,ATP-dependent RNA helicase DDX5/DBP2 [EC:3.6.4.13],"DDX5, DBP2",blue
+K12825,splicing factor 3A subunit 1,"SF3A1, SAP114",yellow
+K12826,splicing factor 3A subunit 2,"SF3A2, SAP62",turquoise
+K12828,splicing factor 3B subunit 1,"SF3B1, SAP155",blue
+K12829,splicing factor 3B subunit 2,"SF3B2, SAP145, CUS1",yellow
+K12830,splicing factor 3B subunit 3,"SF3B3, SAP130, RSE1",blue
+K12832,splicing factor 3B subunit 5,"SF3B5, SF3B10",blue
+K12835,ATP-dependent RNA helicase DDX42 [EC:3.6.4.13],"DDX42, SF3B125",yellow
+K12836,splicing factor U2AF 35 kDa subunit,U2AF1,brown
+K12839,survival of motor neuron-related-splicing factor 30,"SMNDC1, SPF30",turquoise
+K12840,splicing factor 45,"RBM17, SPF45",brown
+K12842,U2-associated protein SR140,SR140,brown
+K12843,U4/U6 small nuclear ribonucleoprotein PRP3,"PRPF3, PRP3",yellow
+K12844,U4/U6 small nuclear ribonucleoprotein PRP31,PRPF31,turquoise
+K12848,U4/U6.U5 tri-snRNP component SNU23,SNU23,blue
+K12852,116 kDa U5 small nuclear ribonucleoprotein component,EFTUD2,blue
+K12854,pre-mRNA-splicing helicase BRR2 [EC:3.6.4.13],"SNRNP200, BRR2",yellow
+K12855,pre-mRNA-processing factor 6,"PRPF6, PRP6",blue
+K12856,pre-mRNA-processing factor 8,"PRPF8, PRP8",blue
+K12857,Prp8 binding protein,"SNRNP40, PRP8BP",turquoise
+K12858,ATP-dependent RNA helicase DDX23/PRP28 [EC:3.6.4.13],"DDX23, PRP28",blue
+K12859,"U5 snRNP protein, DIM1 family","TXNL4A, DIB1",blue
+K12860,pre-mRNA-splicing factor CDC5/CEF1,"CDC5L, CDC5, CEF1",brown
+K12861,pre-mRNA-splicing factor SPF27,BCAS2,blue
+K12862,pleiotropic regulator 1,"PLRG1, PRL1, PRP46",yellow
+K12863,protein CWC15,CWC15,blue
+K12865,polyglutamine-binding protein 1,"PQBP1, NPW38",brown
+K12867,pre-mRNA-splicing factor SYF1,"SYF1, XAB2",blue
+K12869,crooked neck,"CRN, CRNKL1, CLF1, SYF3",turquoise
+K12870,pre-mRNA-splicing factor ISY1,ISY1,brown
+K12872,pre-mRNA-splicing factor RBM22/SLT11,"RBM22, SLT11",yellow
+K12873,bud site selection protein 31,"BUD31, G10",turquoise
+K12874,intron-binding protein aquarius,AQR,turquoise
+K12876,RNA-binding protein 8A,"RBM8A, Y14",blue
+K12879,THO complex subunit 2,THOC2,blue
+K12882,nuclear cap-binding protein subunit 1,"NCBP1, CBP80",yellow
+K12898,heterogeneous nuclear ribonucleoprotein F/H,HNRNPF_H,yellow
+K13010,perosamine synthetase [EC:2.6.1.102],"per, rfbE",turquoise
+K13024,inositol-hexakisphosphate/diphosphoinositol-pentakisphosphate 1-kinase [EC:2.7.4.24],"PPIP5K, VIP",blue
+K13025,ATP-dependent RNA helicase [EC:3.6.4.13],"EIF4A3, FAL1",blue
+K13045,tolloid [EC:3.4.24.-],tld,blue
+K13076,delta8-fatty-acid desaturase [EC:1.14.19.4],SLD,brown
+K13091,RNA-binding protein 39,"RBM39, RNPC2",turquoise
+K13100,pre-mRNA-splicing factor CWC22,CWC22,blue
+K13107,"RNA-binding motif protein, X-linked 2","RBMX2, IST3",blue
+K13111,WD40 repeat-containing protein SMU1,SMU1,blue
+K13116,ATP-dependent RNA helicase DDX41 [EC:3.6.4.13],"DDX41, ABS",yellow
+K13118,protein DGCR14,DGCR14,turquoise
+K13125,nitric oxide synthase-interacting protein,NOSIP,yellow
+K13126,polyadenylate-binding protein,PABPC,blue
+K13171,serine/arginine repetitive matrix protein 1,"SRRM1, SRM160",yellow
+K13177,ATP-dependent RNA helicase DDX1 [EC:3.6.4.13],DDX1,brown
+K13181,ATP-dependent RNA helicase DDX27 [EC:3.6.4.13],"DDX27, DRS1",yellow
+K13205,A1 cistron-splicing factor AAR2,"AAR2, C20orf4",blue
+K13206,coiled-coil domain-containing protein 55,CCDC55,turquoise
+K13210,far upstream element-binding protein,FUBP,brown
+K13220,WW domain-binding protein 4,"WBP4, FBP21",brown
+K13253,"nitric-oxide synthase, invertebrate [EC:1.14.13.39]",DNOS,blue
+K13289,cathepsin A (carboxypeptidase C) [EC:3.4.16.5],CTSA,blue
+K13294,cAMP-specific phosphodiesterase [EC:3.1.4.53],"PDEB2, PDE2B",blue
+K13337,peroxin-19,PEX19,yellow
+K13346,peroxin-10,PEX10,brown
+K13348,protein Mpv17,MPV17,blue
+K13354,"solute carrier family 25 (peroxisomal adenine nucleotide transporter), member 17","SLC25A17, PMP34",blue
+K13366,polyamine oxidase [EC:1.5.3.14 1.5.3.16 1.5.3.-],"MPAO, PAO1",blue
+K13412,calcium-dependent protein kinase [EC:2.7.11.1],CPK,blue
+K13448,calcium-binding protein CML,CML,turquoise
+K13482,xanthine dehydrogenase large subunit [EC:1.17.1.4],xdhB,blue
+K13524,4-aminobutyrate aminotransferase / (S)-3-amino-2-methylpropionate transaminase [EC:2.6.1.19 2.6.1.22],ABAT,turquoise
+K13525,transitional endoplasmic reticulum ATPase,"VCP, CDC48",turquoise
+K13537,cysteine peptidase B [EC:3.4.22.-],CPB,blue
+K13538,cysteine peptidase A [EC:3.4.22.-],CPA,blue
+K13539,leishmanolysin-like peptidase [EC:3.4.24.-],LMLN,brown
+K13607,cinnamoyl-CoA:phenyllactate CoA-transferase [EC:2.8.3.17],fldA,blue
+K13612,polyketide synthase PksL,pksL,yellow
+K13667,protein glucosyltransferase [EC:2.4.1.-],"RUMI, KTELC1",turquoise
+K13679,granule-bound starch synthase [EC:2.4.1.242],WAXY,turquoise
+K13690,"alpha-1,3-mannosyltransferase [EC:2.4.1.-]",CMT1,yellow
+K13720,N-acylethanolamine-hydrolysing acid amidase [EC:3.5.1.-],NAAA,yellow
+K13730,internalin A,inlA,brown
+K13735,adhesin/invasin,yeeJ,turquoise
+K13745,"L-2,4-diaminobutyrate decarboxylase [EC:4.1.1.86]",ddc,blue
+K13750,"solute carrier family 24 (sodium/potassium/calcium exchanger), member 2","SLC24A2, NCKX2",blue
+K13752,"solute carrier family 24 (sodium/potassium/calcium exchanger), member 4","SLC24A4, NCKX4",blue
+K13754,"solute carrier family 24 (sodium/potassium/calcium exchanger), member 6","SLC24A6, NCKX6",turquoise
+K13755,"calcium/calmodulin-dependent 3',5'-cyclic nucleotide phosphodiesterase [EC:3.1.4.17]",PDE1,turquoise
+K13761,"high affinity cGMP-specific 3',5'-cyclic phosphodiesterase 9 [EC:3.1.4.35]",PDE9,blue
+K13766,methylglutaconyl-CoA hydratase [EC:4.2.1.18],liuC,blue
+K13775,citronellol/citronellal dehydrogenase,atuG,yellow
+K13788,phosphate acetyltransferase [EC:2.3.1.8],pta,turquoise
+K13798,DNA-directed RNA polymerase subunit B [EC:2.7.7.6],"K13798, rpoB",turquoise
+K13807,serine/threonine-protein phosphatase with EF-hands [EC:3.1.3.16],"PPEF, PPP7C",yellow
+K13811,3'-phosphoadenosine 5'-phosphosulfate synthase [EC:2.7.7.4 2.7.1.25],PAPSS,blue
+K13829,shikimate kinase / 3-dehydroquinate synthase [EC:2.7.1.71 4.2.3.4],aroKB,yellow
+K13855,"solute carrier family 4 (anion exchanger), member 2","SLC4A2, AE2",blue
+K13861,"solute carrier family 4 (sodium bicarbonate transporter), member 10","SLC4A10, NCBE",blue
+K13921,1-propanol dehydrogenase,pduQ,yellow
+K13960,ubiquitin-conjugating enzyme E2 T [EC:6.3.2.19],"UBE2T, HSPC150",turquoise
+K13963,serpin B,SERPINB,yellow
+K13982,probable ATP-dependent RNA helicase DDX4 [EC:3.6.4.13],"DDX4, VASA",blue
+K13989,Derlin-2/3,DERL2_3,blue
+K13993,HSP20 family protein,HSP20,turquoise
+K13998,dihydrofolate reductase / thymidylate synthase [EC:1.5.1.3 2.1.1.45],DHFR-TS,turquoise
+K14002,DnaJ-related protein SCJ1,SCJ1,yellow
+K14004,protein transport protein SEC13,SEC13,turquoise
+K14005,protein transport protein SEC31,SEC31,turquoise
+K14007,protein transport protein SEC24,SEC24,yellow
+K14012,UBX domain-containing protein 1,"SHP1, UBX1, NSFL1C",turquoise
+K14015,nuclear protein localization protein 4 homolog,"NPLOC4, NPL4",blue
+K14016,ubiquitin fusion degradation protein 1,UFD1,yellow
+K14018,phospholipase A-2-activating protein,"PLAA, DOA1, UFD3",blue
+K14079,poly(A) RNA polymerase GLD2 [EC:2.7.7.19],"PAPD4, GLD2",yellow
+K14141,profilin-like protein,PFNL,blue
+K14163,bifunctional glutamyl/prolyl-tRNA synthetase [EC:6.1.1.17 6.1.1.15],EPRS,turquoise
+K14195,surface protein G,sasG,blue
+K14206,"solute carrier family 15 (oligopeptide transporter), member 1","SLC15A1, PEPT1",blue
+K14209,solute carrier family 36 (proton-coupled amino acid transporter),"SLC36A, PAT",turquoise
+K14216,2'-5'-oligoadenylate synthetase [EC:2.7.7.84],OAS,blue
+K14267,N-succinyldiaminopimelate aminotransferase [EC:2.6.1.17],dapC,blue
+K14286,ethanolamine-phosphate phospho-lyase [EC:4.2.3.2],"AGXT2L1, ETNPPL",turquoise
+K14293,importin subunit beta-1,KPNB1,yellow
+K14298,mRNA export factor,"RAE1, GLE2",blue
+K14301,nuclear pore complex protein Nup107,"NUP107, NUP84",yellow
+K14312,nuclear pore complex protein Nup155,"NUP155, NUP170, NUP157",blue
+K14324,histone deacetylase complex subunit SAP18,SAP18,blue
+K14326,regulator of nonsense transcripts 1 [EC:3.6.4.-],"UPF1, RENT1",blue
+K14338,cytochrome P450 / NADPH-cytochrome P450 reductase [EC:1.14.14.1 1.6.2.4],"cypD_E, CYP102A2_3",turquoise
+K14371,type I polyketide synthase AVES,aveA,brown
+K14376,poly(A) polymerase [EC:2.7.7.19],PAP,brown
+K14379,tartrate-resistant acid phosphatase type 5 [EC:3.1.3.2],ACP5,blue
+K14381,sequestosome 1,SQSTM1,yellow
+K14396,polyadenylate-binding protein 2,"PABPN1, PABP2",yellow
+K14401,cleavage and polyadenylation specificity factor subunit 1,"CPSF1, CFT1",yellow
+K14402,cleavage and polyadenylation specificity factor subunit 2,"CPSF2, CFT2",turquoise
+K14408,cleavage stimulation factor subunit 3,"CSTF3, RNA14",yellow
+K14411,RNA-binding protein Musashi,MSI,turquoise
+K14415,tRNA-splicing ligase RtcB [EC:6.5.1.3],"RTCB, rtcB",blue
+K14427,"solute carrier family 12 (potassium/chloride transporter), member 4/5/6","SLC12A4_5_6, KCC",blue
+K14430,phosphate transporter,PHO87_91,brown
+K14442,ATP-dependent RNA helicase DHX36 [EC:3.6.4.13],"DHX36, RHAU",brown
+K14455,"aspartate aminotransferase, mitochondrial [EC:2.6.1.1]",GOT2,brown
+K14457,2-acylglycerol O-acyltransferase 2 [EC:2.3.1.22],"MOGAT2, MGAT2",blue
+K14498,serine/threonine-protein kinase SRK2 [EC:2.7.11.1],SNRK2,brown
+K14510,serine/threonine-protein kinase CTR1 [EC:2.7.11.1],CTR1,brown
+K14519,NADP-dependent aldehyde dehydrogenase [EC:1.2.1.4],aldH,turquoise
+K14520,4-hydroxyacetophenone monooxygenase [EC:1.14.13.84],hapE,turquoise
+K14589,cap1 methyltransferase [EC:2.1.1.57],"CMTR1, FTSJD2, MTR1",blue
+K14607,extracellular sulfatase Sulf [EC:3.1.6.-],SULF,blue
+K14617,LMBR1 domain-containing protein 1,LMBRD1,turquoise
+K14638,"solute carrier family 15 (peptide/histidine transporter), member 3/4","SLC15A3_4, PHT",blue
+K14640,solute carrier family 20 (sodium-dependent phosphate transporter),"SLC20A, PIT",blue
+K14645,serine protease [EC:3.4.21.-],K14645,blue
+K14652,"3,4-dihydroxy 2-butanone 4-phosphate synthase / GTP cyclohydrolase II [EC:4.1.99.12 3.5.4.25]",ribBA,turquoise
+K14683,solute carrier family 34 (sodium-dependent phosphate cotransporter),"SLC34A, NPT, nptA",blue
+K14684,"solute carrier family 25 (mitochondrial phosphate transporter), member 23/24/25/41",SLC25A23S,yellow
+K14689,"solute carrier family 30 (zinc transporter), member 2","SLC30A2, ZNT2",yellow
+K14724,"solute carrier family 9 (sodium/hydrogen exchanger), member 8","SLC9A8, NHE8",turquoise
+K14726,"solute carrier family 9 (sodium/hydrogen exchanger), member 10/11",SLC9A10_11,yellow
+K14753,guanine nucleotide-binding protein subunit beta-2-like 1 protein,RACK1,turquoise
+K14763,H/ACA ribonucleoprotein complex non-core subunit NAF1,NAF1,yellow
+K14768,U3 small nucleolar RNA-associated protein 7,"UTP7, WDR46",blue
+K14771,U3 small nucleolar RNA-associated protein 19,"NOC4, UTP19",turquoise
+K14776,ATP-dependent RNA helicase DDX10/DBP4 [EC:3.6.4.13],"DDX10, DBP4",yellow
+K14777,ATP-dependent RNA helicase DDX47/RRP3 [EC:3.6.4.13],"DDX47, RRP3",yellow
+K14778,ATP-dependent RNA helicase DDX49/DBP8 [EC:3.6.4.13],"DDX49, DBP8",yellow
+K14782,protein AATF/BFR2,"AATF, BFR2",blue
+K14787,multiple RNA-binding domain-containing protein 1,"MRD1, RBM19",blue
+K14791,periodic tryptophan protein 1,PWP1,turquoise
+K14792,rRNA biogenesis protein RRP5,"RRP5, PDCD11",blue
+K14797,essential nuclear protein 1,"ENP1, BYSL",blue
+K14799,pre-rRNA-processing protein TSR1,TSR1,brown
+K14802,phospholipid-transporting ATPase [EC:3.6.3.1],"DRS2, ATP8A",brown
+K14803,protein phosphatase 2C homolog 2/3 [EC:3.1.3.16],PTC2_3,turquoise
+K14806,ATP-dependent RNA helicase DDX31/DBP7 [EC:3.6.4.13],"DDX31, DBP7",brown
+K14809,ATP-dependent RNA helicase DDX55/SPB4 [EC:3.6.4.13],"DDX55, SPB4",yellow
+K14810,ATP-dependent RNA helicase DDX56/DBP9 [EC:3.6.4.13],"DDX56, DBP9",brown
+K14811,ATP-dependent RNA helicase DBP3 [EC:3.6.4.13],DBP3,blue
+K14816,pre-60S factor REI1,REI1,blue
+K14818,ribosome assembly protein SQT1,SQT1,yellow
+K14819,dual specificity phosphatase 12 [EC:3.1.3.16 3.1.3.48],"DUSP12, YVH1",turquoise
+K14820,ribosome biogenesis protein BRX1,"BRX1, BRIX1",yellow
+K14821,bud site selection protein 20,BUD20,brown
+K14831,protein MAK16,MAK16,turquoise
+K14835,ribosomal RNA methyltransferase Nop2 [EC:2.1.1.-],NOP2,yellow
+K14838,nucleolar protein 15,NOP15,turquoise
+K14843,pescadillo,"PES1, NOP7",blue
+K14847,ribosome production factor 2,RPF2,blue
+K14848,ribosome assembly protein RRB1,"RRB1, GRWD1",yellow
+K14849,ribosomal RNA-processing protein 1,RRP1,blue
+K14852,regulator of ribosome biosynthesis,RRS1,blue
+K14855,ribosome assembly protein 4,"RSA4, NLE1",blue
+K14856,protein SDA1,"SDA1, SDAD1",brown
+K14857,AdoMet-dependent rRNA methyltransferase SPB1 [EC:2.1.1.-],"SPB1, FTSJ3",blue
+K14939,"cytochrome P450, family 307, subfamily A","spo, spok, CYP307A",blue
+K14944,RNA-binding protein Nova,NOVA,yellow
+K14947,epithelial splicing regulatory protein 1/2,ESRP1_2,yellow
+K14950,cation-transporting ATPase 13A1 [EC:3.6.3.-],ATP13A1,blue
+K14951,cation-transporting ATPase 13A3/4/5 [EC:3.6.3.-],ATP13A3_4_5,blue
+K14962,COMPASS component SWD2,"WDR82, SWD2, CPS35",turquoise
+K14965,protein dpy-30,DPY30,blue
+K14974,6-hydroxynicotinate 3-monooxygenase [EC:1.14.13.114],nicC,yellow
+K15004,"cytochrome P450, family 12 [EC:1.14.-.-]",CYP12,blue
+K15013,long-chain-fatty-acid--CoA ligase ACSBG [EC:6.2.1.3],ACSBG,blue
+K15015,solute carrier family 32 (vesicular inhibitory amino acid transporter),"SLC32A, VGAT",blue
+K15026,translation initiation factor 2A,EIF2A,brown
+K15027,translation initiation factor 2D,EIF2D,yellow
+K15028,translation initiation factor 3 subunit K,EIF3K,blue
+K15029,translation initiation factor 3 subunit L,EIF3L,blue
+K15030,translation initiation factor 3 subunit M,EIF3M,blue
+K15033,peptidyl-tRNA hydrolase ICT1 [EC:3.1.1.29],ICT1,brown
+K15040,voltage-dependent anion channel protein 2,VDAC2,turquoise
+K15083,DNA repair protein RAD16,RAD16,brown
+K15100,"solute carrier family 25 (mitochondrial citrate transporter), member 1","SLC25A1, CTP",yellow
+K15102,"solute carrier family 25 (mitochondrial phosphate transporter), member 3","SLC25A3, PHC, PIC",turquoise
+K15104,"solute carrier family 25 (mitochondrial oxoglutarate transporter), member 11","SLC25A11, OGC",turquoise
+K15109,"solute carrier family 25 (mitochondrial carnitine/acylcarnitine transporter), member 20/29","SLC25A20_29, CACT, CACL, CRC1",yellow
+K15110,"solute carrier family 25 (mitochondrial 2-oxodicarboxylate transporter), member 21","SLC25A21, ODC",yellow
+K15113,"solute carrier family 25 (mitochondrial iron transporter), member 28/37","SLC25A28_37, MFRN",turquoise
+K15120,"solute carrier family 25, member 43",SLC25A43,turquoise
+K15122,solute carrier family 41,SLC41A,turquoise
+K15172,transcription elongation factor SPT5,"SUPT5H, SPT5",brown
+K15175,parafibromin,CDC73,turquoise
+K15176,RNA polymerase-associated protein CTR9,CTR9,brown
+K15190,7SK snRNA methylphosphate capping enzyme [EC:2.1.1.-],"MEPCE, BCDIN3",yellow
+K15206,transcription factor C subunit 7,TFC7,turquoise
+K15227,"arogenate dehydrogenase (NADP+), plant [EC:1.3.1.78]",TYRAAT,blue
+K15230,ATP-citrate lyase alpha-subunit [EC:2.3.3.8],aclA,turquoise
+K15255,ATP-dependent DNA helicase PIF1 [EC:3.6.4.12],PIF1,brown
+K15262,protein BCP1,"BCP1, BCCIP",yellow
+K15263,cell growth-regulating nucleolar protein,LYER,yellow
+K15272,"solute carrier family 35 (UDP-sugar transporter), member A1/2/3",SLC35A1_2_3,yellow
+K15275,"solute carrier family 35 (UDP-galactose transporter), member B1",SLC35B1,yellow
+K15276,"solute carrier family 35 (adenosine 3'-phospho 5'-phosphosulfate transporter), member B2","SLC35B2, PAPST1",turquoise
+K15280,"solute carrier family 35, member C2",SLC35C2,brown
+K15281,solute carrier family 35,SLC35D,brown
+K15283,"solute carrier family 35, member E1",SLC35E1,yellow
+K15296,alpha-soluble NSF attachment protein,"NAPA, SNAPA, SEC17",brown
+K15305,vacuole morphology and inheritance protein 14,"VAC14, TAX1BP2",blue
+K15356,GDP-mannose transporter,"VRG4, GONST1",turquoise
+K15362,fanconi anemia group J protein [EC:3.6.4.12],"BRIP1, BACH1, FANCJ",brown
+K15371,glutamate dehydrogenase [EC:1.4.1.2],GDH2,blue
+K15377,"solute carrier family 44 (choline transporter-like protein), member 2/4/5",SLC44A2_4_5,brown
+K15382,solute carrier family 50 (sugar transporter),"SLC50A, SWEET",brown
+K15397,3-ketoacyl-CoA synthase [EC:2.3.1.199],KCS,turquoise
+K15409,serine/threonine-protein kinase SRPK1 [EC:2.7.11.1],SRPK1,blue
+K15414,"complement component 1 Q subcomponent-binding protein, mitochondrial",C1QBP,blue
+K15423,serine/threonine-protein phosphatase 4 catalytic subunit [EC:3.1.3.16],PPP4C,turquoise
+K15429,tRNA (guanine37-N1)-methyltransferase [EC:2.1.1.228],"TRM5, TRMT5",yellow
+KOG2348,NA,NA,brown
+PF01036,NA,NA,turquoise
+pti:PHATRDRAFT_47674,NA,NA,brown
+pti:PHATRDRAFT_54465,NA,NA,brown
