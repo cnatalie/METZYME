@@ -76,7 +76,7 @@ pheatmap(z, color=myColor, cluster_cols=T, fontsize_row=8, cluster_rows=T, show_
 
 #PFams heatmaps with proteins
 setwd("~/METZYME/metaproteome 3um")
-a<-read.csv('exclusive_counts_annotations_dino_lpi0.8_pseudoTPM_PFAMS_post.csv')
+a<-read.csv('exclusive_counts_annotations_dino_lpi0.8_post_NSAF_orf_PFAMS_postSum.csv')
 rownames(a)<-a$X
 b<-a[,-1]
 b<-b[,-40]
@@ -89,13 +89,13 @@ library(RColorBrewer)
 paletteLength <- 50
 myColor <- colorRampPalette(brewer.pal(9, "YlGnBu"))(100)
 rv <- apply(b, 1, var)
-idx <- names(V[order(V, decreasing = T)][1:40])
+idx <- names(V[order(V, decreasing = T)][1:45])
 nrow(b)
 head(c)
 annotation <- data.frame(Var1 = factor(1:41, labels = c('1')))
 rownames(annotation)<-colnames(b)
 annotation$Var1<-rownames(annotation)
-fix(annotation)
+fix(annotation) #Fill in table with depth, station
 colnames(annotation)<-c('Depth',"Station")
 
 #To flip a dendrogram branch
@@ -105,7 +105,7 @@ callback = function(hc, mat){
          as.hclust(dend)
 }
 
-pheatmap(c[idx,], scale="row", color=myColor, 
+pheatmap(c[idx,], color=myColor, 
          cluster_cols=T, fontsize_row=8, 
          cluster_rows=T, cellwidth=9, 
          cellheight=9, show_colnames=T, 
