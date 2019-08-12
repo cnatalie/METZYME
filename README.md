@@ -7,7 +7,7 @@ by Natalie R. Cohen, Matthew R. McIlvin, Dawn M. Moran, Noelle A. Held, Jaclyn S
 
 In this study we explored the metabolism of unicellular eukaryotic organisms (protists) across a 4,600 km meridional transect in the central Pacific Ocean. The region contains a natural biogeochemical gradient spanning from low nitrogen, oligotrophic waters to a productive equatorial upwelling system. We used a combined geochemical and 'omic approach to characterize the metabolic strategies these organisms rely upon to adapt to changes in their chemical environment.
 
-Input files are included. Running scripts in RStudio is recommended.
+Most input files are included here, except the master dataframe containing contigs, raw reads, and annotation information which is available as Supplemental Dataframe 2. The file is big (~ 200 MB) and split into two parts (A&B). Running in RStudio is recommended. 
 
 (Note: The default WGCNA color scheme was modified; "blue" was changed to black, and "turquoise" to white for clarity during visualizations.)
 
