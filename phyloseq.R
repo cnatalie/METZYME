@@ -53,32 +53,45 @@ physeq1 = merge_phyloseq(physeq, sampledata)
 physeq1.dino = subset_taxa(physeq1, Division == "Dinoflagellata")
 physeq1.dino = prune_samples(names(which(sample_sums(physeq1.dino) >= 5)), physeq1.dino) #trim OTUs with less than 5 reads
 
-#PCA
-library(dplyr)
-library(tibble)
-
-pca <- ordinate(physeq = physeq1.dino, method = "RDA", distance = "euclidean", k=2)
-rownames(x)<-x$X
-ef <- envfit(pca, x, permu = 999)
-
+#CA plot
 b<-t(otu)
 b<-data.frame(b)
-scores<-scores(pca)
-scores <- data.frame(scores$sites)
+
+ca <- ordinate(physeq = physeq1.dino, method = "CCA")
+
+#Delete all columns except parameters of interest: Co, Fe, NO3, temp and NH4
+rownames(x)<-x$X
+xx<-x
+x<-x[,-1]
+x<-x[,-1]
+x<-x[,-1]
+x<-x[,-1]
+x<-x[,-2]
+ef <- envfit(ca, x, permu = 999)
+plot(ca)
+plot(ef)
+#After fitting vectors, revert back to original table with station/depth info
+x<-xx
+
+#Plot with ggplot2, color code by depth
+scores<-scores(ca)
+scores <- data.frame(ca$CA$u)
 uscores <- inner_join(rownames_to_column(b), rownames_to_column(data.frame(scores)), type = "right", by = "rowname")
 vscores <- data.frame(ef$vectors$arrows)
 vscores$env<-rownames(vscores)
-eig<- eigenvals(pca)
-eig<- eig / sum(eig)
-ggplot(uscores) + 
-  geom_point(aes(x = PC1, y = PC2, col = x$Depth,
-                 shape = x$Station, size=4)) + scale_shape_manual(values = c(21:25,8,9)) + 
-  geom_segment(data = vscores, aes(x = 0, y = 0, xend = vscores$PC1*2, yend = vscores$PC2*2), arrow=arrow(length=unit(0.2,"cm")),
-               alpha = 1, color = 'black')+ geom_label(data=vscores, aes(x=PC1, y=PC2, label = env)) + theme_bw() + theme(strip.text.y = element_text(angle = 0)) +
-  scale_colour_gradient(low="#A2FEFF",high="black") +
-  scale_fill_manual(values=c("#A2FEFF","black")) 
 
-#HEATMAP on non-transformed counts. Helpful: https://joey711.github.io/phyloseq/plot_heatmap-examples.html#subset_a_smaller_dataset_based_on_an_archaeal_phylum
+ggplot(uscores) + theme_bw() + scale_shape_manual(values = c(21:25,8,9)) +
+  theme(strip.text.y = element_text(angle = 0)) + 
+  geom_segment(data = vscores, aes(x = 0, y = 0, xend = vscores$CA1, yend = vscores$CA2), arrow=arrow(length=unit(0.2,"cm")), alpha = 1, color = 'black') +
+  geom_label(data=vscores, aes(x=CA1, y=CA2, label = env)) +
+  geom_point(aes(x = CA1, y = CA2, col = x$Depth, shape = x$Station, size=4)) +
+  scale_colour_gradient(low="#A2FEFF",high="black") +
+  scale_fill_manual(values=c("#A2FEFF",'black') +
+                      geom_segment(data = vscores, aes(x = 0, y = 0, xend = CA1, yend = CA2), arrow=arrow(length=unit(0.2,"cm")), alpha = 1, color = 'black')+
+                      geom_label(data=vscores, aes(x=CA1, y=CA2, label = env)))
+
+
+#Heatmap on non-transformed counts. Helpful: https://joey711.github.io/phyloseq/plot_heatmap-examples.html#subset_a_smaller_dataset_based_on_an_archaeal_phylum
 a<-read.csv('OTU.csv')
 rownames(a)<-a$id
 a<-a[,-1] #Remove ID
