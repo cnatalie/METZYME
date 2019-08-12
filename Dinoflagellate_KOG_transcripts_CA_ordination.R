@@ -1,7 +1,17 @@
+#Correspondence analysis (CA) on dinoflagellate TPM-normalized transcript counts annotated at the KOG level
+
+'''
+Helpful resources:
+http://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/113-ca-correspondence-analysis-in-r-essentials/#graph-of-row-variables
+http://cc.oulu.fi/~jarioksa/opetus/metodi/sessio2.pdf
+http://cc.oulu.fi/~jarioksa/opetus/metodi/ordination101.html#94
+'''
+
 library(vegan)
 library(ggplot2)
 library(RColorBrewer)
 library(dplyr)
+library(tibble)
 
 a<-read.csv('TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_orf_KOGpost.csv')
 head(a)
