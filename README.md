@@ -1,7 +1,7 @@
 # METZYME
 R code used to create heatmaps, ordinations, normalizations, the 18S phyloseq and WCGNA analyses used in the study:
 
-## A dual role for dinoflagellates across biogeochemical gradients in the central Pacific Ocean
+## Dinoflagellates have dual carbon roles and alter nutrient metabolism across environmental gradients in the central Pacific Ocean
 
 by Natalie R. Cohen, Matthew R. McIlvin, Dawn M. Moran, Noelle A. Held, Jaclyn Saunders, Nicholas Hawco, Michael Brosnahan, Giacomo DiTullio, Carl Lamborg, John P. McCrow, Chris Dupont, Andrew E. Allen, Mak Saito
 
