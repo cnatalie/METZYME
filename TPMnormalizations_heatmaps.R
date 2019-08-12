@@ -113,32 +113,39 @@ pheatmap(c[idx,], color=myColor,
 }
 
 ### transcripts KEGG heatmap
-library(caroline)
-a<-read.csv('TPM_TRANSCRIPTS_Dino.lpi0.8_KO_postsum.csv')
-x<-read.tab('kodef.tab') #Read in a table of KEGG IDs and definitions
+a<-read.csv('TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_orf_KOpost.csv')
+x<-read.tab('kodef.tab')
 x$KO_def<-paste(x$KO, x$def, sep='_')
 a$KO<-rownames(a)
 rownames(a)<-a$X
 a$KO<-rownames(a)
 head(a)
+#a<-a[,-1]
 z<-merge(a, x, by='KO')
 rownames(z)<-z$KO_def
 head(z)
-z<-z[,-1] #Clean up by deleting text columns, leave only data matrix
+z<-z[,-1]
+z<-z[,-1]
 z<-z[,-45]
 z<-z[,-44]
-head(z)
 z<-z[,-43]
+z<-z[,-42] #Delete non-numeric columns
+o<-a[1660:1663,] #carry over kegg genes without descriptions 
+o<-o[,-44] #Delete non-numeric columns
+o<-o[,-43]
+o<-o[,-1]
+x<-rbind(o,z)
+z<-x
 d<-log2(z+1)
-head(z)
-z<-z[,-42] #Delete 1900m sample
-rv<- rowVars(z) #Sort by variance
-idx<- order(-rv)[1:50] #Show top 50 genes with highest variances
-d<-log2(z+1)
+rv<- rowVars(z)
+idx<- order(-rv)[1:50]
+paletteLength <- 50
+myColor <- rev(viridis_pal(option = "C")(paletteLength))
+myColor <- colorRampPalette(brewer.pal(9, "YlGnBu"))(100)
 annotation <- data.frame(Var1 = factor(1:41, labels = c('1')))
 rownames(annotation)<-colnames(d)
 annotation$Var1<-rownames(annotation)
-fix(annotation) #Fill in annotation table
+fix(annotation)
 colnames(annotation)<-c('Depth',"Station")
 pheatmap(d[idx,], scale="row", color=myColor,
          cluster_cols=T, fontsize_row=8,
