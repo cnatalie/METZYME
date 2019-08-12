@@ -77,7 +77,7 @@ dissTOM= 1-TOM
 
 #Each leaf corresponds to a gene, branches grouping together densely are interconnected, highly co-expressed genes
 geneTree= flashClust(as.dist(dissTOM), method="average")
-minModuleSize=50
+minModuleSize=75
 dynamicMods= cutreeDynamic(dendro= geneTree, distM= dissTOM, deepSplit=2, pamRespectsDendro= FALSE, minClusterSize= minModuleSize)
 table(dynamicMods)
 dynamicColors= labels2colors(dynamicMods)
@@ -152,7 +152,7 @@ names(GSPvalue) = paste("p.GS.", names(weight), sep="");
 
 #Heatmap of module expression with bar plot of eigengene
 sizeGrWindow(8,7);
-which.module="yellow" #pick module of interest
+which.module="blue" #pick module of interest, i.e. blue, turquoise
 ME=MEs[, paste("ME",which.module, sep="")]
 genes=datExpr0[,moduleColors==which.module ] 
 par(mfrow=c(2,1), mar=c(0.3, 5.5, 5, 2))
@@ -160,12 +160,6 @@ plotMat(t(scale(genes) ),nrgcols=30,rlabels=F, clabels=rownames(genes), rcols=wh
 par(mar=c(5, 4.2, 0, 0.7))
 barplot(ME, col=which.module, main="", cex.main=2,
         ylab="eigengene expression",xlab="sample")
-
-#Output ME by sample
-meyellow<-ME #get ME for yellow module above
-meout<-data.frame(cbind(rownames(datExpr),meyellow,memidnightblue))
-
-write.csv(meout,"MEbySample_MidnightblueBlueMods.csv",quote=F,row.names=F)
 
 #Connect Gene ID to functions, save file with p values. Outputs gene significance results, module colors and KOs
 annot = read.csv(file = "kodef.csv"); #KO definition to KO
@@ -180,26 +174,22 @@ geneInfo0 = data.frame(def = probes,
                        moduleColor = moduleColors,
                        geneTraitSignificance,
                        GSPvalue)
-write.csv(geneInfo0, 'TPM_WGCNA_021319_allsamples.csv')
+write.csv(geneInfo0, 'TPM_WGCNA_080519_orf_allsamples.csv')
 
 #Note: The blue color module was changed to the color black, and turquoise to white for clarity during visualizations
 
 #KEGG enrichment
 library(clusterProfiler)
-a<-read.csv('blue.csv',header=F) #Read in KOs in module of interest
-b <- a[,1] #Convert to vector
-x <- enrichKEGG(b, organism='ko', keyType='kegg', universe = bg)
-#write.csv(x, 'blue_enriched.csv')
-bg<-read.csv('bg.csv',header=F) 
-bg<-bg[,1]#all dino KOs in modules
-aa<-read.csv('turquoise.csv',header=F) #Read in KOs in module of interest
-bb <- aa[,1]
-xx <- enrichKEGG(bb, organism='ko', keyType='kegg', universe = bg)
-#write.csv(xx, 'turquoise_enriched.csv')
-barplot(xx, colorBy = "p.adjust", showCategory = 50)
+a<-read.csv('turquoise.csv',header=F) #Read in KOs in module of interest
+a<-a[,1] #Convert to vector
+bg<-read.csv('bg.csv',header=F) #Read in all KOs from all modules
+bg<-bg[,1]
+x <- enrichKEGG(a, organism='ko', keyType='kegg', universe = bg)
+write.csv(x, 'turquoise_enriched.csv')
 
-a<-read.csv('turquoise_enriched.csv')
+#Barplot of KEGG pathways with high gene ratio percentages in the module compared to total KOs identified:
+a<-read.csv('turquoise_generatios_080519_bars.csv')
 library(ggplot2)
-ggplot(data=a, aes(x= reorder (Description, GeneRatio), y=GeneRatio)) + xlab("KEGG Pathway Description") + ylab("Ratio in Module") + theme_minimal() +
-  geom_bar(colour="black", fill="#0437e0", width=.8, stat="identity") + coord_flip()
+ggplot(data=a, aes(x= reorder (Description, GeneRatioPercent), y=GeneRatioPercent)) + xlab("KEGG Pathway Description") + ylab("Ratio in Module") + theme_minimal() +
+  geom_bar(colour="black", fill="white", width=.8, stat="identity") + coord_flip()
   guides(fill=FALSE)
