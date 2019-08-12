@@ -1,7 +1,7 @@
 ###Calculating normalized transcripts as TPM, caculated following Micheal Love's blog post: https://support.bioconductor.org/p/91218/
 
-#Read in dinoflagellate raw transcripts, annotations and open reading frame length in base pairs and TPM normalize
-a<-read.csv('annotation_all.filtered.grps.go_TRANSCRIPTS_0.8lpi_Dino_only_sansAnnotations.csv') #Subset dinoflagellates with LPI score > 0.8
+#Transcripts normalization - Read in dinoflagellate raw transcripts, annotations and open reading frame length in base pairs and TPM normalize
+a<-read.csv('annotation_all.filtered.grps.go_TRANSCRIPTS_0.8lpi_Dino_only_sansAnnotations.csv') #Subset dinoflagellate contigs and raw counts with LPI score > 0.8
 b<-read.csv('orflength.csv') #ORF lengths from PhyloDB output
 c<-merge(a, b, by='orf_id')
 rownames(c)<-c$orf_id
@@ -16,7 +16,7 @@ a<-read.csv('dataset2.csv')
 c<-merge(a, b, by='orf_id') #Should be left with dinoflagellate TPM counts and functional annotations
 write.csv(c, 'TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_orf.csv')
 
-#Protein normalization - NSAF using amino acid residues as length and multiplying by scaler of 100 
+#Protein normalization - NSAF normalization using amino acid residues as length and multiplying by scaler of 1000 
 a<-read.csv('exclusive_counts_annotations_dino_lpi0.8_pre.csv')
 rownames(a)<-a$X
 x <- a[5:44] / a$orf_length_aa
@@ -33,30 +33,30 @@ library(viridis)
 library(RColorBrewer)
 
 ### TPM-normalized KEGG heatmap (three different taxa)
-a<-read.csv('TPM_TRANSCRIPTS_Dino_diatom_pelagophyte.lpi0.8_annotations_KOpresum.csv')
-dia<-c('Diatoms')
-b<-a[a$group %in% dia,]
+a<-read.csv('annotation_all.filtered.grps.go.lpi_0.8_dino_diatom_hapto_TPM_KOpre.csv')
+dia<-c('Diatom')
+b<-a[a$GROUP %in% dia,]
 head(b)
 library(caroline)
-diatoms<-groupBy(b, by='KO',clmns=(3:43),aggregation='sum')
-colnames(diatoms)<-colnames(b[3:43])
+diatoms<-groupBy(b, by='KO',clmns=(4:44),aggregation='sum')
+colnames(diatoms)<-colnames(b[4:44])
 colnames(diatoms) <- paste("Diatoms", colnames(diatoms), sep = "_")
 diatoms$KO<-rownames(diatoms)
 dino<-c('Dinophyta')
-b<-a[a$group %in% dino,]
-dino<-groupBy(b, by='KO',clmns=(3:43),aggregation='sum')
-colnames(dino)<-colnames(b[3:43])
+b<-a[a$GROUP %in% dino,]
+dino<-groupBy(b, by='KO',clmns=(4:44),aggregation='sum')
+colnames(dino)<-colnames(b[4:44])
 colnames(dino) <- paste("Dinoflagellates", colnames(dino), sep = "_")
 dino$KO<-rownames(dino)
-dia<-c('Other Stramenopiles')
-b<-a[a$group %in% dia,]
+dia<-c('Haptophyta')
+b<-a[a$GROUP %in% dia,]
 head(b)
-pelago<-groupBy(b, by='KO',clmns=(3:43),aggregation='sum')
-colnames(pelago)<-colnames(b[3:43])
-colnames(pelago) <- paste("Pelagophytes", colnames(pelago), sep = "_")
-pelago$KO<-rownames(pelago)
+hapto<-groupBy(b, by='KO',clmns=(4:44),aggregation='sum')
+colnames(hapto)<-colnames(b[4:44])
+colnames(hapto) <- paste("Haptophytes", colnames(hapto), sep = "_")
+hapto$KO<-rownames(hapto)
 c<-merge(diatoms, dino, by='KO')
-d<-merge(c, pelago, by='KO')
+d<-merge(c, hapto, by='KO')
 library(viridis)
 library(pheatmap)
 paletteLength=100
