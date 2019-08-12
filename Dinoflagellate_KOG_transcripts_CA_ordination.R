@@ -3,7 +3,7 @@ library(ggplot2)
 library(RColorBrewer)
 library(dplyr)
 
-a<-read.csv('TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_KOGpost.csv')
+a<-read.csv('TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_orf_KOGpost.csv')
 head(a)
 rownames(a)<-a$X
 a<-a[,-1]
