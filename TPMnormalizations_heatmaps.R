@@ -1,17 +1,44 @@
 ###Calculating normalized transcripts as TPM, caculated following Micheal Love's blog post: https://support.bioconductor.org/p/91218/
 
-#Read in dinoflagellate only raw transcripts, annotations and gene length 
+#Read in dinoflagellate (with LPI score > 0.8) raw transcripts, annotations and open reading frame length in base pairs
 a<-read.csv('annotation_all.filtered.grps.go_TRANSCRIPTS_0.8lpi_Dino_only_sansAnnotations.csv')
-rownames(a)<-a$orf_id
-x <- a[3:44] / a$contig_length
+b<-read.csv('orflength.csv')
+c<-merge(a, b, by='orf_id')
+rownames(c)<-c$orf_id
+x <- c[3:44] / c$orf_length
 tpm.mat <- t( t(x) * 1e6 / colSums(x) )
-write.csv(tpm.mat, 'TPM_TRANSCRIPTS_Dino_only.csv')
-b<-read.csv('TPM_TRANSCRIPTS_Dino_only.csv')
+rownames(tpm.mat)<-c$orf_id
+write.csv(tpm.mat, 'TPM_TRANSCRIPTS_Dino_only_orf.csv')
+b<-read.csv('TPM_TRANSCRIPTS_Dino_only_orf.csv')
 colnames(b)[colnames(b) == 'X'] <- 'orf_id' #rownames = orf_id
 #Read in file with all annotations
 a<-read.csv('annotation_all.filtered.grps.go_TRANSCRIPTS_0.8pli_Dino_only.csv')
 c<-merge(a, b, by='orf_id')
-write.csv(c, 'TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations.csv')
+write.csv(c, 'TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_orf.csv')
+
+#Protein normalization - NSAF using amino acid residues as length and multiplying by scaler of 100 
+a<-read.csv('exclusive_counts_annotations_dino_lpi0.8_pre.csv')
+rownames(a)<-a$X
+x <- a[5:44] / a$orf_length_aa
+xx <- t( t(x) * 1e3 / colSums(x) )
+y<-colSums(xx)
+write.csv(xx, 'exclusive_counts_annotations_dino_lpi0.8_post_NSAF_orf.csv')
+a<-read.csv('exclusive_counts_annotations_dino_lpi0.8_post_NSAF_orf.csv')
+b<-read.csv('exclusive_counts_annotations_dino_lpi0.8_pre.csv')
+c<-merge(a, b, by="X")
+head(c)
+write.csv(c, 'test.csv') #clean up, rename orf_id column X
+a<-read.csv('test.csv')
+b<-groupBy(a, by='PFams',clmns=(2:41),aggregation='sum')
+colnames(b)<-colnames(a[2:41])
+b<-b[-1,]
+a<-read.csv('pfamkey.csv')
+d<-unique(a)
+b$PFams<-rownames(b)
+c<-merge(d, b, by='PFams')
+nrow(c)
+nrow(b) #should be the same 
+write.csv(c, 'exclusive_counts_annotations_dino_lpi0.8_post_NSAF_orf_PFAMS.csv')
 
 library(pheatmap)
 library(genefilter)
