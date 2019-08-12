@@ -1,0 +1,376 @@
+PFams,PFams_desc
+PF00006,"ATP synthase alpha/beta family, nucleotide-binding domain"
+PF00006,"ATP synthase alpha/beta family, nucleotide-binding domain"
+PF00016,"Ribulose bisphosphate carboxylase large chain, catalytic domain"
+PF00016,"Ribulose bisphosphate carboxylase large chain, catalytic domain"
+PF00016,"Ribulose bisphosphate carboxylase large chain, catalytic domain"
+PF00016,"Ribulose bisphosphate carboxylase large chain, catalytic domain"
+PF00016,"Ribulose bisphosphate carboxylase large chain, catalytic domain"
+PF00022,Actin
+PF00022,Actin
+PF00022,Actin
+PF00025,ADP-ribosylation factor family
+PF00025,ADP-ribosylation factor family
+PF00025,ADP-ribosylation factor family
+PF00026,Eukaryotic aspartyl protease
+PF00036,EF hand
+PF00036,EF hand
+PF00036,EF hand
+PF00042,Globin
+PF00044,"Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain"
+PF00044,"Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain"
+PF00044,"Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain"
+PF00044,"Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain"
+PF00051,Kringle domain
+PF00051,Kringle domain
+PF00051,Kringle domain
+PF00051,Kringle domain
+PF00056,"lactate/malate dehydrogenase, NAD binding domain||lactate/malate dehydrogenase, alpha/beta C-terminal domain"
+PF00056,"lactate/malate dehydrogenase, NAD binding domain||lactate/malate dehydrogenase, alpha/beta C-terminal domain"
+PF00069,Protein kinase domain
+PF00069,Protein kinase domain
+PF00069_PF13499,Protein kinase domain||EF-hand domain pair
+PF00070,Pyridine nucleotide-disulphide oxidoreductase
+PF00070,Pyridine nucleotide-disulphide oxidoreductase
+PF00070,Pyridine nucleotide-disulphide oxidoreductase
+PF00070,Pyridine nucleotide-disulphide oxidoreductase
+PF00070,Pyridine nucleotide-disulphide oxidoreductase
+PF00071,Ras family
+PF00071,Ras family
+PF00076,"RNA recognition motif. (a.k.a. RRM, RBD, or RNP domain)"
+PF00084,Sushi domain (SCR repeat)
+PF00090,Thrombospondin type 1 domain
+PF00090,Thrombospondin type 1 domain
+PF00090,Thrombospondin type 1 domain
+PF00090,Thrombospondin type 1 domain
+PF00090,Thrombospondin type 1 domain
+PF00090,Thrombospondin type 1 domain
+PF00090,Thrombospondin type 1 domain
+PF00090_PF00092,Thrombospondin type 1 domain||von Willebrand factor type A domain
+PF00090_PF00092,Thrombospondin type 1 domain||von Willebrand factor type A domain
+PF00090_PF00092_PF00051,Thrombospondin type 1 domain||von Willebrand factor type A domain||Kringle domain
+PF00091,"Tubulin/FtsZ family, GTPase domain"
+PF00092,von Willebrand factor type A domain
+PF00092,von Willebrand factor type A domain
+PF00092,von Willebrand factor type A domain
+PF00092,von Willebrand factor type A domain
+PF00092,von Willebrand factor type A domain
+PF00092,von Willebrand factor type A domain
+PF00107,Zinc-binding dehydrogenase
+PF00113,"Enolase, C-terminal TIM barrel domain"
+PF00121,Triosephosphate isomerase
+PF00121,Triosephosphate isomerase
+PF00122,E1-E2 ATPase
+PF00122,E1-E2 ATPase
+PF00125,Core histone H2A/H2B/H3/H4
+PF00127,"Copper binding proteins, plastocyanin/azurin family"
+PF00149,Calcineurin-like phosphoesterase
+PF00153,Mitochondrial carrier protein
+PF00153,Mitochondrial carrier protein
+PF00153,Mitochondrial carrier protein
+PF00153,Mitochondrial carrier protein
+PF00153,Mitochondrial carrier protein
+PF00153,Mitochondrial carrier protein
+PF00153,Mitochondrial carrier protein
+PF00153,Mitochondrial carrier protein
+PF00153,Mitochondrial carrier protein
+PF00153,Mitochondrial carrier protein
+PF00153,Mitochondrial carrier protein
+PF00153,Mitochondrial carrier protein
+PF00153,Mitochondrial carrier protein
+PF00153,Mitochondrial carrier protein
+PF00153,Mitochondrial carrier protein
+PF00153,Mitochondrial carrier protein
+PF00153,Mitochondrial carrier protein
+PF00160,Cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD
+PF00162,Phosphoglycerate kinase
+PF00162,Phosphoglycerate kinase
+PF00162,Phosphoglycerate kinase
+PF00162,Phosphoglycerate kinase
+PF00162,Phosphoglycerate kinase
+PF00162,Phosphoglycerate kinase
+PF00162,Phosphoglycerate kinase
+PF00162,Phosphoglycerate kinase
+PF00162,Phosphoglycerate kinase
+PF00162,Phosphoglycerate kinase
+PF00162,Phosphoglycerate kinase
+PF00162,Phosphoglycerate kinase
+PF00162,Phosphoglycerate kinase
+PF00162_PF03952,"Phosphoglycerate kinase||Enolase, N-terminal domain"
+PF00171,Aldehyde dehydrogenase family
+PF00173,Cytochrome b5-like Heme/Steroid binding domain
+PF00183,Hsp90 protein
+PF00183,Hsp90 protein
+PF00183,Hsp90 protein
+PF00183,Hsp90 protein
+PF00183,Hsp90 protein
+PF00183,Hsp90 protein
+PF00183,Hsp90 protein
+PF00183,Hsp90 protein
+PF00183,Hsp90 protein
+PF00183,Hsp90 protein
+PF00183,Hsp90 protein
+PF00183,Hsp90 protein
+PF00183,Hsp90 protein
+PF00183,Hsp90 protein
+PF00183,Hsp90 protein
+PF00183,Hsp90 protein
+PF00183,Hsp90 protein
+PF00183,Hsp90 protein
+PF00216,Bacterial DNA-binding protein
+PF00216,Bacterial DNA-binding protein
+PF00217,PF00217
+PF00217,PF00217
+PF00217,PF00217
+PF00230,Major intrinsic protein
+PF00230,Major intrinsic protein
+PF00230,Major intrinsic protein
+PF00230,Major intrinsic protein
+PF00230,Major intrinsic protein
+PF00244,14-3-3 protein
+PF00244,14-3-3 protein
+PF00244,14-3-3 protein
+PF00244,14-3-3 protein
+PF00244,14-3-3 protein
+PF00244,14-3-3 protein
+PF00244,14-3-3 protein
+PF00244,14-3-3 protein
+PF00244,14-3-3 protein
+PF00244,14-3-3 protein
+PF00244,14-3-3 protein
+PF00244,14-3-3 protein
+PF00258,Flavodoxin
+PF00262,Calreticulin family
+PF00270,DEAD/DEAH box helicase
+PF00270,DEAD/DEAH box helicase
+PF00270,DEAD/DEAH box helicase
+PF00270,DEAD/DEAH box helicase
+PF00270,DEAD/DEAH box helicase
+PF00270,DEAD/DEAH box helicase
+PF00270,DEAD/DEAH box helicase
+PF00270,DEAD/DEAH box helicase
+PF00270,DEAD/DEAH box helicase
+PF00274,Fructose-bisphosphate aldolase class-I
+PF00274,Fructose-bisphosphate aldolase class-I
+PF00274,Fructose-bisphosphate aldolase class-I
+PF00274,Fructose-bisphosphate aldolase class-I
+PF00274,Fructose-bisphosphate aldolase class-I
+PF00294,pfkB family carbohydrate kinase
+PF00306,"ATP synthase alpha/beta chain, C terminal domain"
+PF00408,"Phosphoglucomutase/phosphomannomutase, C-terminal domain"
+PF00438,"S-adenosylmethionine synthetase, N-terminal domain"
+PF00438,"S-adenosylmethionine synthetase, N-terminal domain"
+PF00438,"S-adenosylmethionine synthetase, N-terminal domain"
+PF00463,Isocitrate lyase family
+PF00464,Serine hydroxymethyltransferase
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00504,Chlorophyll A-B binding protein
+PF00584,SecE/Sec61-gamma subunits of protein translocation complex
+PF00637,Region in Clathrin and VPS
+PF00670,"S-adenosyl-L-homocysteine hydrolase, NAD binding domain"
+PF00670,"S-adenosyl-L-homocysteine hydrolase, NAD binding domain"
+PF00675,Insulinase (Peptidase family M16)
+PF00675,Insulinase (Peptidase family M16)
+PF00690,"Cation transporter/ATPase, N-terminus||E1-E2 ATPase"
+PF00696,Amino acid kinase family
+PF00702,haloacid dehalogenase-like hydrolase
+PF00702,haloacid dehalogenase-like hydrolase
+PF00737,Photosystem II 10 kDa phosphoprotein
+PF00754,F5/8 type C domain
+PF00810,ER lumen protein retaining receptor
+PF00890,FAD binding domain
+PF00890,FAD binding domain
+PF00890,FAD binding domain
+PF00890,FAD binding domain
+PF00890,FAD binding domain
+PF00890,FAD binding domain
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01036,Bacteriorhodopsin-like protein
+PF01053,Cys/Met metabolism PLP-dependent enzyme
+PF01053,Cys/Met metabolism PLP-dependent enzyme
+PF01079,Hint module
+PF01116,Fructose-bisphosphate aldolase class-II||Fructose-bisphosphate aldolase class-I
+PF01215,Cytochrome c oxidase subunit Vb
+PF01266,FAD dependent oxidoreductase
+PF01346,Domain amino terminal to FKBP-type peptidyl-prolyl isomerase||FKBP-type peptidyl-prolyl cis-trans isomerase
+PF01368,DHH family
+PF01370,NAD dependent epimerase/dehydratase family
+PF01423,LSM domain 
+PF01747,PF14306||ATP-sulfurylase
+PF01775,Ribosomal L18ae/LX protein domain
+PF01798,Putative snoRNA binding domain||Prp31 C terminal domain
+PF01822,WSC domain
+PF01822,WSC domain
+PF01822,WSC domain
+PF01822,WSC domain
+PF01822,WSC domain
+PF01822,WSC domain
+PF01822,WSC domain
+PF01833,IPT/TIG domain
+PF01849_PF00627,NAC domain||UBA/TS-N domain
+PF01918,Alba
+PF01918,Alba
+PF01918,Alba
+PF01918,Alba
+PF01918,Alba
+PF01918,Alba
+PF01992,ATP synthase (C/AC39) subunit
+PF01992,ATP synthase (C/AC39) subunit
+PF01992,ATP synthase (C/AC39) subunit
+PF01992,ATP synthase (C/AC39) subunit
+PF02347,Glycine cleavage system P-protein
+PF02429,Peridinin-chlorophyll A binding protein
+PF02429,Peridinin-chlorophyll A binding protein
+PF02429,Peridinin-chlorophyll A binding protein
+PF02429,Peridinin-chlorophyll A binding protein
+PF02429,Peridinin-chlorophyll A binding protein
+PF02429,Peridinin-chlorophyll A binding protein
+PF02429,Peridinin-chlorophyll A binding protein
+PF02429,Peridinin-chlorophyll A binding protein
+PF02429,Peridinin-chlorophyll A binding protein
+PF02429,Peridinin-chlorophyll A binding protein
+PF02429,Peridinin-chlorophyll A binding protein
+PF02429,Peridinin-chlorophyll A binding protein
+PF02429,Peridinin-chlorophyll A binding protein
+PF02429,Peridinin-chlorophyll A binding protein
+PF02429,Peridinin-chlorophyll A binding protein
+PF02429,Peridinin-chlorophyll A binding protein
+PF02429,Peridinin-chlorophyll A binding protein
+PF02436,Conserved carboxylase domain
+PF02492,"CobW/HypB/UreG, nucleotide-binding domain"
+PF02492,"CobW/HypB/UreG, nucleotide-binding domain"
+PF02629,CoA binding domain||CoA-ligase
+PF02772,"S-adenosylmethionine synthetase, central domain"
+PF02772,"S-adenosylmethionine synthetase, central domain"
+PF02772,"S-adenosylmethionine synthetase, central domain"
+PF02772,"S-adenosylmethionine synthetase, central domain"
+PF02788,"Ribulose bisphosphate carboxylase large chain, N-terminal domain"
+PF02800,"Glyceraldehyde 3-phosphate dehydrogenase, C-terminal domain"
+PF02800,"Glyceraldehyde 3-phosphate dehydrogenase, C-terminal domain"
+PF02800,"Glyceraldehyde 3-phosphate dehydrogenase, C-terminal domain"
+PF02800,"Glyceraldehyde 3-phosphate dehydrogenase, C-terminal domain"
+PF02800,"Glyceraldehyde 3-phosphate dehydrogenase, C-terminal domain"
+PF02800,"Glyceraldehyde 3-phosphate dehydrogenase, C-terminal domain"
+PF02801,"Beta-ketoacyl synthase, C-terminal domain"
+PF02807,"ATP:guanido phosphotransferase, N-terminal domain||ATP:guanido phosphotransferase, C-terminal catalytic domain"
+PF02823,"ATP synthase, Delta/Epsilon chain, beta-sandwich domain"
+PF02874,"ATP synthase alpha/beta family, beta-barrel domain"
+PF02874,"ATP synthase alpha/beta family, beta-barrel domain"
+PF02874,"ATP synthase alpha/beta family, beta-barrel domain"
+PF02990,Endomembrane protein 70
+PF03030,Inorganic H+ pyrophosphatase
+PF03030,Inorganic H+ pyrophosphatase
+PF03030,Inorganic H+ pyrophosphatase
+PF03030,Inorganic H+ pyrophosphatase
+PF03030,Inorganic H+ pyrophosphatase
+PF03030,Inorganic H+ pyrophosphatase
+PF03030,Inorganic H+ pyrophosphatase
+PF03030,Inorganic H+ pyrophosphatase
+PF03069,Acetamidase/Formamidase family
+PF03069,Acetamidase/Formamidase family
+PF03069,Acetamidase/Formamidase family
+PF03069,Acetamidase/Formamidase family
+PF03176,MMPL family
+PF03259,Roadblock/LC7 domain
+PF03328,HpcH/HpaI aldolase/citrate lyase family
+PF03328,HpcH/HpaI aldolase/citrate lyase family
+PF03713,Domain of unknown function (DUF305)
+PF03931,"Skp1 family, tetramerisation domain||Skp1 family, dimerisation domain"
+PF03951,"Glutamine synthetase, beta-Grasp domain||Glutamine synthetase, catalytic domain"
+PF03952,"Enolase, N-terminal domain||Enolase, C-terminal TIM barrel domain"
+PF03952,"Enolase, N-terminal domain||Enolase, C-terminal TIM barrel domain"
+PF03952,"Enolase, N-terminal domain||Enolase, C-terminal TIM barrel domain"
+PF03953,Tubulin C-terminal domain
+PF03953,Tubulin C-terminal domain
+PF03953,Tubulin C-terminal domain
+PF03971,Monomeric isocitrate dehydrogenase
+PF04142,Nucleotide-sugar transporter
+PF04488,Glycosyltransferase sugar-binding region containing DXD motif   
+PF04576,"Protein of unknown function, DUF593"
+PF04977,Septum formation initiator
+PF05221,S-adenosyl-L-homocysteine hydrolase
+PF05222,"Alanine dehydrogenase/PNT, N-terminal domain||Alanine dehydrogenase/PNT, C-terminal domain||PF12769||NAD(P) transhydrogenase beta subunit"
+PF05548,Gametolysin peptidase M11
+PF06068,TIP49 C-terminus
+PF07650,KH domain
+PF07692,Low iron-inducible periplasmic protein
+PF07692,Low iron-inducible periplasmic protein
+PF07692,Low iron-inducible periplasmic protein
+PF08442,ATP-grasp domain
+PF08442_PF00549,ATP-grasp domain||CoA-ligase
+PF10211,Axonemal dynein light chain
+PF10274,Parkin co-regulated protein
+PF10274,Parkin co-regulated protein
+PF10274,Parkin co-regulated protein
+PF10559,Plug domain of Sec61p||eubacterial secY protein
+PF10559,Plug domain of Sec61p||eubacterial secY protein
+PF12314,Inner membrane complex protein
+PF12769_PF02233,PF12769||NAD(P) transhydrogenase beta subunit
+PF12774,PF12774
+PF12774,PF12774
+PF13499,EF-hand domain pair
+PF13499,EF-hand domain pair
+PF13583,PF13583
+PF13583,PF13583
+PF13646,PF13646||Armadillo/beta-catenin-like repeat||Proteasome non-ATPase 26S subunit||HEAT repeat
+PF13833,PF13838||Region in Clathrin and VPS
+PF13833_PF01699,PF13833||Sodium/calcium exchanger protein
+PF13864,PF13864
+PF14521,Lysine-specific metallo-endopeptidase
