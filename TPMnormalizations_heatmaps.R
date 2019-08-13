@@ -31,6 +31,7 @@ library(pheatmap)
 library(genefilter)
 library(viridis)
 library(RColorBrewer)
+library(stringr)
 
 ### TPM-normalized KEGG heatmap (three different taxa). Sum together same KO annotations within each taxonomic group, and then merge into one dataframe
 a<-read.csv('annotation_all.filtered.grps.go.lpi_0.8_dino_diatom_hapto_TPM_KOpre.csv')
@@ -57,20 +58,21 @@ colnames(hapto) <- paste("Haptophytes", colnames(hapto), sep = "_")
 hapto$KO<-rownames(hapto)
 c<-merge(diatoms, dino, by='KO')
 d<-merge(c, hapto, by='KO')
+rownames(d)<-d$KO
+d<-d[,-1]
 library(viridis)
 library(pheatmap)
 paletteLength=100
 myColor <- rev(viridis_pal(option = "B")(paletteLength))
-annotation <- data.frame(Var1 = factor(1:124, labels = c('1')))
+annotation <- data.frame(Var1 = factor(1:123, labels = c('1')))
 rownames(annotation)<-colnames(d)
 annotation$Var1<-rownames(annotation)
-fix(annotation) #Fill in dataframe with Group, Station and Depth
-rownames(annotation) <- colnames(d)
-colnames(annotation)<-c('Group','Station','Depth')
-annotation<-annotation[-1,]
-tail(annotation)
+annotation$Depth<-str_extract(annotation$Var1, "(?<=\\_)\\d+")
+annotation$Depth<- as.numeric(as.character(annotation$Depth))
+annotation$Station<-str_extract(annotation$Var1, "(?=\\_?)\\d+")
+annotation$Group<-str_extract(annotation$Var1, "\\w+(?=_X)")
+annotation<-annotation[,-1]
 rownames(d)<-d$KO
-d<-d[,-1]
 z<-log2(d+1)
 pheatmap(z, color=myColor, cluster_cols=T, fontsize_row=8, cluster_rows=T, show_colnames=F, show_rownames = F, annotation = annotation)
 
@@ -92,11 +94,12 @@ rv <- apply(b, 1, var)
 idx <- names(V[order(V, decreasing = T)][1:45])
 nrow(b)
 head(c)
-annotation <- data.frame(Var1 = factor(1:41, labels = c('1')))
-rownames(annotation)<-colnames(b)
+annotation <- data.frame(Var1 = factor(1:39, labels = c('1')))
+rownames(annotation)<-colnames(d)
 annotation$Var1<-rownames(annotation)
-fix(annotation) #Fill in table with depth, station
-colnames(annotation)<-c('Depth',"Station")
+annotation$Depth<-str_extract(annotation$Var1, "(?<=\\_)\\d+")
+annotation$Station<-str_extract(annotation$Var1, "(?=\\_?)\\d+")
+annotation<-annotation[,-1]
 
 #To flip a dendrogram branch
 callback = function(hc, mat){
@@ -113,6 +116,8 @@ pheatmap(c[idx,], color=myColor,
 }
 
 ### transcripts KEGG heatmap
+library(caroline)
+
 a<-read.csv('TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_orf_KOpost.csv') #TPM counts from the same KO IDs were summed together.
 x<-read.tab('kodef.tab')
 x$KO_def<-paste(x$KO, x$def, sep='_')
@@ -145,8 +150,9 @@ myColor <- colorRampPalette(brewer.pal(9, "YlGnBu"))(100)
 annotation <- data.frame(Var1 = factor(1:41, labels = c('1')))
 rownames(annotation)<-colnames(d)
 annotation$Var1<-rownames(annotation)
-fix(annotation)
-colnames(annotation)<-c('Depth',"Station")
+annotation$Depth<-str_extract(annotation$Var1, "(?<=\\_)\\d+")
+annotation$Station<-str_extract(annotation$Var1, "(?=\\_?)\\d+")
+annotation<-annotation[,-1]
 pheatmap(d[idx,], scale="row", color=myColor,
          cluster_cols=T, fontsize_row=8,
          cluster_rows=T, cellwidth=9,
@@ -162,10 +168,11 @@ rownames(a)<-a$X
 a<-a[,-1]
 d<-log2(a+1)
 rv<- rowVars(a)
-idx<- order(-rv)[1:40]
+idx<- order(-rv)[1:45]
 annotation <- data.frame(Var1 = factor(1:15, labels = c('1')))
 rownames(annotation)<-colnames(d)
 annotation$Var1<-rownames(annotation)
-fix(annotation)
-colnames(annotation)<-c('Depth',"Station")
+annotation$Depth<-str_extract(annotation$Var1, "(?<=\\_)\\d+")
+annotation$Station<-str_extract(annotation$Var1, "(?=\\_?)\\d+")
+annotation<-annotation[,-1]
 pheatmap(d[idx,], cluster_cols=T, fontsize_row=8, cluster_rows=T, annotation = annotation, cellheight=9,cellwidth=9, show_rownames = T, color = myColor, cutree_rows=2, cutree_cols=2, scale="row")
