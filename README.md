@@ -26,6 +26,7 @@ Most input files are included here, except the master dataframe containing conti
 * genefilter
 * viridis
 * RColorBrewer
+* stringr
 
 
 ### Comments/questions/feedback welcome! ncohen@whoi.edu
