@@ -79,7 +79,7 @@ pheatmap(z, color=myColor, cluster_cols=T, fontsize_row=8, cluster_rows=T, show_
 #PFams heatmaps with proteins
 setwd("~/METZYME/metaproteome 3um")
 a<-read.csv('exclusive_counts_annotations_dino_lpi0.8_post_NSAF_orf_PFAMS_postSum.csv') #Summed together TPM counts from same PFam ID
-rownames(a)<-a$X
+rownames(a)<-a$PFams
 b<-a[,-1]
 b<-b[,-40]
 head(b)
@@ -88,6 +88,7 @@ library(pheatmap)
 library(genefilter)
 library(viridis)
 library(RColorBrewer)
+library(stringr)
 paletteLength <- 50
 myColor <- colorRampPalette(brewer.pal(9, "YlGnBu"))(100)
 rv <- apply(b, 1, var)
@@ -95,7 +96,7 @@ idx <- names(V[order(V, decreasing = T)][1:45])
 nrow(b)
 head(c)
 annotation <- data.frame(Var1 = factor(1:39, labels = c('1')))
-rownames(annotation)<-colnames(d)
+rownames(annotation)<-colnames(c)
 annotation$Var1<-rownames(annotation)
 annotation$Depth<-str_extract(annotation$Var1, "(?<=\\_)\\d+")
 annotation$Station<-str_extract(annotation$Var1, "(?=\\_?)\\d+")
