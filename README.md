@@ -1,15 +1,50 @@
 # METZYME
-R code used to create heatmaps, ordinations, normalizations, the 18S phyloseq and WCGNA analyses used in the study:
+R code and data files used to create heatmaps, ordinations, normalizations, the 18S phyloseq and WCGNA analyses used in the study:
 
-## Dinoflagellates have dual carbon roles and alter nutrient metabolism across environmental gradients in the central Pacific Ocean
+## Dinoflagellates alter their carbon and nutrient metabolic strategies across environmental gradients in the central Pacific Ocean
 
 by Natalie R. Cohen, Matthew R. McIlvin, Dawn M. Moran, Noelle A. Held, Jaclyn Saunders, Nicholas Hawco, Michael Brosnahan, Giacomo DiTullio, Carl Lamborg, John P. McCrow, Chris Dupont, Andrew E. Allen, Mak Saito
 
 In this study we explored the metabolism of unicellular eukaryotic organisms (protists) across a 4,600 km meridional transect in the central Pacific Ocean. The region contains a natural biogeochemical gradient spanning from low nitrogen, oligotrophic waters to a productive equatorial upwelling system. We used a combined geochemical and 'omic approach to characterize the metabolic strategies these organisms rely upon to adapt to changes in their chemical environment.
 
-Most input files are included here, except the master dataframe containing contigs, transcript raw reads, and annotation information which is available as Supplemental Dataframe 2. The file is big (~ 200 MB) and split into two parts (A&B). Running in RStudio is recommended. 
+Most input files are included here, except the master dataframe containing contigs, transcript raw reads, and annotation information which is available as Supplemental Dataframe 2. The file is big (~ 200 MB) and split into two parts (A&B). Running in RStudio is recommended. Assembly, annotation and normalization methods are described in Cohen et al. 2020. Raw reads are available on NCBI under Bioproject number PRJNA555787.
 
-(Note: The default WGCNA color scheme was modified; "blue" was changed to black, and "turquoise" to white for clarity during visualizations.)
+## Input data files & generated tables
+
+### Normalizations
+* annotation_all.filtered.grps.go_TRANSCRIPTS_0.8lpi_Dino_only_sansAnnotations.csv - Raw transcript counts belonging to dinoflagellates (LPI > 0.8). 
+* exclusive_counts_annotations_dino_lpi0.8_pre.csv - Raw exclusive spectral counts belonging to dinoflagellates (LPI > 0.8)
+* orflength.csv - open reading frame lengths from PhyloDB output, for normalizing to ORF length during TPM transformation 
+* exclusive_counts_annotations_dino_lpi0.8_post_NSAF_orf.csv - Exclusive spectral counts normalized using the NSAF approach
+### 18S rRNA analysis
+* OTU.csv - 18S V9 OTU table, OTUs were clustered using swarm (see Allen Lab rRNA pipeline here: https://github.com/allenlab/rRNA_pipeline). Used with phyloseq.
+* TAXA_newPR2.csv - OTU taxonomy table. OTUs were searched against Protist Ribosomal Reference (PR2). Used with phyloseq.
+* sampledata.csv - environmental metadata for ordination
+### Heatmaps
+* kodef.tab - KEGG KO to KEGG description key
+* pfamkey.csv - custom PFAM ID to description key
+* TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_orf_KOGpost.csv - normalized dinoflagellate transcript counts, retaining contigs with a lineage probability index (LPI) > 0.8. Annotations were subsetted to the KOG annotation level. Table was transposed for the ordination analysis.
+* TPM_transcripts_Dino.lpi0.8_KOdef_top100m.csv - normalized dinoflagellate transcript counts, retaining contigs with a lineage probability index (LPI) > 0.8. Annotations were subsetted to the KEGG (KO) annotation level, retaining samples from > 100m depth.
+* exclusive_counts_annotations_dino_lpi0.8_post_NSAF_orf_PFAMS_postSum.csv - NSAF-normalized exclusive spectral counts, summed to the PFAM annoation level, using contigs with LPI > 0.8
+### Ordinations
+* CCA_meta.csv - environmental metadata from sites/depths for CCA ordination
+* TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_orf_KOpost.csv - normalized dinoflagellate transcript counts, retaining contigs with a lineage probability index (LPI) > 0.8. Annotations were subsetted to the KEGG (KO) annotation level. 
+### WGCNA
+* TPM_WGCNA_080519_orf_allsamples.csv - WGCNA module designations for each KEGG KO (including select PFAM IDs)
+* CCA_meta_WCGNA_short.csv - environmental metadata from sites/depth for WGCNA
+* annotation_all.filtered.grps.go.lpi_0.8_dino_diatom_hapto_TPM_KOpre.csv - Normalized transcript counts from dinoflagellates, diatoms, and haptophytes, using LPI > 0.8. Annotated at the KEGG functional level.
+* bg.csv - KEGG KOs from all WGCNA modules, used during KEGG enrichment analysis
+* blue.csv - KEGG KOs in the blue (deep: >200m) module (note: color was changed to black for clarity), used during KEGG enrichment analysis (clusterProfiler)
+* turquoise.csv - KEGG KOs in the turquoise (shallow: <200m) module (note: color was changed to white for clarity), used during KEGG enrichment analysis (clusterProfiler)
+* blue_generatios_080519_bars.csv - Gene ratio percentages in the blue module compared to total KOs identified, from KEGG enrichment (clusterProfiler)
+* turquoise_generatios_080519_bars.csv - Gene ratio percentages in the turquoise module compared to total KOs identified, from KEGG enrichment (clusterProfiler)
+
+## R code
+* TPMnormalizations_heatmaps.R - code for NSAF and TPM normalizations and heatmaps
+* phyloseq.R - OTU transformation, ordination, and plotting with ggplot2
+* Dinoflagellate_KOG_transcripts_CA_ordination.R - code for generating ordinations
+* WGCNA.R - data input, dendrogram generation, network construction, relating traits to modules, module expression and kegg enrichment analysis. Code was modified from Sarah Davies at Boston University.
+
 
 ## R packages used
 * ggplot2
