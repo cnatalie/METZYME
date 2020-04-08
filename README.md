@@ -12,7 +12,7 @@ Most input files are included here, except the master dataframe containing conti
 ## Input data files & generated tables
 
 ### Normalizations
-* annotation_all.filtered.grps.go_TRANSCRIPTS_0.8lpi_Dino_only_sansAnnotations.csv - Raw transcript counts belonging to dinoflagellates (LPI > 0.8)
+* ```annotation_all.filtered.grps.go_TRANSCRIPTS_0.8lpi_Dino_only_sansAnnotations.csv``` - Raw transcript counts belonging to dinoflagellates (LPI > 0.8)
 * orflength.csv - open reading frame lengths from PhyloDB output, for normalizing to ORF length during TPM transformation 
 * exclusive_counts_annotations_dino_lpi0.8_pre.csv - Raw exclusive spectral counts belonging to dinoflagellates (LPI > 0.8)
 ### 18S rRNA analysis with phyloseq
