@@ -7,17 +7,17 @@ by Natalie R. Cohen, Matthew R. McIlvin, Dawn M. Moran, Noelle A. Held, Jaclyn S
 
 In this study we explored the metabolism of unicellular eukaryotic organisms (protists) across a 4,600 km meridional transect in the central Pacific Ocean. The region contains a natural biogeochemical gradient spanning from low nitrogen, oligotrophic waters to a productive equatorial upwelling system. We used a combined geochemical and 'omic approach to characterize the metabolic strategies these organisms rely upon to adapt to changes in their chemical environment.
 
-Most input files are included here, except the master dataframe containing contigs, transcript raw reads, and annotation information which is available as Supplemental Dataframe 2. The file is big (~ 200 MB) and split into two parts (A&B). Running in RStudio is recommended. Assembly, annotation and normalization methods are described in Cohen et al. 2020. Raw reads are available on NCBI under Bioproject number PRJNA555787.
+Input files are included here, except the master dataframe containing contigs, transcript raw reads, and annotation information which is available as Supplemental Dataframe 2. Running in RStudio is recommended. Assembly, annotation and normalization methods are described in Cohen et al. 2020. Raw reads are available on NCBI under Bioproject number PRJNA555787.
 
 ## Input data files & generated tables
 
 ### Normalizations
-* ```annotation_all.filtered.grps.go_TRANSCRIPTS_0.8lpi_Dino_only_sansAnnotations.csv``` - Raw transcript counts belonging to dinoflagellates (LPI > 0.8)
-* ```orflength.csv``` - open reading frame lengths from PhyloDB output, for normalizing to ORF length during TPM transformation 
+* ```annotation_all.filtered.grps.go_TRANSCRIPTS_0.8lpi_Dino_only_sansAnnotations.csv``` - Raw transcript counts belonging to dinoflagellates (Lineage Probability Index (LPI) > 0.8)
+* ```orflength.csv``` - open reading frame lengths from PhyloDB output, for normalizing to open reading length (ORF) length during transcripts per million (TPM) transformation 
 * ```exclusive_counts_annotations_dino_lpi0.8_pre.csv``` - Raw exclusive spectral counts belonging to dinoflagellates (LPI > 0.8)
 ### 18S rRNA analysis with phyloseq
 * ```OTU.csv``` - 18S V9 OTU table, OTUs were clustered using swarm (see Allen Lab rRNA pipeline here: https://github.com/allenlab/rRNA_pipeline)
-* ```TAXA_newPR2.csv``` - OTU taxonomy table. OTUs were searched against Protist Ribosomal Reference (PR2)
+* ```TAXA_newPR2.csv``` - OTU taxonomy table. OTUs were searched against Protist Ribosomal Reference (PR2) https://pr2-database.org/
 * ```sampledata.csv``` - environmental metadata for ordination
 ### Heatmaps with pheatmap
 * ```kodef.tab``` - KEGG KO to KEGG description key
