@@ -21,7 +21,6 @@ Input files are included here, except the master dataframe containing contigs, t
 * ```sampledata.csv``` - environmental metadata for ordination
 ### Heatmaps with pheatmap
 * ```kodef.tab``` - KEGG KO to KEGG description key
-* ```pfamkey.csv``` - PFAM ID to description key
 * ```TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_orf_KOpost.csv``` - normalized dinoflagellate transcript counts, retaining contigs with a lineage probability index (LPI) > 0.8. Annotations were subsetted to the KEGG (KO) annotation level
 * ```TPM_transcripts_Dino.lpi0.8_KOdef_top100m.csv``` - normalized dinoflagellate transcript counts, retaining contigs with a lineage probability index (LPI) > 0.8. Annotations were subsetted to the KEGG (KO) annotation level, retaining samples from > 100m depth.
 * ```annotation_all.filtered.grps.go.lpi_0.8_dino_diatom_hapto_TPM_KOpre.csv``` - Normalized transcript counts from dinoflagellates, diatoms, and haptophytes, using LPI > 0.8. Annotated at the KEGG functional level
