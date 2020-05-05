@@ -174,6 +174,16 @@ geneInfo0 = data.frame(def = probes,
                        moduleColor = moduleColors,
                        geneTraitSignificance,
                        GSPvalue)
+
+modOrder = order(-abs(cor(MEs, weight, use = "p")));
+for (mod in 1:ncol(geneModuleMembership))
+{
+  oldNames = names(geneInfo0)
+  geneInfo0 = data.frame(geneInfo0, geneModuleMembership[, modOrder[mod]],
+                         MMPvalue[, modOrder[mod]]);
+  names(geneInfo0) = c(oldNames, paste("MM.", modNames[modOrder[mod]], sep=""),
+                       paste("p.MM.", modNames[modOrder[mod]], sep=""))
+}
 write.csv(geneInfo0, 'TPM_WGCNA_080519_orf_allsamples.csv')
 
 #Note: The blue color module was changed to the color black, and turquoise to white for clarity during visualizations
