@@ -1,4 +1,4 @@
-#Correspondence analysis (CA) on dinoflagellate TPM-normalized transcript counts annotated at the KOG level
+#Principal Coordinate Analysis (PCA) on dinoflagellate TPM-normalized transcript counts annotated at the KOG level
 
 '''
 Helpful resources:
@@ -21,9 +21,11 @@ data<-a
 meta<-read.csv('CCA_meta.csv')
 rownames(meta)<-meta$ID
 meta<-meta[,-1]
-stand<-decostand(data, method = "hellinger") #hellinger transformed
-ca<-cca(stand)
-summary(ca) #Summary includes proportion of variation explained by each component
+
+data<-log(data+1)
+pca <- rda(data, distance = "euclidean")
+plot(pca)
+
 
 meta1<-meta #Clean metadata file and remove highly co-linear parameters (e.g., nitrate/phosphate, oxygen/temperature)
 meta<-meta[,-1]
@@ -32,24 +34,30 @@ meta<-meta[,-1]
 meta<-meta[,-2]
 ef <- envfit(ca, meta, permu = 999)
 meta<-meta1 #Revert back to original table with site and depth information
-plot(ef)
+plot(ef, col = 'red')
 ef #Results of linear regression vector fitting of environmental parameters to ordination
+meta<-meta1 #Revert back to original table with site and depth information
 
-scores<-scores(ca)
-scores <- data.frame(ca$CA$u)
+ef.score <- scores(ef, "vectors", choices = 1:2)
+efvec <- ef.score * ordiArrowMul(ef)
+
+scores<-scores(pca)
+scores <- data.frame(scores$sites)
 uscores <- inner_join(rownames_to_column(data), rownames_to_column(data.frame(scores)), type = "right", by = "rowname")
-vscores <- as.data.frame(scores(ef, display = "vectors"))
+vscores <- as.data.frame(efvec)
 vscores <- cbind(vscores, Species = rownames(vscores))
 vscores$env<-rownames(vscores)
 
+eig<- eigenvals(pca)
+eig<- eig / sum(eig) #Percent variation explained by each component/axis
+
 #Graph ordination with ggplot2
-ggplot(uscores) + theme_bw() + scale_shape_manual(values = c(21:25,8,9)) + theme(strip.text.y = element_text(angle = 0)) + geom_segment(data = vscores, aes(x = 0, y = 0, xend = vscores$CA1, yend = vscores$CA2), arrow=arrow(length=unit(0.2,"cm")),
-                                                                                                                                        alpha = 1, color = 'black')+ geom_label(data=vscores, aes(x=CA1, y=CA2, label = env)) +
-  geom_point(aes(x = CA1, y = CA2, col = meta$Depth,
+ggplot(uscores) + theme_bw() + scale_shape_manual(values = c(21:25,8,9)) + theme(strip.text.y = element_text(angle = 0)) + geom_segment(data = vscores, aes(x = 0, y = 0, xend = vscores$PC1, yend = vscores$PC2),
+                                                                                                                                        alpha = 1, color = 'black')+ geom_label(data=vscores, aes(x=PC1, y=PC2, label = env)) +
+  geom_point(aes(x = PC1, y = PC2, col = meta$Depth,
                  shape = meta$Site, size=4)) +
   scale_colour_gradient(low="#A2FEFF",high="black") +
   scale_fill_manual(values=c("#A2FEFF",'black') +
-                      geom_segment(data = vscores, aes(x = 0, y = 0, xend = vscores$CA1, yend = vscores$CA2), arrow=arrow(length=unit(0.2,"cm")),
-                                   alpha = 1, color = 'black')+ geom_label(data=vscores, aes(x=CA1, y=CA2, label = env)))
-
+                      geom_segment(data = vscores, aes(x = 0, y = 0, xend = vscores$PC1, yend = vscores$PC2), 
+                                   alpha = 1, color = 'black')+ geom_label(data=vscores, aes(x=PC1, y=PC2, label = env)))
 
