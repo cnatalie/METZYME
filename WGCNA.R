@@ -1,5 +1,5 @@
 #WGCNA pipeline adapted from Sarah Davies (http://sites.bu.edu/davieslab/)
-
+#And WGCNA tutorials: https://horvath.genetics.ucla.edu/html/CoexpressionNetwork/Rpackages/WGCNA/Tutorials/
 
 #Data input and cleaning
 library(WGCNA)
