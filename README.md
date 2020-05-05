@@ -27,7 +27,7 @@ Input files are included here, except the master dataframe containing contigs, t
 * ```exclusive_counts_annotations_dino_lpi0.8_post_NSAF_orf_PFAMS_postSum.csv``` - NSAF-normalized exclusive spectral counts, summed to the PFAM annoation level, using contigs with LPI > 0.8
 ### Ordinations in vegan
 * ```TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_orf_KOGpost.csv``` - normalized dinoflagellate transcript counts, retaining contigs with a lineage probability index (LPI) > 0.8. Annotations were subsetted to the KOG annotation level. Table was transposed for the ordination analysis.
-* ```CCA_meta.csv``` - environmental metadata from sites/depths for CCA ordination
+* ```CCA_meta.csv``` - environmental metadata from sites/depths for ordination
 ### Weighted Correlation Network Analysis (WGCNA) and KEGG enrichment with clusterProfiler
 * ```TPM_WGCNA_080519_orf_allsamples.csv``` - WGCNA module designations for each KEGG KO (including select PFAM IDs)
 * CCA_meta_WCGNA_short.csv - environmental metadata from sites/depths
