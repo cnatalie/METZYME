@@ -13,7 +13,7 @@ a<-a[,-1] #Remove ID
 a<-a[,-42] #Remove 1900m sample
 otu<-as.matrix(sapply(a, as.numeric))
 
-#Hellinger-normalized OTU counts for PCA
+#Log-normalized OTU counts for PCA
 rownames(otu)<-rownames(a)
 otumat<-log(otu+1)
 OTU = otu_table(otumat, taxa_are_rows = TRUE)
