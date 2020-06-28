@@ -17,6 +17,7 @@ a<-read.csv('TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_orf_allcontigs.csv')
 head(a)
 rownames(a)<-a$X
 a<-a[,-1]
+a<-t(a)
 data<-a
 meta<-read.csv('CCA_meta.csv')
 rownames(meta)<-meta$ID
