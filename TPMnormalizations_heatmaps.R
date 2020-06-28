@@ -17,7 +17,7 @@ c<-merge(a, b, by='orf_id') #Should be left with dinoflagellate TPM counts and f
 write.csv(c, 'TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_orf.csv')
 
 #Protein normalization - NSAF normalization using amino acid residues as length and multiplying by scaler of 1000 
-a<-read.csv('exclusive_counts_annotations_dino_lpi0.8_pre.csv')
+a<-read.csv('exclusive_counts_annotated_withscaffoldgroups_dinolpi0.8_NSAFpre.csv')
 rownames(a)<-a$X
 x <- a[5:44] / a$orf_length_aa
 xx <- t( t(x) * 1e3 / colSums(x) )
@@ -78,7 +78,7 @@ pheatmap(z, color=myColor, cluster_cols=T, fontsize_row=8, cluster_rows=T, show_
 
 #PFams heatmaps with proteins
 setwd("~/METZYME/metaproteome 3um")
-a<-read.csv('exclusive_counts_annotations_dino_lpi0.8_post_NSAF_orf_PFAMS_original.csv')
+a<-read.csv('exclusive_counts_annotations_dino_lpi0.8_post_NSAF_orf_062520_Pfampost_annotated.csv')
 rownames(a)<-a$PFams
 b<-a[,-1]
 b<-b[,-40]
