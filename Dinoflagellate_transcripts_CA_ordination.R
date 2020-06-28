@@ -1,4 +1,4 @@
-#Principal Coordinate Analysis (PCA) on dinoflagellate TPM-normalized transcript counts annotated at the KOG level
+#Principal Coordinate Analysis (PCA) on dinoflagellate TPM-normalized transcript counts 
 
 '''
 Helpful resources:
@@ -13,7 +13,7 @@ library(RColorBrewer)
 library(dplyr)
 library(tibble)
 
-a<-read.csv('TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_orf_KOGpost.csv')
+a<-read.csv('TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_orf_allcontigs.csv')
 head(a)
 rownames(a)<-a$X
 a<-a[,-1]
