@@ -16,6 +16,7 @@ library(tibble)
 a<-read.csv('TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_orf_allcontigs.csv')
 head(a)
 rownames(a)<-a$X
+rownames(a) <- gsub("[.y]", "", rownames(a))
 a<-a[,-1]
 a<-t(a)
 data<-a
