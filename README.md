@@ -7,7 +7,7 @@ by Natalie R. Cohen, Matthew R. McIlvin, Dawn M. Moran, Noelle A. Held, Jaclyn S
 
 In this study we explored the metabolism of unicellular eukaryotic organisms (protists) across a 4,600 km meridional transect in the central Pacific Ocean. The region contains a natural biogeochemical gradient spanning from low nitrogen, oligotrophic waters to a productive equatorial upwelling system. We used a combined geochemical and 'omic approach to characterize the metabolic strategies these organisms rely upon to adapt to changes in their chemical environment.
 
-Input files are included here, except the master dataframes containing contigs, transcript raw reads/protein spectral counts, and annotation information which is available as supplemental material with the manuscript. Data availability, assembly, annotation and normalization methods are described in Cohen et al. 
+Example input files are included here, except the master dataframes containing contigs, transcript raw reads/protein spectral counts, and annotation information which is available as supplemental material with the manuscript. Data availability, assembly, annotation and normalization methods are described in Cohen et al. 
 
 ## Input data files & generated tables
 
@@ -26,7 +26,7 @@ Input files are included here, except the master dataframes containing contigs, 
 * ```annotation_all.filtered.grps.go.lpi_0.8_dino_diatom_hapto_TPM_KOpre.csv``` - Normalized transcript counts from dinoflagellates, diatoms, and haptophytes, using LPI > 0.8. Annotated at the KEGG functional level
 * ```exclusive_counts_annotations_dino_lpi0.8_post_NSAF_orf_Pfampost_annotated.csv``` - NSAF-normalized exclusive spectral counts, summed to the PFAM annoation level, using contigs with LPI > 0.8
 ### Ordinations in vegan
-* ```TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_orf_allcontigs.csv``` - normalized dinoflagellate transcript counts, retaining contigs with a lineage probability index (LPI) > 0.8. Table was transposed for the ordination analysis.
+* ```TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_orf_allcontigs.csv``` - normalized dinoflagellate transcript counts, retaining contigs with a lineage probability index (LPI) > 0.8. 
 * ```CCA_meta.csv``` - environmental metadata from sites/depths for ordination
 ### Weighted Correlation Network Analysis (WGCNA) and KEGG enrichment with clusterProfiler
 * ```TPM_WGCNA_080519_orf_allsamples.csv``` - WGCNA module designations for each KEGG KO (including select PFAM IDs)
