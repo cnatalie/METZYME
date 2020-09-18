@@ -5,7 +5,7 @@ a<-read.csv('annotation_all.filtered.grps.go_TRANSCRIPTS_0.8lpi_Dino_only_sansAn
 b<-read.csv('orflength.csv') #ORF lengths from PhyloDB output
 c<-merge(a, b, by='orf_id')
 rownames(c)<-c$orf_id
-x <- c[3:44] / c$orf_length #TPM normalize
+x <- c[3:44] / c$orf_length #TPM normalize: https://support.bioconductor.org/p/91218/
 tpm.mat <- t( t(x) * 1e6 / colSums(x) )
 rownames(tpm.mat)<-c$orf_id
 write.csv(tpm.mat, 'TPM_TRANSCRIPTS_Dino_only_orf.csv')
