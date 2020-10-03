@@ -15,6 +15,7 @@ Example input files are included here, except the master dataframes containing c
 * ```annotation_all.filtered.grps.go_TRANSCRIPTS_0.8lpi_Dino_only_sansAnnotations.csv``` - Raw transcript counts belonging to dinoflagellates (Lineage Probability Index (LPI) > 0.8)
 * ```orflength.csv``` - open reading frame lengths from PhyloDB output, for normalizing to open reading length (ORF) length during transcripts per million (TPM) transformation 
 * ```exclusive_counts_annotated_withscaffoldgroups_dinolpi0.8_NSAFpre.csv``` - Raw exclusive spectral counts belonging to dinoflagellates (LPI > 0.8)
+* ```genus2family_dinos.csv``` - Manually curated list of dinoflagellate genera and their associated family - for relating genera to higher classification in the PhyloDB database
 ### 18S rRNA analysis with phyloseq
 * ```OTU.csv``` - 18S V9 OTU table, OTUs were clustered using swarm (see Allen Lab rRNA pipeline here: https://github.com/allenlab/rRNA_pipeline)
 * ```TAXA_newPR2.csv``` - OTU taxonomy table. OTUs were searched against Protist Ribosomal Reference (PR2) https://pr2-database.org/
@@ -25,8 +26,6 @@ Example input files are included here, except the master dataframes containing c
 * ```TPM_transcripts_Dino.lpi0.8_KOdef_top100m.csv``` - normalized dinoflagellate transcript counts, retaining contigs with a lineage probability index (LPI) > 0.8. Annotations were subsetted to the KEGG (KO) annotation level, retaining samples from > 100m depth.
 * ```annotation_all.filtered.grps.go.lpi_0.8_dino_diatom_hapto_TPM_KOpre.csv``` - Normalized transcript counts from dinoflagellates, diatoms, and haptophytes, using LPI > 0.8. Annotated at the KEGG functional level
 * ```exclusive_counts_annotations_dino_lpi0.8_post_NSAF_orf_Pfampost_annotated.csv``` - NSAF-normalized exclusive spectral counts, summed to the PFAM annoation level, using contigs with LPI > 0.8
-* ```genus2family.csv``` - Manually curated list of dinoflagellate genera and their associated family - for relating genera to higher classification in the PhyloDB database
-
 ### Ordinations in vegan
 * ```TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_orf_allcontigs.csv``` - normalized dinoflagellate transcript counts, retaining contigs with a lineage probability index (LPI) > 0.8. 
 * ```CCA_meta.csv``` - environmental metadata from sites/depths for ordination
