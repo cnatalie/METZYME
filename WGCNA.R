@@ -28,7 +28,7 @@ datTraits<-datTraits[,-1]
 
 #Dendrogram and trait heat map showing outliers
 A=adjacency(t(datExpr0),type="signed") #calculate network adjacency
-k=as.numeric(apply(A,2,sum))-1 #Sum columns, not sure why (-1) but doesn't seem to make a difference
+k=as.numeric(apply(A,2,sum))-1 
 Z.k=scale(k)
 thresholdZ.k=-2.5 # often -2.5
 outlierColor=ifelse(Z.k<thresholdZ.k,"red","black") #Outliers in red
