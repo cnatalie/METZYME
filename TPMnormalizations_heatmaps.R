@@ -122,15 +122,12 @@ library(caroline)
 a<-read.csv('TPM_TRANSCRIPTS_Dino.lpi0.8_only_annotations_orf_KOpost.csv') #TPM counts from the same KO IDs were summed together.
 x<-read.tab('kodef.tab')
 x$KO_def<-paste(x$KO, x$def, sep='_')
-a$KO<-rownames(a)
-rownames(a)<-a$X
-a$KO<-rownames(a)
+rownames(a)<-a$KO
 head(a)
 #a<-a[,-1]
 z<-merge(a, x, by='KO')
 rownames(z)<-z$KO_def
 head(z)
-z<-z[,-1]
 z<-z[,-1]
 z<-z[,-45]
 z<-z[,-44]
