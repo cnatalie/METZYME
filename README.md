@@ -5,7 +5,7 @@ R code and data files used to create heatmaps, ordinations, normalizations, the 
 
 by Natalie R. Cohen, Matthew R. McIlvin, Dawn M. Moran, Noelle A. Held, Jaclyn Saunders, Nicholas Hawco, Michael Brosnahan, Giacomo DiTullio, Carl Lamborg, John P. McCrow, Chris Dupont, Andrew E. Allen, Mak Saito
 
-In this study we explored the metabolism of unicellular eukaryotic organisms (protists) across a 4,600 km meridional transect in the central Pacific Ocean. The region contains a natural biogeochemical gradient spanning from low nitrogen, oligotrophic waters to a productive equatorial upwelling system. We used a combined geochemical and 'omic approach to characterize the metabolic strategies these organisms rely upon to adapt to changes in their chemical environment.
+In this study we explored the metabolism of unicellular eukaryotic organisms (protists) across a 4,600 km meridional transect in the central Pacific Ocean. The region contains a natural biogeochemical gradient spanning from low nitrogen, oligotrophic waters to a productive equatorial upwelling system. We used a combined geochemical and 'omic approach to characterize the metabolic strategies these organisms rely upon when responnding to their distinct chemical environment.
 
 Example input files are included here, except the master dataframes containing contigs, transcript raw reads/protein spectral counts, and annotation information which is available as supplemental material with the manuscript. Data availability, assembly, annotation and normalization methods are described in Cohen et al. 
 
