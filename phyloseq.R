@@ -49,7 +49,7 @@ stringsAsFactors=FALSE
 
 physeq1 = merge_phyloseq(physeq, sampledata)
 physeq1.dino = subset_taxa(physeq1, Division == "Dinoflagellata")
-physeq1.dino = prune_samples(names(which(sample_sums(physeq1.dino) >= 5)), physeq1.dino) #trim OTUs with less than 5 reads
+physeq1.dino = prune_samples(names(which(sample_sums(physeq1.dino) >= 5)), physeq1.dino) #trim samples with total OTUs of less than 5 (log tranformed) reads - does not result in sample loss here
 
 #CA plot
 b<-t(otu)
