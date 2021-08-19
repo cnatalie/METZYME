@@ -45,22 +45,4 @@ Example input files are included here, except the master dataframes containing c
 * ```WGCNA.R``` - dendrogram generation, network construction, traits to modules relationships, module expression and kegg enrichment analysis. Code was modified from Sarah Davies at Boston University.
 
 
-## R packages used
-* ggplot2
-* vegan
-* phyloseq
-* WGCNA
-* flashClust
-* clusterProfiler
-* ape
-* caroline
-* tibble
-* dplyr
-* pheatmap
-* genefilter
-* viridis
-* RColorBrewer
-* stringr
-
-
 ### Comments/questions/feedback welcome! ncohen@whoi.edu
