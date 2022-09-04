@@ -91,6 +91,11 @@ library(RColorBrewer)
 library(stringr)
 paletteLength <- 50
 myColor <- colorRampPalette(brewer.pal(9, "YlGnBu"))(100)
+#NOTE on rowVars: Because of the mean-variance relationship in RNA count data, more highly expressed genes will have higher variance. Log-transforming will have the reverse effect, and log-transformation of highly expressed genes will have lower variance. 
+#Alternative options include variance stabilization approaches, or using fold-change cutoffs to evaluate differentially expressed genes 
+#Popular RNASeq differential expression tools were not used here as they have assumptions about most genes not being differentially expressed, which is likely violated in mixed natural communities that could be taxonomically and/or functionally changing with ocean region
+#MA plots can be helpful to visualize fold-changes in expression alongside transcript abundance
+#Very useful summary of the effects of log (or not log) transforming to calculate variance: https://github.com/friedue/Notes/blob/master/RNA_heteroskedasticity.md
 rv <- apply(b, 1, var)
 idx <- names(V[order(V, decreasing = T)][1:50])
 nrow(b)
